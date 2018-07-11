@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1524726565 source:/Backup/MOHAN/code_blocks/sample/main.c
+	<stdio.h>
+	<stdlib.h>
+

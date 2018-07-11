@@ -1,0 +1,1 @@
+cmd_/home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/hello_world/hello_printk.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/hello_world/hello_printk.ko /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/hello_world/hello_printk.o /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/hello_world/hello_printk.mod.o ;  true

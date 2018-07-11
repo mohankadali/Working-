@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+b	main.cpp	/^struct bricks b[45];$/;"	v	typeref:struct:bricks
+ball	main.cpp	/^struct ball ball;$/;"	v	typeref:struct:ball
+ballvelxsave	menu.cpp	/^float ballvelxsave = 0.0;$/;"	v
+ballvelysave	menu.cpp	/^float ballvelysave = 0.0;$/;"	v
+bg1_menu	menu.cpp	/^void bg1_menu(int opt) \/\/ background color RGB Default menu$/;"	f
+bg2_menu	menu.cpp	/^void bg2_menu(int opt)$/;"	f
+bg3_menu	menu.cpp	/^void bg3_menu(int opt)$/;"	f
+bg4_menu	menu.cpp	/^void bg4_menu(int opt)$/;"	f
+block	main.cpp	/^struct block block;$/;"	v	typeref:struct:block
+blue	main.cpp	/^float blue = 0.0; $/;"	v
+blue1	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+blue2	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+callMenu	menu.cpp	/^void callMenu()$/;"	f
+check_collision	main.cpp	/^bool check_collision(float Ax, float Ay, float Aw, float Ah, float Bx, float By, float Bw, float Bh) \/\/Function for checking collision a-> ball b-> bricks[DO MODIICATION]$/;"	f
+display	main.cpp	/^void display()$/;"	f
+draw	main.cpp	/^void draw()		\/\/Render the objects on the screen using the latest updated co-ordinates $/;"	f
+drawBitmapText	main.cpp	/^void drawBitmapText(char *string,float x,float y,float z)  \/\/function to show message$/;"	f
+fullScreenMode	menu.cpp	/^bool fullScreenMode = true;$/;"	v
+green	main.cpp	/^float green = 0.0;                                                                $/;"	v
+green1	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+green2	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+initialize	main.cpp	/^void initialize()	\/\/To set the initial co-ordinates of the objects on the screen$/;"	f
+keyboard	menu.cpp	/^void keyboard(unsigned char key,int x,int y)$/;"	f
+main	main.cpp	/^int main(int argc,char *argv[])$/;"	f
+main_menu	menu.cpp	/^void main_menu(int opt)$/;"	f
+myinit	main.cpp	/^void myinit()$/;"	f
+paused	menu.cpp	/^bool paused = false;$/;"	v
+processmenu	main.cpp	/^void processmenu(int opt)$/;"	f
+red	main.cpp	/^float red = 0.0;                                                             $/;"	v
+red1	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+red2	main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+reshape	main.cpp	/^void reshape()		\/\/Modify the co-ordinates according to the key-presses and collisions etc...$/;"	f
+revert	main.cpp	/^void revert()$/;"	f
+sp_menu	menu.cpp	/^void sp_menu(int opt)  \/\/for increasing and decreasing speed of both ball and slider need to be increase$/;"	f
+specialDown	menu.cpp	/^void specialDown(int key,int x,int y)    \/\/call back for key press event modifying the position$/;"	f
+specialUp	menu.cpp	/^void specialUp(int key,int x,int y) \/\/call back for key release event$/;"	f
+windowHeight	main.cpp	/^int windowHeight = 400;$/;"	v
+windowPosX	main.cpp	/^int windowPosX = 100 ;$/;"	v
+windowPosY	main.cpp	/^int windowPosY = 100 ;$/;"	v
+windowWidth	main.cpp	/^int windowWidth = 600;$/;"	v

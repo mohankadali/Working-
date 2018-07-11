@@ -1,0 +1,1 @@
+cmd_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod3.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod3.ko /home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod3.o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod3.mod.o ;  true

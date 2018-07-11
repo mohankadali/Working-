@@ -1,0 +1,1 @@
+cmd_/home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskreal.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskreal.ko /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskreal.o /home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskreal.mod.o ;  true

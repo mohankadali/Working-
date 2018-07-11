@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<fcntl.h> 
+main()
+{
+
+    unsigned pid ;
+    int fd;
+    fd = open("/dev/my", O_RDWR );
+    if (fd < 0 ) {
+        perror ("file open fail\n");
+    return 0;
+    } else {
+        printf("file open successfull\n");
+    }
+
+    pid =getpid();
+    ioctl ( fd ,pid ,NULL);
+
+printf("in myioctl pid  %d\n",pid);    
+
+}

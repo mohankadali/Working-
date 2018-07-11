@@ -1,0 +1,3 @@
+0x48077bdf	myioctl	/home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskmod	EXPORT_SYMBOL_GPL
+0xa2b6fdcb	myRelease	/home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskreal	EXPORT_SYMBOL_GPL
+0xeeb95ef1	myOpen	/home/mohana/svn_wc/b84_kadali/Linux/dd_ppt/depn/lskopen	EXPORT_SYMBOL_GPL

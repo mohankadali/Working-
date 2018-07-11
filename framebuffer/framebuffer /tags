@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArmToVc	kernel.c	/^uint32_t ArmToVc(void *p)$/;"	f
+Bcm2835FrameBuffer	fb.c	/^struct Bcm2835FrameBuffer$/;"	s	file:
+BinMap	chars/chars.c	/^int BinMap()$/;"	f
+CHAR_HEIGHT	fb.c	7;"	d	file:
+CHAR_WIDTH	fb.c	6;"	d	file:
+ClearScreen	fb.c	/^static void ClearScreen()$/;"	f	file:
+CopyPixel	chars/chars.c	/^void CopyPixel(unsigned char *src, unsigned char *dst,$/;"	f
+FB_H	fb.h	2;"	d
+Flash32	gpio.c	/^void Flash32(uint32_t value)$/;"	f
+Flash32_Value	gpio.c	/^void Flash32_Value(uint32_t value)$/;"	f
+FlashOk	gpio.h	11;"	d
+FrameBufferCharacter	fb.c	/^struct FrameBufferCharacter$/;"	s	file:
+FrameBufferInfo	fb.c	/^struct FrameBufferInfo$/;"	s	file:
+GPIO08_OUTPUT	gpio.c	14;"	d	file:
+GPIO09_OUTPUT	gpio.c	15;"	d	file:
+GPIO11_OUTPUT	gpio.c	16;"	d	file:
+GPIO14_OUTPUT	gpio.c	17;"	d	file:
+GPIO16_OUTPUT	gpio.c	18;"	d	file:
+GPIO25_OUTPUT	gpio.c	19;"	d	file:
+GPIO_BASE	gpio.c	3;"	d	file:
+GPIO_CLR_0_31	gpio.c	10;"	d	file:
+GPIO_H	gpio.h	2;"	d
+GPIO_MODE_00_09	gpio.c	5;"	d	file:
+GPIO_MODE_10_19	gpio.c	6;"	d	file:
+GPIO_MODE_20_29	gpio.c	7;"	d	file:
+GPIO_SET_0_31	gpio.c	9;"	d	file:
+GPIO_VAL_0_31	gpio.c	11;"	d	file:
+InitFb	fb.c	/^void InitFb()$/;"	f
+InitGpio	gpio.c	/^void InitGpio()$/;"	f
+KERNEL_H	kernel.h	2;"	d
+MAIL_BASE	fb.c	206;"	d	file:
+MAIL_EMPTY	fb.c	218;"	d	file:
+MAIL_FB	fb.c	220;"	d	file:
+MAIL_FULL	fb.c	216;"	d	file:
+MAIL_READ	fb.c	210;"	d	file:
+MAIL_STATUS	fb.c	212;"	d	file:
+MAIL_WRITE	fb.c	211;"	d	file:
+MemoryBarrier	start.S	/^MemoryBarrier:$/;"	l
+PERIPHERAL_BASE	kernel.c	6;"	d	file:
+PrintChar	fb.c	/^static void PrintChar(char c)$/;"	f	file:
+PrintString	fb.c	/^void PrintString(const char *str)$/;"	f
+ReadGpio	gpio.c	/^int ReadGpio()$/;"	f
+ReadMmReg32	kernel.c	/^uint32_t ReadMmReg32(uint32_t base, uint32_t reg)$/;"	f
+SetStandardColourChar	fb.c	/^static void SetStandardColourChar(char c, struct FrameBufferCharacter *fbc)$/;"	f	file:
+ToC	chars/chars.c	/^int ToC()$/;"	f
+TryInitFb	fb.c	/^static int TryInitFb()$/;"	f	file:
+UpdateFb	fb.c	/^static void UpdateFb()$/;"	f	file:
+VcToArm	kernel.c	/^void *VcToArm(uint32_t p)$/;"	f
+WaitSomeTime	kernel.c	/^void WaitSomeTime(int n)$/;"	f
+WriteGpio	gpio.c	/^void WriteGpio(int value)$/;"	f
+WriteMmReg32	kernel.c	/^void WriteMmReg32(uint32_t base, uint32_t reg, uint32_t value)$/;"	f
+b	start.S	/^b entry$/;"	l
+bgb	fb.c	/^	unsigned char bgb;$/;"	m	struct:FrameBufferCharacter	file:
+bgg	fb.c	/^	unsigned char bgg;$/;"	m	struct:FrameBufferCharacter	file:
+bgr	fb.c	/^	unsigned char bgr;$/;"	m	struct:FrameBufferCharacter	file:
+c	fb.c	/^	char c;$/;"	m	struct:FrameBufferCharacter	file:
+cb	fb.c	/^	struct FrameBufferCharacter *cb;$/;"	m	struct:FrameBufferInfo	typeref:struct:FrameBufferInfo::FrameBufferCharacter	file:
+cbheight	fb.c	/^	unsigned int cbheight; \/\/height in characters$/;"	m	struct:FrameBufferInfo	file:
+cbwidth	fb.c	/^	unsigned int cbwidth; \/\/width in characters$/;"	m	struct:FrameBufferInfo	file:
+char_cols	chars/chars.c	/^static const unsigned int char_cols = 26;$/;"	v	file:
+char_height	chars/chars.c	/^static const unsigned int char_height = 16;$/;"	v	file:
+char_index	chars/chars.c	/^static const char *char_index =$/;"	v	file:
+char_rows	chars/chars.c	/^static const unsigned int char_rows = 4;$/;"	v	file:
+char_width	chars/chars.c	/^static const unsigned int char_width = 8;$/;"	v	file:
+charpix	fb.c	/^	unsigned char *charpix; \/\/Character pixels$/;"	m	struct:FrameBufferInfo	file:
+depth	fb.c	/^	uint32_t depth; \/\/Bits per pixel; set to 24$/;"	m	struct:Bcm2835FrameBuffer	file:
+entry	start.S	/^entry:$/;"	l
+fbinfo	fb.c	/^struct FrameBufferInfo fbinfo;$/;"	v	typeref:struct:FrameBufferInfo
+fgb	fb.c	/^	unsigned char fgb;$/;"	m	struct:FrameBufferCharacter	file:
+fgg	fb.c	/^	unsigned char fgg;$/;"	m	struct:FrameBufferCharacter	file:
+fgr	fb.c	/^	unsigned char fgr;$/;"	m	struct:FrameBufferCharacter	file:
+height	fb.c	/^	uint32_t height; \/\/Height of the frame buffer$/;"	m	struct:Bcm2835FrameBuffer	file:
+height	fb.c	/^	unsigned int height;$/;"	m	struct:FrameBufferInfo	file:
+kmain	main.c	/^void kmain()$/;"	f
+line_pos	fb.c	/^	unsigned int line_pos; \/\/The position within the line of the cursor$/;"	m	struct:FrameBufferInfo	file:
+main	chars/chars.c	/^int main(int argc, const char **argv)$/;"	f
+mbox_read	fb.c	/^static uint32_t mbox_read()$/;"	f	file:
+mbox_write	fb.c	/^static void mbox_write(uint32_t v)$/;"	f	file:
+memcpy	kernel.c	/^void *memcpy(void *dest, const void *src, size_t count)$/;"	f
+pitch	fb.c	/^	uint32_t pitch; \/\/GPU fills this in; set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+pitch	fb.c	/^	unsigned int pitch; \/\/BCM2835 has this separate, so we use this instead of witdh$/;"	m	struct:FrameBufferInfo	file:
+pointer	fb.c	/^	uint32_t pointer; \/\/GPU fills this in to be a pointer to the frame buffer$/;"	m	struct:Bcm2835FrameBuffer	file:
+pointer	fb.c	/^	volatile unsigned char *pointer;$/;"	m	struct:FrameBufferInfo	file:
+size	fb.c	/^	uint32_t size; \/\/GPU fills this in \/\/TODO: Finish$/;"	m	struct:Bcm2835FrameBuffer	file:
+vheight	fb.c	/^	uint32_t vheight; \/\/Simplest thing to do is to set vheight = height$/;"	m	struct:Bcm2835FrameBuffer	file:
+vwidth	fb.c	/^	uint32_t vwidth; \/\/Simplest thing to do is to set vwidth = width$/;"	m	struct:Bcm2835FrameBuffer	file:
+width	fb.c	/^	uint32_t width; \/\/Width of the frame buffer (pixels)$/;"	m	struct:Bcm2835FrameBuffer	file:
+width	fb.c	/^	unsigned int width;$/;"	m	struct:FrameBufferInfo	file:
+x	fb.c	/^	uint32_t x; \/\/Offset in x direction. Simplest thing to do is set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+xoffs	fb.c	/^	unsigned int xoffs; \/\/x offset$/;"	m	struct:FrameBufferInfo	file:
+y	fb.c	/^	uint32_t y; \/\/Offset in y direction. Simplest thing to do is set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+yoffs	fb.c	/^	unsigned int yoffs; \/\/y offset$/;"	m	struct:FrameBufferInfo	file:

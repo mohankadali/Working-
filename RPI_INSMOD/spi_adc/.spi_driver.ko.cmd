@@ -1,0 +1,1 @@
+cmd_/home/kadali/MOHAN/RPI_INSMOD/spi_adc/spi_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/kadali/MOHAN/RPI_INSMOD/spi_adc/spi_driver.ko /home/kadali/MOHAN/RPI_INSMOD/spi_adc/spi_driver.o /home/kadali/MOHAN/RPI_INSMOD/spi_adc/spi_driver.mod.o ;  true

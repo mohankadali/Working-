@@ -1,0 +1,20 @@
+
+CC = gcc
+OBJ = main.o fun1.o fun2.o  
+.PHONY: clean
+
+
+all: $(OBJ) 
+list :
+
+	@printf "hiii"
+
+	$(CC)  $^  -o clean 
+OBJ : main1.c fun1.c fun2.c
+	$(CC)	-c  $^   		
+
+
+
+clean :
+
+	-rm -rf *.o  clean 

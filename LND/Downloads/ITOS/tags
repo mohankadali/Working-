@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FIRST_MINOR	mod.c	18;"	d	file:
+KDIR	Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+NR_DEVS	mod.c	19;"	d	file:
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+comm	itos_3.c	/^        char comm[16];$/;"	m	struct:task	file:
+devname	mod.c	/^char *devname ; \/\/contains device name$/;"	v
+flags	itos_3.c	/^        int flags;$/;"	m	struct:task	file:
+fops	mod.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fpu_counter	itos_3.c	/^        unsigned char fpu_counter;$/;"	m	struct:task	file:
+getadd	itos_3.c	19;"	d	file:
+link	itos_3.c	/^struct link {$/;"	s	file:
+main	app_kmod.c	/^int main(void)$/;"	f
+main	itos_3.c	/^int main(void)$/;"	f
+majNo	mod.c	/^int majNo ;$/;"	v
+myExit	lskmod.c	/^module_exit ( myExit ) ;$/;"	v
+myExit	lskmod.c	/^static void myExit ( void )$/;"	f	file:
+myExit	mod.c	/^module_exit ( myExit ) ;$/;"	v
+myExit	mod.c	/^static void myExit ( void )$/;"	f	file:
+myInit	lskmod.c	/^module_init ( myInit ) ;$/;"	v
+myInit	lskmod.c	/^static int __init myInit ( void )$/;"	f	file:
+myInit	mod.c	/^module_init ( myInit ) ;$/;"	v
+myInit	mod.c	/^static int __init myInit ( void )$/;"	f	file:
+myOpen	mod.c	/^int myOpen ( struct inode *inode, struct file *filep )$/;"	f
+myRelease	mod.c	/^int myRelease ( struct inode *in, struct file *fp )$/;"	f
+my_cdev	mod.c	/^struct cdev *my_cdev ; \/\/holds character device driver descriptor$/;"	v	typeref:struct:cdev
+mychar_class	mod.c	/^static struct class *mychar_class ;$/;"	v	typeref:struct:class	file:
+mychar_device	mod.c	/^static struct device *mychar_device ;$/;"	v	typeref:struct:device	file:
+mydev	mod.c	/^static dev_t mydev ; \/\/encodes major number & minor number device$/;"	v	file:
+next	itos_3.c	/^        struct link *next;$/;"	m	struct:link	typeref:struct:link::link	file:
+obj-m	Makefile	/^obj-m:=mod.o$/;"	m
+pid	itos_3.c	/^        int pid;$/;"	m	struct:task	file:
+prev	itos_3.c	/^        struct link *prev;$/;"	m	struct:link	typeref:struct:link::link	file:
+prio	itos_3.c	/^        int prio;$/;"	m	struct:task	file:
+rcu_read	itos_3.c	/^        char rcu_read;$/;"	m	struct:task	file:
+rt_prio	itos_3.c	/^        unsigned int rt_prio;$/;"	m	struct:task	file:
+state	itos_3.c	/^        long state;$/;"	m	struct:task	file:
+task	itos_3.c	/^struct task {$/;"	s	file:
+tasks	itos_3.c	/^        struct link tasks;$/;"	m	struct:task	typeref:struct:task::link	file:
+tgid	itos_3.c	/^        int tgid;$/;"	m	struct:task	file:

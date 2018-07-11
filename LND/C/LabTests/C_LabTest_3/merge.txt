@@ -1,0 +1,52 @@
+include <stdio.h>
+include <stdio.h>
+nt main (void)
+nt main (void)
+
+
+FILE *fp1, *fp2, *fp3;
+FILE *fp1, *fp2, *fp3;
+char ch1, ch2;	
+char ch1, ch2;	
+	fp1 = fopen ("first.txt", "r");
+	fp1 = fopen ("first.txt", "r");
+fp2 = fopen ("second.txt", "r");
+fp2 = fopen ("second.txt", "r");
+fp3 = fopen ("merge.txt", "w+");
+fp3 = fopen ("merge.txt", "w+");
+	if (fp1 == NULL)
+	if (fp1 == NULL)
+	printf ("can't open file1\n");
+	printf ("can't open file1\n");
+if (fp2 == NULL)
+if (fp2 == NULL)
+	printf ("can't open file2\n");
+	printf ("can't open file2\n");
+if (fp3 == NULL)
+if (fp3 == NULL)
+	printf("can't open file3\n");
+	printf("can't open file3\n");
+	while ((fgetc(fp1) != EOF) && (fgetc(fp2) != EOF)) {
+	while ((fgetc(fp1) != EOF) && (fgetc(fp2) != EOF)) {
+	while ((ch1 = fgetc(fp1)) != '\n')
+	while ((ch1 = fgetc(fp1)) != '\n')
+		fputc (ch1, fp3);
+		fputc (ch1, fp3);
+		fputc ('\n', fp3);
+		fputc ('\n', fp3);
+	while ((ch2 = fgetc(fp2)) != '\n')
+	while ((ch2 = fgetc(fp2)) != '\n')
+		fputc (ch2, fp3);
+		fputc (ch2, fp3);
+		fputc ('\n', fp3);
+		fputc ('\n', fp3);
+}
+}
+close (fp1);
+close (fp1);
+close (fp2);
+close (fp2);
+close (fp3);
+close (fp3);
+
+

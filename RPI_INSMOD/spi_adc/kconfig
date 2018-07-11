@@ -1,0 +1,28 @@
+ menu "SPI support"
+ 
+ config SPI
+ 	tristate "SPI support"
+         default false
+ 	help
+ 	  Say Y if you need to enable SPI support on your kernel
+ 
+ config SPI_DEBUG
+ 	bool "SPI debug output" 
+ 	depends on SPI 
+ 	default false 
+ 	help 
+           Say Y there if you'd like to see debug output from SPI drivers.
+ 	  If unsure, say N
+ 	
+ config SPI_CHARDEV
+ 	tristate "SPI device interface"
+ 	depends on SPI
+ 	help
+ 	  Say Y here to use spi-* device files, usually found in the /dev
+ 	  directory on your system.  They make it possible to have user-space
+ 	  programs use the SPI bus. 
+ 	  This support is also available as a module.  If so, the module 
+ 	  will be called spi-dev.
+ 
+ endmenu
+ 

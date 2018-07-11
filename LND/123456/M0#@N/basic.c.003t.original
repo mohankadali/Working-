@@ -1,0 +1,11 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  char s[20] = "hello world";
+
+    char s[20] = "hello world";
+}
+

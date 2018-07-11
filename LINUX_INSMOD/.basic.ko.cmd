@@ -1,0 +1,1 @@
+cmd_/Backup/MOHAN/LINUX_INSMOD/basic.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /Backup/MOHAN/LINUX_INSMOD/basic.ko /Backup/MOHAN/LINUX_INSMOD/basic.o /Backup/MOHAN/LINUX_INSMOD/basic.mod.o ;  true

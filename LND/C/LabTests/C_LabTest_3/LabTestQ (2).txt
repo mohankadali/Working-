@@ -1,0 +1,1 @@
+2. C program that merges lines alternatively from two files and print result.

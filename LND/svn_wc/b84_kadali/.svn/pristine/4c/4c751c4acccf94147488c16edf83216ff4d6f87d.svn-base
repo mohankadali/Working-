@@ -1,0 +1,64 @@
+#include<stdio.h> 
+#include<stdlib.h>
+#include <stdio_ext.h>          //to flush the data to the display
+#define MAX 10
+typedef struct st
+{
+    int r;
+    struct  st *next ;
+}ST;
+void add(ST **ptr)
+{
+    ST *temp;
+    temp = (ST*) malloc(sizeof(ST));
+    printf("enter the data...\n");
+    fgets((char*)&temp->r,MAX,stdin);                    
+    temp->r = atoi((char*)&temp->r); 
+    if(*ptr == 0)
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+    else
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+}
+void display(ST *ptr)
+{
+    while(ptr)
+    {
+        printf("%d ",ptr->r);
+        ptr = ptr->next;
+    }
+    printf("\n");
+}
+int main()
+{
+
+    ST *hptr = NULL;
+    char ch;
+    do
+    {
+        add(&hptr);
+        printf("enter y if u want to add more....\n");
+        /*   __fpurge (stdin);   */   //to flush data to the display
+        fgets (&ch, 3, stdin);
+    }while(ch == 'y');
+    display(hptr);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

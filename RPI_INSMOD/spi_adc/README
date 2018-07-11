@@ -1,0 +1,19 @@
+
+
+* To insert the module into the raspberry pi first we need to clearly notice the make file .
+
+* In general x86 make file #KDIR:=/lib/modules/$(shell uname -r)/build will be like this .
+
+* But for raspberry pi ARM Architecture so we should change the path and we need to add the 
+  cross compiled tools like 
+
+        KDIR:=/home/kadali/mylinux(its a source code for the raspberry pi)
+        $(MAKE) ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C $(KDIR) M=$(PWD) modules
+
+* After getting the .ko file We need to copy that file in to RPI board and normal insmod   
+  command use to insert the  module     
+
+
+
+
+

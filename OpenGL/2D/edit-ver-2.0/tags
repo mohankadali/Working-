@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLACK	include/stdafx.h	13;"	d
+BLACK1	include/stdafx.h	21;"	d
+BLUE	include/stdafx.h	12;"	d
+C1	include/stdafx.h	16;"	d
+C2	include/stdafx.h	17;"	d
+C3	include/stdafx.h	18;"	d
+CONTINUE	include/stdafx.h	8;"	d
+DEC	include/stdafx.h	15;"	d
+GOLD	include/stdafx.h	19;"	d
+GREEN	include/stdafx.h	11;"	d
+HEIGHT	include/stdafx.h	25;"	d
+INC	include/stdafx.h	14;"	d
+ORCHID	include/stdafx.h	20;"	d
+POSX	include/stdafx.h	26;"	d
+POSY	include/stdafx.h	27;"	d
+QUIT	include/stdafx.h	9;"	d
+RED	include/stdafx.h	10;"	d
+STDFX_H	include/stdafx.h	2;"	d
+WHITE	include/stdafx.h	22;"	d
+WIDTH	include/stdafx.h	24;"	d
+alive	include/stdafx.h	/^	bool alive;$/;"	m	struct:bricks
+b	source/main.cpp	/^struct bricks b[45];$/;"	v	typeref:struct:bricks
+ball	include/stdafx.h	/^struct ball$/;"	s
+ball	source/main.cpp	/^struct ball ball;$/;"	v	typeref:struct:ball
+ballvelxsave	source/menu.cpp	/^float ballvelxsave = 0.0;$/;"	v
+ballvelysave	source/menu.cpp	/^float ballvelysave = 0.0;$/;"	v
+ballwh	include/stdafx.h	/^	float ballx,bally,ballwh,velx,vely;$/;"	m	struct:ball
+ballx	include/stdafx.h	/^	float ballx,bally,ballwh,velx,vely;$/;"	m	struct:ball
+bally	include/stdafx.h	/^	float ballx,bally,ballwh,velx,vely;$/;"	m	struct:ball
+bg1_menu	source/menu.cpp	/^void bg1_menu(int opt) \/\/ background color RGB Default menu$/;"	f
+bg2_menu	source/menu.cpp	/^void bg2_menu(int opt)$/;"	f
+bg3_menu	source/menu.cpp	/^void bg3_menu(int opt)$/;"	f
+bg4_menu	source/menu.cpp	/^void bg4_menu(int opt)$/;"	f
+block	include/stdafx.h	/^struct block$/;"	s
+block	source/main.cpp	/^struct block block;$/;"	v	typeref:struct:block
+blue	include/stdafx.h	/^	float blue;$/;"	m	struct:ball
+blue	include/stdafx.h	/^	float blue;$/;"	m	struct:block
+blue	source/main.cpp	/^float blue = 0.0; $/;"	v
+blue1	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+blue2	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+bricks	include/stdafx.h	/^struct bricks$/;"	s
+bricks_count	include/stdafx.h	/^static int bricks_count = 45;$/;"	v
+callMenu	source/menu.cpp	/^void callMenu()$/;"	f
+check_collision	source/main.cpp	/^bool check_collision(float Ax, float Ay, float Aw, float Ah, float Bx, float By, float Bw, float Bh) \/\/Function for checking collision a-> ball b-> bricks[DO MODIICATION]$/;"	f
+display	source/main.cpp	/^void display()$/;"	f
+down	include/stdafx.h	/^	bool left,right,up,down;$/;"	m	struct:ball
+draw	source/main.cpp	/^void draw()		\/\/Render the objects on the screen using the latest updated co-ordinates $/;"	f
+drawBitmapText	source/main.cpp	/^void drawBitmapText(char *string,float x,float y,float z)  \/\/function to show message$/;"	f
+fullScreenMode	source/menu.cpp	/^bool fullScreenMode = true;$/;"	v
+green	include/stdafx.h	/^	float green;$/;"	m	struct:ball
+green	include/stdafx.h	/^	float green;$/;"	m	struct:block
+green	source/main.cpp	/^float green = 0.0;                                                                $/;"	v
+green1	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+green2	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+h	include/stdafx.h	/^	float x,y,w,h;$/;"	m	struct:bricks
+height	include/stdafx.h	/^	float height;$/;"	m	struct:block
+initialize	source/main.cpp	/^void initialize()	\/\/To set the initial co-ordinates of the objects on the screen$/;"	f
+keyboard	source/menu.cpp	/^void keyboard(unsigned char key,int x,int y)$/;"	f
+left	include/stdafx.h	/^	bool left,right,up,down;$/;"	m	struct:ball
+lft	include/stdafx.h	/^	bool lft;$/;"	m	struct:block
+main	source/main.cpp	/^int main(int argc,char *argv[])$/;"	f
+main_menu	source/menu.cpp	/^void main_menu(int opt)$/;"	f
+myinit	source/main.cpp	/^void myinit()$/;"	f
+myx	include/stdafx.h	/^	float myx;$/;"	m	struct:block
+myy	include/stdafx.h	/^	float myy;$/;"	m	struct:block
+paused	source/menu.cpp	/^bool paused = false;$/;"	v
+processmenu	source/main.cpp	/^void processmenu(int opt)$/;"	f
+red	include/stdafx.h	/^	float red;$/;"	m	struct:ball
+red	include/stdafx.h	/^	float red;$/;"	m	struct:block
+red	source/main.cpp	/^float red = 0.0;                                                             $/;"	v
+red1	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+red2	source/main.cpp	/^float red1,red2,green1,green2,blue1,blue2;$/;"	v
+reshape	source/main.cpp	/^void reshape()		\/\/Modify the co-ordinates according to the key-presses and collisions etc...$/;"	f
+revert	source/main.cpp	/^void revert()$/;"	f
+rgt	include/stdafx.h	/^	bool rgt;$/;"	m	struct:block
+right	include/stdafx.h	/^	bool left,right,up,down;$/;"	m	struct:ball
+sp_menu	source/menu.cpp	/^void sp_menu(int opt)  \/\/for increasing and decreasing speed of both ball and slider need to be increase$/;"	f
+specialDown	source/menu.cpp	/^void specialDown(int key,int x,int y)    \/\/call back for key press event modifying the position$/;"	f
+specialUp	source/menu.cpp	/^void specialUp(int key,int x,int y) \/\/call back for key release event$/;"	f
+up	include/stdafx.h	/^	bool left,right,up,down;$/;"	m	struct:ball
+velx	include/stdafx.h	/^	float ballx,bally,ballwh,velx,vely;$/;"	m	struct:ball
+vely	include/stdafx.h	/^	float ballx,bally,ballwh,velx,vely;$/;"	m	struct:ball
+w	include/stdafx.h	/^	float x,y,w,h;$/;"	m	struct:bricks
+width	include/stdafx.h	/^	float width;$/;"	m	struct:block
+windowHeight	source/main.cpp	/^int windowHeight = 400;$/;"	v
+windowPosX	source/main.cpp	/^int windowPosX = 100 ;$/;"	v
+windowPosY	source/main.cpp	/^int windowPosY = 100 ;$/;"	v
+windowWidth	source/main.cpp	/^int windowWidth = 600;$/;"	v
+x	include/stdafx.h	/^	float x,y,w,h;$/;"	m	struct:bricks
+y	include/stdafx.h	/^	float x,y,w,h;$/;"	m	struct:bricks

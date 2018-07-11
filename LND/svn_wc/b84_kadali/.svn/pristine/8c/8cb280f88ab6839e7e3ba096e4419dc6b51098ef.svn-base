@@ -1,0 +1,9 @@
+#include<stdio.h> 
+int fun(int x,int y)
+{
+return printf("%*c%*c",x,'\r',y,'\r');
+} 
+main()
+{
+printf("%d\n",fun(2,4));
+}

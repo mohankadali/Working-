@@ -1,0 +1,1 @@
+set toggle=<F2>

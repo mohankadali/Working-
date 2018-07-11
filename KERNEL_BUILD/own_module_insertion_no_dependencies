@@ -1,0 +1,42 @@
+STEP1 :
+
+we need to write the driver code (.c) with makefile & Kconfig  those should keep in a drivers directory with some name ex:MOHAN
+
+Kconfig contails :
+   	
+	menu "MOHAN HELLOWORLD"                                                         
+   	config MOHAN                                                                       
+   		tristate "HELLO WORLD SUPPORT"                                              
+      		select RT_MUTEXES                                                           
+      		select IRQ_DOMAIN                                                           
+  	endmenu 
+	
+Makefile contains:
+	
+	obj-m               += mohan.o
+
+Driver code contains :
+	Basic hello world and what ever we want to writter for
+
+STEP2:
+
+In driver directory we should have one Kconfig and Makefile we have to update those
+
+Kconfig updates with :
+	
+	source "drivers/MOHAN/Kconfig"
+
+Makefile updates with :
+
+	obj-y               +=MOHAN/
+
+STEP 3:
+
+After complition of all those  steps we need to run the make  menuconfig and enable the your driver. 
+and then make 
+
+THANK YOU.
+
+
+
+

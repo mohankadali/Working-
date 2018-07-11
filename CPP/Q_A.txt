@@ -1,0 +1,399 @@
+
+***  What is local class in C++?
+
+- Local class is defined within the scope of a function and nested within a function.
+- It is declared inside a function and it becomes local to that function.
+
+Example:
+int func1()
+{
+       class localclass1
+           {.....};
+}
+- It cannot have static data members.
+- Inside the local class, member functions must be defined.
+- Automatic local variables cannot be used.
+
+*** How to detect an end of a file?
+
+End of file in C++ can be detected using eof. End Of File returns non - zero value if the end of file (EOF) is encountered and a zero otherwise. The condition can be checked as follows :
+If(last1.eof()!=0){};
+How to detect an end of a file?
+You can either use the ifstream object ‘fin’ which returns 0 on an end of file or you can use eof() which is a member function of the ios class. It returns a non zero value on reaching the end of file.
+
+What are the advantages of “throw.....catch” in C++?
+C++ >> C++ - Part 2 
+Next Page » 
+
+What are the advantages of “throw.....catch” in C++?
+Advantages of throw and catch in c++ :
+- Code isolation: All code that is to be handled when an exception raises is placed in the catch block, which is not part of the original code.
+- The logic is pertaining to the type of the error, so that the developer can concentrate only on that exception.
+- Developer can be selective about trapping various exceptions.
+
+
+
+
+What are friend classes? What are advantages of using friend classes?
+- The friend function is a ‘non member function’ of a class. It can access non public members of the class. A friend function is external to the class definition.
+- A friend function has the following advantages :
+1. Provides additional functionality which is kept outside the class.
+2. Provides functions that need data which is not normally used by the class.
+3. Allows sharing private class information by a non member function.
+
+
+What is the difference between Mutex and Binary semaphore? - C++
+C++ >> C++ - Part 2 
+Next Page » 
+
+Difference between Mutex and Binary semaphore.
+Mutex is meant for mutual exclusion while Binary semaphore is meant for event notification and mutual exclusion. A binary semaphore is a simple "true/false" (locked/unlocked) flag that controls access to a single resource. Mutex can be released only by the thread that acquired it while semaphore can be released by any thread.
+Difference between Mutex and Binary semaphore.
+Semaphore synchronizes processes where as mutex synchronizes threads running in the same process
+
+
+What are the advantages of inheritance? - C++
+C++ >> C++ - Part 2 
+Next Page » 
+
+What are the advantages of inheritance?
+Advantages of Inheritance :
+- It Allows the code to be reused as many times as needed. 
+- The base class once defined and once it is compiled, it need not be reworked.
+- Saves time and effort as the main code need not be written again.
+What are the advantages of inheritance?
+- Code reusability
+- Saves time in program development.
+
+
+A function when defined as INLINE, the code from the function definition is directly copied into the code of the calling function. A function is defined as inline using the 'inline' keyword as shown below :
+inline float add(float i, float j) { return i + j};
+Advantages : - It avoids the overhead of calling the actual function. This is because the complier performs and inline expansion which eliminates the time overhead when a function is called.
+- It reduces space as no separate set of instructions in memory is written.
+Advantages of inline functions.
+- It relieves the burden involved in calling a function. 
+- It is used for functions that need fast execution.
+
+A function when defined as INLINE, the code from the function definition is directly copied into the code of the calling function. A function is defined as inline using the 'inline' keyword as shown below :
+inline float add(float i, float j) { return i + j};
+Advantages : - It avoids the overhead of calling the actual function. This is because the complier performs and inline expansion which eliminates the time overhead when a function is called.
+- It reduces space as no separate set of instructions in memory is written.
+Advantages of inline functions.
+- It relieves the burden involved in calling a function. 
+- It is used for functions that need fast execution.
+
+Pointer vs. reference - C++
+C++ >> C++ - Part 2 
+Next Page » 
+
+Pointer vs. Reference.
+- When a reference is created, it can’t reference another object. This can be done with pointers. References cannot be null whereas pointers can be. References cannot be uninitialized and it is not possible to refer directly to a reference object after it is defined.
+- Syntax of reference :
+<Type> & <Name>
+- Example :
+int& rA = A; rA is a reference to int.
+Pointer vs. Reference.
+- A reference must be initialized at the time of declaration whereas not needed in case of pointer. A pointer can point to a null object.
+- A reference once initialize to refer to the object can't be reassigned to refer to other whereas reassignment is possible with pointer.
+
+
+
+Is it possible to overload a constructor?
+C++ >> C++ - Part 2 
+Next Page » 
+
+Is it possible to overload a constructor?
+- When an object is created or defined, a constructor method is created. It is used to initializations of the different declared member variables of its object. Overloading a constructor means make it behave differently.
+- Example : The function below has the same name but overloaded to return double and integer values.
+double func( double a );
+int func( int a, int b );
+Is it possible to overload a constructor?
+Yes it is possible. A constructor can be overloaded to pass different arguments to the object.
+
+
+Overriding vs. overloading.
+- Overloading helps to create different behaviors of methods with the same name and scope. For instance we can overload a method to return float values and integer values.
+- Overriding on the other hand changes the behavior of a class to make it behave different than its parent class.
+Overriding vs. overloading.
+- Overloading means having methods with same name but different signature.
+- Overriding means rewriting the virtual method of the base class.
+
+Static vs. Dynamic Binding.
+- Static binding is done at compile time when a function is called in order to match it with the definition.
+- Dynamic binding is at run time where we can specify that the compiler matches a function call with the correct function definition at run time.
+- Virtual keyword is used if the function needs to be dynamically bounded.
+Static vs. Dynamic Binding
+- Binding means connecting the function call to a function implementation.
+- Connecting the function call to the function implementation before execution is static binding whereas connection them at the run-time is dynamic binding.
+
+C++ constructors & destructors related inteview questions and answers
+C++ >> C++ - Part 2 
+Next Page » 
+
+C++ Constructors and destructors.
+Constructors is a special member function of a class that gets invoked when object of its class is created. It is used to initialize the object of its class. We can also pass initial values to Constructor function at the time of object declaration. 
+
+The name of the constructor is same as that of class.
+
+Types of Constructors 
+
+Do nothing constructor: It doesn't contain any statement, has no argument and no return type.
+
+Default constructor: It can have some initial statements but no parameters and arguments.
+
+Parameterized constructor: It has parameters that can set initial values to an object at the time of declaration.
+
+Copy constructor: It takes an object as an argument and is used to copy values of data members of one object into another object.
+
+Destructors are used to destroy the objects that have been created by the constructor. Destructor names are same as the class, but they are preceded by a tilde (~).
+
+
+Explain the difference between structures and classes.
+Structure
+Class
+It is a value type.
+It is a reference type.
+Its object is created on the stack memory.
+Its object is created on the heap memory.
+It does not support inheritance.
+It supports inheritance.
+The member variable of structure cannot be initialized directly.
+The member variable of class can be initialized directly.
+It can have only parameterized constructor.
+It can have all the types of constructor and destructor.
+
+
+Define an Iterator class.
+An iterator class is used to iterate through objects of the container class. An iterator is an entity that gives access to the contents of a container object.
+Define an Iterator class.
+- A container class hold group of objects and iterator class is used to traverse through the objects maintained by a container class. The iterator class provides access to the classes inside a container. They are objects that point to other objects. Iterator points to one element in a range, and then it is possible to increment it so that it points to the next element.
+- There are several different types of iterators :
+
+1. input_iterator
+2. output_iterator
+3. forward_iterator
+4. bidirectional_iterator
+5. random_iterator
+6. reverse_iterator
+Explain different types of iterators, i.e. input_iterator, output_iterator etc.
+Input Iterator : 
+These iterators can read values in the forward movement. They can be incremented, compared and dereferenced.
+
+Ouptut Iterator : 
+They write values in the forward movement. They can be incremented and dereferenced.
+
+Forward Iterator : 
+They are like input and output iterators that can read and write values in forward movement.
+
+Bidirectional Iterators : 
+These can Read and write values with forward and backward movement and can be incremented, decremented.
+
+Random Access Iterator : 
+Can read and write values randomly.
+
+Can static function access non static variables in C++?
+
+
+Is C++ Empty Constructor necessary to write in a class?
+
+
+http://www.interviewsansar.com/2016/10/10/is-it-necessary-to-write-empty-constructor-in-cplusplus/
+
+Can we have default arguments in constructor in C++?
+What is initialization list in Constructor in C++ Programming?
+
+In what situations initialization list is must and assignment in constructor body does not help?
+
+
+Why you do not initialize data members when you write a class?
+http://www.interviewsansar.com/2015/07/12/why-you-do-not-initialize-data-members-when-you-write-a-class/
+
+Can you delete this pointer inside a class member function in C++?
+http://www.interviewsansar.com/2015/05/24/can-you-delete-this-pointer-inside-a-class-member-function/
+
+
+Q – Can we overload destructor of a class?
+Answer– No, we can’t overload the destructor, we don’t have this provision in C++.
+
+Q- In which statement assignment operator will be called?
+1. A Obj1(5); 
+2. A Obj2(Obj1); 
+3. A Obj2 = Obj1 
+Answer- None, for every statement copy constructor will get called.
+Assignment operator will be called for the following
+Obj2 = Obj1; // note this is different than A Obj2= Obj1 as here, we are initializing new object at the time of creation with existing object.
+
+Q-Can we create array of references in C++?
+Answer – No, We cannot have array of references.
+
+
+What is static function in cpp? Is it same as in C?
+
+http://www.interviewsansar.com/2014/12/29/what-is-static-function-in-c-is-it-same-as-in-c/
+
+this pointer in C++ – how does it work internally?
+http://www.interviewsansar.com/2014/10/26/this-pointer-and-its-internal-working/
+
+What is size of Empty Class in C++ with virtual function?
+
+http://www.interviewsansar.com/2014/10/05/size-of-an-empty-class/
+
+What default functions provided by compiler in C++?
+
+http://www.interviewsansar.com/2014/10/04/default-member-functions-for-a-class-in-c/
+
+What is difference between pointer and reference in C++?
+
+http://www.interviewsansar.com/2015/08/16/what-is-difference-between-pointer-and-reference-in-c/
+
+What is order of calling constructor and destructor in C++?
+
+http://www.interviewsansar.com/2015/07/23/what-is-order-of-calling-constructor-and-destructor-in-c/
+
+What is virtual destructor in C++? Why do we need virtual desturctor?
+
+http://www.interviewsansar.com/2014/06/11/cplusplus-virtual-destructor-and-use-of-virtual-destructor/
+
+Can Copy constructor accept object by value instead of reference?
+
+http://www.interviewsansar.com/2015/07/20/can-copy-constructor-accept-object-by-value-instead-of-reference/
+
+C Vs C++ – 3 Major differences with explanation
+
+http://www.interviewsansar.com/2016/08/20/c-vs-cpp-3-major-differences-with-explanation/
+
+When copy constructor is called in C++? – 3 Scenarios Example
+
+http://www.interviewsansar.com/2015/08/28/on-what-situations-copy-constructor-gets-called-in-cpp/
+
+Which is called first constructor or overloaded new operator in C++?
+
+http://www.interviewsansar.com/2017/02/24/called-first-constructor-overloaded-new-operator-cpp/
+
+
+
+Describe constant member function in C++ with Example
+
+http://www.interviewsansar.com/2016/08/29/describe-const-member-function-in-cplusplus/
+
+
+
+MCQ-->
+http://www.interviewsansar.com/mcqs/cpp/
+
+http://skillgun.com/cpp/constructors/interview-questions-and-answers/paper/235
+
+
+
+
+What does extern mean in a function declaration?
+What is difference between #define and const?
+What is the difference between the private public and protected members?
+
+
+Where is memory for class-object allocated? 
+Where is memory for struct allocated
+Does an abstract class in C++ need to hold all pure virtual functions?
+
+What is the C-style character string? And c++  string difference.
+How can we convert to c string
+
+
+19) Mention what are the types of Member Functions?
+The types of member functions are
+• Simple functions
+• Static functions
+• Const functions
+• Inline functions
+• Friend functions
+
+
+10 Proven C++ Programming Questions to Ask on Interview
+
+https://tests4geeks.com/cpp-interview-questions/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+can i have pure virtual destructors?
+what is a destructor?
+what is the purpose of using a destructor?
+what is the use of a constructor?
+is it possible to have virtual constructors explain the answer?
+what is a copy constructor?
+in what all the scenarios i can use copy constructors?
+what is deep copy?
+can we have virtual destructors if so what is the use of virtual destructors?
+this pointer returns _____?
+what is overriding
+can i create object for an abstract class in c++
+what does virtual table contain
+when should i declare my destructor as virtual
+what is the use of virtual functions in c++
+what is a pure virtual function
+is reference to a reference allowed
+what is the difference between c and c++ in terms of design
+what is polymorphism
+what is the difference between c and c++ in terms of programming
+what is the difference between c and c++ in terms of pointers
+what is this pointer
+what is the difference between malloc and calloc
+can i use free operator in place of delete
+what is the difference between delete and delete[]
+what is a dangling pointer concept
+what is memory leak
+what is the difference between a reference and a pointer
+
+
+
+
+
+
+
+
+What is ‘cout’?
+What is ‘cin’?  Scang and printf difference
+
+
+
+https://www.toptal.com/c-plus-plus/interview-questions
+
+http://skillgun.com/question/4013/cpp/pointers/what-is-memory-leak
+
+http://skillgun.com/question/4012/cpp/pointers/what-is-a-dangling-pointer-concept
+
+http://skillgun.com/question/3479/cpp/basics/is-reference-to-a-reference-allowed
+
+http://www.geekinterview.com/Interview-Questions/Languages/C-Plus-Plus
+
+
+23. What you mean by early binding and late binding? How it is related to dynamic binding?
+[This c++ interview question is related to question about virtual functions ]
+Binding is the process of linking actual address of functions or identifiers to their reference. This happens mainly two times. 
+During compilation : This is called early binding 
+For all the direct function references compiler will replace the reference with actual address of the method.
+At runtime : This is called late binding. 
+In case of virtual function calls using a Base reference, as in shown in the example of question no: 2, compiler does not know which method will get called at run time. In this case compiler will replace the reference with code to get the address of function at runtime.
+
+Dynamic binding is another name for late binding.
+
+
+
+
+
+
+
+

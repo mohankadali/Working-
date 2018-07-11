@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Btree	tree_main.c	/^void Btree ( void )$/;"	f
+HEAD_H	ds_ass2_header.h	2;"	d
+SIZE	ds_ass2_header.h	7;"	d
+binary_search	a1_searching.c	/^int binary_search ( int *arr, int num, int size )$/;"	f
+bubble_sort	a2_bubble_sort.c	/^int *bubble_sort ( int *arr, int size )$/;"	f
+create_node	a3_insert_tree.c	/^tree *create_node ( int data )$/;"	f
+data	ds_ass2_header.h	/^    int data;$/;"	m	struct:trees
+delete_tree	a3_delete_tree.c	/^tree *delete_tree ( tree *root, int data )$/;"	f
+display	a2_display_sort.c	/^void display ( int * arr, int size )$/;"	f
+display_tree	a3_display_tree.c	/^void display_tree ( tree *root )$/;"	f
+height_tree	a3_display_tree.c	/^int height_tree ( tree *root )$/;"	f
+in_order	a3_display_tree.c	/^void in_order ( tree *root )$/;"	f
+insert_tree	a3_insert_tree.c	/^tree *insert_tree ( tree *root, int data )$/;"	f
+insertion_sort	a2_insertion_sort.c	/^int *insertion_sort ( int *arr , int size )$/;"	f
+left	ds_ass2_header.h	/^    struct trees *left;$/;"	m	struct:trees	typeref:struct:trees::trees
+level_order	a3_display_tree.c	/^void level_order ( tree *root )$/;"	f
+linear_search	a1_searching.c	/^int linear_search ( int *arr, int num, int size )$/;"	f
+main	ds_ass2_main.c	/^int main(void)$/;"	f
+merg	a2_merg_sort.c	/^int *merg ( int *arr, int *temp,  int low, int mid, int high )$/;"	f
+merg_sort	a2_merg_sort.c	/^int *merg_sort (int *arr, int *temp, int low, int high )$/;"	f
+my_atoi	ds_ass2_main.c	/^int my_atoi ( char *ptr )$/;"	f
+post_order	a3_display_tree.c	/^void post_order ( tree *root )$/;"	f
+pre_order	a3_display_tree.c	/^void pre_order ( tree *root )$/;"	f
+quick_sort	a2_quick_sort.c	/^int *quick_sort ( int *ar, int low, int high )$/;"	f
+right	ds_ass2_header.h	/^    struct trees *right;$/;"	m	struct:trees	typeref:struct:trees::trees
+root_delete	a3_delete_tree.c	/^tree *root_delete ( tree *root )$/;"	f
+search_tree	a3_search_tree.c	/^int search_tree ( tree *root , int data )$/;"	f
+searching	searching_main.c	/^int searching (void)$/;"	f
+selection_sort	a2_selection_sort.c	/^int *selection_sort ( int *arr , int size )$/;"	f
+sort	sorting_main.c	/^void sort (void)$/;"	f
+sorting	a1_searching.c	/^int *sorting ( int *arr , int size )$/;"	f
+swap	a2_quick_sort.c	/^void swap ( int *ar, int indx1, int indx2 )$/;"	f
+tree	ds_ass2_header.h	/^}tree;$/;"	t	typeref:struct:trees
+trees	ds_ass2_header.h	/^typedef struct trees$/;"	s

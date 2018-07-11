@@ -1,0 +1,818 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEL	basic_fb_driver/intelfb.h	108;"	d
+ADD_ID	basic_fb_driver/intelfbhw.h	436;"	d
+ADD_ID_MASK	basic_fb_driver/intelfbhw.h	437;"	d
+ADPA	basic_fb_driver/intelfbhw.h	248;"	d
+ADPA_DAC_DISABLE	basic_fb_driver/intelfbhw.h	250;"	d
+ADPA_DAC_ENABLE	basic_fb_driver/intelfbhw.h	249;"	d
+ADPA_DPMS_CONTROL_MASK	basic_fb_driver/intelfbhw.h	254;"	d
+ADPA_DPMS_D0	basic_fb_driver/intelfbhw.h	255;"	d
+ADPA_DPMS_D1	basic_fb_driver/intelfbhw.h	257;"	d
+ADPA_DPMS_D2	basic_fb_driver/intelfbhw.h	256;"	d
+ADPA_DPMS_D3	basic_fb_driver/intelfbhw.h	258;"	d
+ADPA_HSYNC_ACTIVE_SHIFT	basic_fb_driver/intelfbhw.h	260;"	d
+ADPA_PIPE_SELECT_SHIFT	basic_fb_driver/intelfbhw.h	251;"	d
+ADPA_SETS_HVPOLARITY	basic_fb_driver/intelfbhw.h	253;"	d
+ADPA_SYNC_ACTIVE_HIGH	basic_fb_driver/intelfbhw.h	262;"	d
+ADPA_SYNC_ACTIVE_LOW	basic_fb_driver/intelfbhw.h	263;"	d
+ADPA_SYNC_ACTIVE_MASK	basic_fb_driver/intelfbhw.h	261;"	d
+ADPA_USE_VGA_HVPOLARITY	basic_fb_driver/intelfbhw.h	252;"	d
+ADPA_VSYNC_ACTIVE_SHIFT	basic_fb_driver/intelfbhw.h	259;"	d
+ADVANCE_RING	basic_fb_driver/intelfbhw.h	546;"	d
+AGP_PHYSICAL_MEMORY	basic_fb_driver/intelfb.h	125;"	d
+ALLOCATE_FOR_PANNING	basic_fb_driver/intelfb.h	40;"	d
+ArmToVc	framebuffer /kernel.c	/^uint32_t ArmToVc(void *p)$/;"	f
+BCLRPAT_A	basic_fb_driver/intelfbhw.h	208;"	d
+BCLRPAT_B	basic_fb_driver/intelfbhw.h	217;"	d
+BREAKPOINT_INTERRUPT	basic_fb_driver/intelfbhw.h	102;"	d
+Bcm2835FrameBuffer	framebuffer /fb.c	/^struct Bcm2835FrameBuffer$/;"	s	file:
+BinMap	framebuffer /chars/chars.c	/^int BinMap()$/;"	f
+BtoKB	basic_fb_driver/intelfb.h	81;"	d
+BtoMB	basic_fb_driver/intelfb.h	82;"	d
+CAPTURE_EVENT_INTERRUPT	basic_fb_driver/intelfbhw.h	100;"	d
+CHAR_HEIGHT	framebuffer /fb.c	7;"	d	file:
+CHAR_WIDTH	framebuffer /fb.c	6;"	d	file:
+COLOR_BLT_CMD	basic_fb_driver/intelfbhw.h	483;"	d
+COLOR_DEPTH_16	basic_fb_driver/intelfbhw.h	502;"	d
+COLOR_DEPTH_32	basic_fb_driver/intelfbhw.h	503;"	d
+COLOR_DEPTH_8	basic_fb_driver/intelfbhw.h	501;"	d
+CURSOR_A_BASEADDR	basic_fb_driver/intelfbhw.h	361;"	d
+CURSOR_A_CONTROL	basic_fb_driver/intelfbhw.h	347;"	d
+CURSOR_A_PALETTE0	basic_fb_driver/intelfbhw.h	372;"	d
+CURSOR_A_PALETTE1	basic_fb_driver/intelfbhw.h	373;"	d
+CURSOR_A_PALETTE2	basic_fb_driver/intelfbhw.h	374;"	d
+CURSOR_A_PALETTE3	basic_fb_driver/intelfbhw.h	375;"	d
+CURSOR_A_POSITION	basic_fb_driver/intelfbhw.h	365;"	d
+CURSOR_BASE_MASK	basic_fb_driver/intelfbhw.h	363;"	d
+CURSOR_BLUE_SHIFT	basic_fb_driver/intelfbhw.h	383;"	d
+CURSOR_B_BASEADDR	basic_fb_driver/intelfbhw.h	362;"	d
+CURSOR_B_CONTROL	basic_fb_driver/intelfbhw.h	348;"	d
+CURSOR_B_PALETTE0	basic_fb_driver/intelfbhw.h	376;"	d
+CURSOR_B_PALETTE1	basic_fb_driver/intelfbhw.h	377;"	d
+CURSOR_B_PALETTE2	basic_fb_driver/intelfbhw.h	378;"	d
+CURSOR_B_PALETTE3	basic_fb_driver/intelfbhw.h	379;"	d
+CURSOR_B_POSITION	basic_fb_driver/intelfbhw.h	366;"	d
+CURSOR_COLOR_MASK	basic_fb_driver/intelfbhw.h	380;"	d
+CURSOR_CONTROL	basic_fb_driver/intelfbhw.h	331;"	d
+CURSOR_ENABLE	basic_fb_driver/intelfbhw.h	332;"	d
+CURSOR_FORMAT_2C	basic_fb_driver/intelfbhw.h	340;"	d
+CURSOR_FORMAT_3C	basic_fb_driver/intelfbhw.h	341;"	d
+CURSOR_FORMAT_4C	basic_fb_driver/intelfbhw.h	342;"	d
+CURSOR_FORMAT_ARGB	basic_fb_driver/intelfbhw.h	343;"	d
+CURSOR_FORMAT_MASK	basic_fb_driver/intelfbhw.h	339;"	d
+CURSOR_FORMAT_XRGB	basic_fb_driver/intelfbhw.h	344;"	d
+CURSOR_GAMMA_ENABLE	basic_fb_driver/intelfbhw.h	333;"	d
+CURSOR_GREEN_SHIFT	basic_fb_driver/intelfbhw.h	382;"	d
+CURSOR_MEM_TYPE_LOCAL	basic_fb_driver/intelfbhw.h	358;"	d
+CURSOR_MOBILE_GAMMA_ENABLE	basic_fb_driver/intelfbhw.h	357;"	d
+CURSOR_MODE_64_32B_AX	basic_fb_driver/intelfbhw.h	354;"	d
+CURSOR_MODE_64_3C	basic_fb_driver/intelfbhw.h	351;"	d
+CURSOR_MODE_64_4C	basic_fb_driver/intelfbhw.h	353;"	d
+CURSOR_MODE_64_4C_AX	basic_fb_driver/intelfbhw.h	352;"	d
+CURSOR_MODE_64_ARGB_AX	basic_fb_driver/intelfbhw.h	355;"	d
+CURSOR_MODE_DISABLE	basic_fb_driver/intelfbhw.h	350;"	d
+CURSOR_MODE_MASK	basic_fb_driver/intelfbhw.h	349;"	d
+CURSOR_PALETTE_MASK	basic_fb_driver/intelfbhw.h	384;"	d
+CURSOR_PIPE_SELECT_SHIFT	basic_fb_driver/intelfbhw.h	356;"	d
+CURSOR_POS_MASK	basic_fb_driver/intelfbhw.h	368;"	d
+CURSOR_POS_SIGN	basic_fb_driver/intelfbhw.h	367;"	d
+CURSOR_RED_SHIFT	basic_fb_driver/intelfbhw.h	381;"	d
+CURSOR_SIZE	basic_fb_driver/intelfbhw.h	387;"	d
+CURSOR_SIZE_H_SHIFT	basic_fb_driver/intelfbhw.h	389;"	d
+CURSOR_SIZE_MASK	basic_fb_driver/intelfbhw.h	388;"	d
+CURSOR_SIZE_V_SHIFT	basic_fb_driver/intelfbhw.h	390;"	d
+CURSOR_STRIDE_1K	basic_fb_driver/intelfbhw.h	337;"	d
+CURSOR_STRIDE_256	basic_fb_driver/intelfbhw.h	335;"	d
+CURSOR_STRIDE_2K	basic_fb_driver/intelfbhw.h	338;"	d
+CURSOR_STRIDE_512	basic_fb_driver/intelfbhw.h	336;"	d
+CURSOR_STRIDE_MASK	basic_fb_driver/intelfbhw.h	334;"	d
+CURSOR_X_SHIFT	basic_fb_driver/intelfbhw.h	369;"	d
+CURSOR_Y_SHIFT	basic_fb_driver/intelfbhw.h	370;"	d
+ClearScreen	framebuffer /fb.c	/^static void ClearScreen()$/;"	f	file:
+CopyPixel	framebuffer /chars/chars.c	/^void CopyPixel(unsigned char *src, unsigned char *dst,$/;"	f
+DBG_MSG	basic_fb_driver/intelfb.h	101;"	d
+DBG_MSG	basic_fb_driver/intelfb.h	99;"	d
+DEBUG	basic_fb_driver/intelfb.h	24;"	d
+DETECT_VGA_CLASS_ONLY	basic_fb_driver/intelfb.h	36;"	d
+DISPARB	basic_fb_driver/intelfbhw.h	324;"	d
+DISPARB_AEND_MASK	basic_fb_driver/intelfbhw.h	325;"	d
+DISPARB_AEND_SHIFT	basic_fb_driver/intelfbhw.h	326;"	d
+DISPARB_BEND_MASK	basic_fb_driver/intelfbhw.h	327;"	d
+DISPARB_BEND_SHIFT	basic_fb_driver/intelfbhw.h	328;"	d
+DISPPLANE_15_16BPP	basic_fb_driver/intelfbhw.h	400;"	d
+DISPPLANE_16BPP	basic_fb_driver/intelfbhw.h	401;"	d
+DISPPLANE_32BPP	basic_fb_driver/intelfbhw.h	403;"	d
+DISPPLANE_32BPP_NO_ALPHA	basic_fb_driver/intelfbhw.h	402;"	d
+DISPPLANE_8BPP	basic_fb_driver/intelfbhw.h	399;"	d
+DISPPLANE_ALPHA_TRANS_DISABLE	basic_fb_driver/intelfbhw.h	415;"	d
+DISPPLANE_ALPHA_TRANS_ENABLE	basic_fb_driver/intelfbhw.h	414;"	d
+DISPPLANE_GAMMA_DISABLE	basic_fb_driver/intelfbhw.h	397;"	d
+DISPPLANE_GAMMA_ENABLE	basic_fb_driver/intelfbhw.h	396;"	d
+DISPPLANE_LINE_DOUBLE	basic_fb_driver/intelfbhw.h	409;"	d
+DISPPLANE_NO_LINE_DOUBLE	basic_fb_driver/intelfbhw.h	410;"	d
+DISPPLANE_PIXFORMAT_MASK	basic_fb_driver/intelfbhw.h	398;"	d
+DISPPLANE_PLANE_DISABLE	basic_fb_driver/intelfbhw.h	395;"	d
+DISPPLANE_PLANE_ENABLE	basic_fb_driver/intelfbhw.h	394;"	d
+DISPPLANE_SEL_PIPE_SHIFT	basic_fb_driver/intelfbhw.h	406;"	d
+DISPPLANE_SPRITE_ABOVE_DISPLAYA	basic_fb_driver/intelfbhw.h	416;"	d
+DISPPLANE_SPRITE_ABOVE_OVERLAY	basic_fb_driver/intelfbhw.h	417;"	d
+DISPPLANE_SRC_KEY_DISABLE	basic_fb_driver/intelfbhw.h	408;"	d
+DISPPLANE_SRC_KEY_ENABLE	basic_fb_driver/intelfbhw.h	407;"	d
+DISPPLANE_STEREO_DISABLE	basic_fb_driver/intelfbhw.h	405;"	d
+DISPPLANE_STEREO_ENABLE	basic_fb_driver/intelfbhw.h	404;"	d
+DISPPLANE_STEREO_POLARITY_FIRST	basic_fb_driver/intelfbhw.h	411;"	d
+DISPPLANE_STEREO_POLARITY_SECOND	basic_fb_driver/intelfbhw.h	412;"	d
+DO_RING_IDLE	basic_fb_driver/intelfbhw.h	550;"	d
+DPLL_2X_CLOCK_ENABLE	basic_fb_driver/intelfbhw.h	150;"	d
+DPLL_A	basic_fb_driver/intelfbhw.h	147;"	d
+DPLL_B	basic_fb_driver/intelfbhw.h	148;"	d
+DPLL_I9XX_P2_SHIFT	basic_fb_driver/intelfbhw.h	155;"	d
+DPLL_P1_FORCE_DIV2	basic_fb_driver/intelfbhw.h	156;"	d
+DPLL_P1_MASK	basic_fb_driver/intelfbhw.h	157;"	d
+DPLL_P1_SHIFT	basic_fb_driver/intelfbhw.h	158;"	d
+DPLL_P2_MASK	basic_fb_driver/intelfbhw.h	153;"	d
+DPLL_P2_SHIFT	basic_fb_driver/intelfbhw.h	154;"	d
+DPLL_RATE_SELECT_FP0	basic_fb_driver/intelfbhw.h	163;"	d
+DPLL_RATE_SELECT_FP1	basic_fb_driver/intelfbhw.h	164;"	d
+DPLL_RATE_SELECT_MASK	basic_fb_driver/intelfbhw.h	162;"	d
+DPLL_REFERENCE_DEFAULT	basic_fb_driver/intelfbhw.h	160;"	d
+DPLL_REFERENCE_SELECT_MASK	basic_fb_driver/intelfbhw.h	159;"	d
+DPLL_REFERENCE_TVCLK	basic_fb_driver/intelfbhw.h	161;"	d
+DPLL_SYNCLOCK_ENABLE	basic_fb_driver/intelfbhw.h	151;"	d
+DPLL_VCO_ENABLE	basic_fb_driver/intelfbhw.h	149;"	d
+DPLL_VGA_MODE_DISABLE	basic_fb_driver/intelfbhw.h	152;"	d
+DSPABASE	basic_fb_driver/intelfbhw.h	419;"	d
+DSPACNTR	basic_fb_driver/intelfbhw.h	392;"	d
+DSPASTRIDE	basic_fb_driver/intelfbhw.h	420;"	d
+DSPBBASE	basic_fb_driver/intelfbhw.h	422;"	d
+DSPBCNTR	basic_fb_driver/intelfbhw.h	393;"	d
+DSPBSTRIDE	basic_fb_driver/intelfbhw.h	423;"	d
+DVOA	basic_fb_driver/intelfbhw.h	265;"	d
+DVOA_PORT	basic_fb_driver/intelfbhw.h	19;"	d
+DVOA_SRCDIM	basic_fb_driver/intelfbhw.h	275;"	d
+DVOB	basic_fb_driver/intelfbhw.h	266;"	d
+DVOB_PORT	basic_fb_driver/intelfbhw.h	20;"	d
+DVOB_SRCDIM	basic_fb_driver/intelfbhw.h	276;"	d
+DVOC	basic_fb_driver/intelfbhw.h	267;"	d
+DVOC_PORT	basic_fb_driver/intelfbhw.h	21;"	d
+DVOC_SRCDIM	basic_fb_driver/intelfbhw.h	277;"	d
+DW_LENGTH_MASK	basic_fb_driver/intelfbhw.h	494;"	d
+ERR_MSG	basic_fb_driver/intelfb.h	94;"	d
+FB_H	framebuffer /fb.h	2;"	d
+FB_NAME	fbtest1.c	/^const char *FB_NAME = "\/dev\/fb0";$/;"	v
+FENCE	basic_fb_driver/intelfbhw.h	55;"	d
+FENCE_NUM	basic_fb_driver/intelfbhw.h	56;"	d
+FIRST_MINOR	basic_fb_driver/ownfb.c	25;"	d	file:
+FIXED_MODE	basic_fb_driver/intelfb.h	117;"	d
+FPA0	basic_fb_driver/intelfbhw.h	166;"	d
+FPA1	basic_fb_driver/intelfbhw.h	167;"	d
+FPB0	basic_fb_driver/intelfbhw.h	168;"	d
+FPB1	basic_fb_driver/intelfbhw.h	169;"	d
+FP_DIVISOR_MASK	basic_fb_driver/intelfbhw.h	170;"	d
+FP_M1_DIVISOR_SHIFT	basic_fb_driver/intelfbhw.h	172;"	d
+FP_M2_DIVISOR_SHIFT	basic_fb_driver/intelfbhw.h	173;"	d
+FP_N_DIVISOR_SHIFT	basic_fb_driver/intelfbhw.h	171;"	d
+FW_BLC_0	basic_fb_driver/intelfbhw.h	113;"	d
+FW_BLC_1	basic_fb_driver/intelfbhw.h	123;"	d
+FW_DISPA_BL_MASK	basic_fb_driver/intelfbhw.h	117;"	d
+FW_DISPA_BL_SHIFT	basic_fb_driver/intelfbhw.h	116;"	d
+FW_DISPA_WM_MASK	basic_fb_driver/intelfbhw.h	115;"	d
+FW_DISPA_WM_SHIFT	basic_fb_driver/intelfbhw.h	114;"	d
+FW_DISPB_BL_MASK	basic_fb_driver/intelfbhw.h	121;"	d
+FW_DISPB_BL_SHIFT	basic_fb_driver/intelfbhw.h	120;"	d
+FW_DISPB_WM_MASK	basic_fb_driver/intelfbhw.h	119;"	d
+FW_DISPB_WM_SHIFT	basic_fb_driver/intelfbhw.h	118;"	d
+FW_DISPC_BL_MASK	basic_fb_driver/intelfbhw.h	127;"	d
+FW_DISPC_BL_SHIFT	basic_fb_driver/intelfbhw.h	126;"	d
+FW_DISPC_WM_MASK	basic_fb_driver/intelfbhw.h	125;"	d
+FW_DISPC_WM_SHIFT	basic_fb_driver/intelfbhw.h	124;"	d
+Flash32	framebuffer /gpio.c	/^void Flash32(uint32_t value)$/;"	f
+Flash32_Value	framebuffer /gpio.c	/^void Flash32_Value(uint32_t value)$/;"	f
+FlashOk	framebuffer /gpio.h	11;"	d
+FrameBufferCharacter	framebuffer /fb.c	/^struct FrameBufferCharacter$/;"	s	file:
+FrameBufferInfo	framebuffer /fb.c	/^struct FrameBufferInfo$/;"	s	file:
+GET_DINFO	basic_fb_driver/intelfb.h	105;"	d
+GPIO08_OUTPUT	framebuffer /gpio.c	14;"	d	file:
+GPIO09_OUTPUT	framebuffer /gpio.c	15;"	d	file:
+GPIO11_OUTPUT	framebuffer /gpio.c	16;"	d	file:
+GPIO14_OUTPUT	framebuffer /gpio.c	17;"	d	file:
+GPIO16_OUTPUT	framebuffer /gpio.c	18;"	d	file:
+GPIO25_OUTPUT	framebuffer /gpio.c	19;"	d	file:
+GPIOA	basic_fb_driver/intelfbhw.h	129;"	d
+GPIOB	basic_fb_driver/intelfbhw.h	130;"	d
+GPIOC	basic_fb_driver/intelfbhw.h	131;"	d
+GPIOD	basic_fb_driver/intelfbhw.h	132;"	d
+GPIOE	basic_fb_driver/intelfbhw.h	133;"	d
+GPIOF	basic_fb_driver/intelfbhw.h	134;"	d
+GPIO_BASE	framebuffer /gpio.c	3;"	d	file:
+GPIO_CLR_0_31	framebuffer /gpio.c	10;"	d	file:
+GPIO_H	framebuffer /gpio.h	2;"	d
+GPIO_MODE_00_09	framebuffer /gpio.c	5;"	d	file:
+GPIO_MODE_10_19	framebuffer /gpio.c	6;"	d	file:
+GPIO_MODE_20_29	framebuffer /gpio.c	7;"	d	file:
+GPIO_SET_0_31	framebuffer /gpio.c	9;"	d	file:
+GPIO_VAL_0_31	framebuffer /gpio.c	11;"	d	file:
+GTT_PAGE_SIZE	basic_fb_driver/intelfb.h	84;"	d
+HACTIVE_MASK	basic_fb_driver/intelfbhw.h	221;"	d
+HACTIVE_SHIFT	basic_fb_driver/intelfbhw.h	222;"	d
+HBLANKEND_MASK	basic_fb_driver/intelfbhw.h	223;"	d
+HBLANKEND_SHIFT	basic_fb_driver/intelfbhw.h	224;"	d
+HBLANKSTART_MASK	basic_fb_driver/intelfbhw.h	225;"	d
+HBLANKSTART_SHIFT	basic_fb_driver/intelfbhw.h	226;"	d
+HBLANK_A	basic_fb_driver/intelfbhw.h	202;"	d
+HBLANK_B	basic_fb_driver/intelfbhw.h	211;"	d
+HEIGHT_SHIFT	basic_fb_driver/intelfbhw.h	514;"	d
+HORIZ_SEED	basic_fb_driver/intelfbhw.h	499;"	d
+HOST_PORT_EVENT_INTERRUPT	basic_fb_driver/intelfbhw.h	99;"	d
+HSYNCEND_MASK	basic_fb_driver/intelfbhw.h	227;"	d
+HSYNCEND_SHIFT	basic_fb_driver/intelfbhw.h	228;"	d
+HSYNCSTART_MASK	basic_fb_driver/intelfbhw.h	229;"	d
+HSYNCSTART_SHIFT	basic_fb_driver/intelfbhw.h	230;"	d
+HSYNC_A	basic_fb_driver/intelfbhw.h	203;"	d
+HSYNC_B	basic_fb_driver/intelfbhw.h	212;"	d
+HTOTAL_A	basic_fb_driver/intelfbhw.h	201;"	d
+HTOTAL_B	basic_fb_driver/intelfbhw.h	210;"	d
+HTOTAL_MASK	basic_fb_driver/intelfbhw.h	219;"	d
+HTOTAL_SHIFT	basic_fb_driver/intelfbhw.h	220;"	d
+HWSTAM	basic_fb_driver/intelfbhw.h	91;"	d
+HW_CURSOR_SIZE	basic_fb_driver/intelfb.h	122;"	d
+IER	basic_fb_driver/intelfbhw.h	92;"	d
+IIR	basic_fb_driver/intelfbhw.h	93;"	d
+IMR	basic_fb_driver/intelfbhw.h	94;"	d
+INF_MSG	basic_fb_driver/intelfb.h	97;"	d
+INREG	basic_fb_driver/intelfbhw.h	525;"	d
+INREG16	basic_fb_driver/intelfbhw.h	524;"	d
+INREG8	basic_fb_driver/intelfbhw.h	523;"	d
+INSTDONE	basic_fb_driver/intelfbhw.h	88;"	d
+INSTPM	basic_fb_driver/intelfbhw.h	104;"	d
+INSTPS	basic_fb_driver/intelfbhw.h	107;"	d
+INTELFB_DVO_CHIP_LVDS	basic_fb_driver/intelfb.h	142;"	d
+INTELFB_DVO_CHIP_NONE	basic_fb_driver/intelfb.h	141;"	d
+INTELFB_DVO_CHIP_TMDS	basic_fb_driver/intelfb.h	143;"	d
+INTELFB_DVO_CHIP_TVOUT	basic_fb_driver/intelfb.h	144;"	d
+INTELFB_FB_ACQUIRED	basic_fb_driver/intelfb.h	50;"	d
+INTELFB_MMIO_ACQUIRED	basic_fb_driver/intelfb.h	51;"	d
+INTELFB_MODULE_NAME	basic_fb_driver/intelfb.h	17;"	d
+INTELFB_OUTPUT_ANALOG	basic_fb_driver/intelfb.h	135;"	d
+INTELFB_OUTPUT_DVO	basic_fb_driver/intelfb.h	136;"	d
+INTELFB_OUTPUT_LVDS	basic_fb_driver/intelfb.h	138;"	d
+INTELFB_OUTPUT_PIPE_A	basic_fb_driver/intelfb.h	147;"	d
+INTELFB_OUTPUT_PIPE_B	basic_fb_driver/intelfb.h	148;"	d
+INTELFB_OUTPUT_PIPE_NC	basic_fb_driver/intelfb.h	146;"	d
+INTELFB_OUTPUT_SDVO	basic_fb_driver/intelfb.h	137;"	d
+INTELFB_OUTPUT_TVOUT	basic_fb_driver/intelfb.h	139;"	d
+INTELFB_OUTPUT_UNUSED	basic_fb_driver/intelfb.h	134;"	d
+INTELFB_VERSION	basic_fb_driver/intelfb.h	16;"	d
+INTEL_830M	basic_fb_driver/intelfb.h	/^	INTEL_830M,$/;"	e	enum:intel_chips
+INTEL_830_GMCH_GMS_DISABLED	basic_fb_driver/intelfbhw.h	35;"	d
+INTEL_830_GMCH_GMS_LOCAL	basic_fb_driver/intelfbhw.h	36;"	d
+INTEL_830_GMCH_GMS_MASK	basic_fb_driver/intelfbhw.h	34;"	d
+INTEL_830_GMCH_GMS_STOLEN_1024	basic_fb_driver/intelfbhw.h	38;"	d
+INTEL_830_GMCH_GMS_STOLEN_512	basic_fb_driver/intelfbhw.h	37;"	d
+INTEL_830_GMCH_GMS_STOLEN_8192	basic_fb_driver/intelfbhw.h	39;"	d
+INTEL_845G	basic_fb_driver/intelfb.h	/^	INTEL_845G,$/;"	e	enum:intel_chips
+INTEL_852GM	basic_fb_driver/intelfb.h	/^	INTEL_852GM,$/;"	e	enum:intel_chips
+INTEL_852GME	basic_fb_driver/intelfb.h	/^	INTEL_852GME,$/;"	e	enum:intel_chips
+INTEL_854	basic_fb_driver/intelfb.h	/^	INTEL_854,$/;"	e	enum:intel_chips
+INTEL_855GM	basic_fb_driver/intelfb.h	/^	INTEL_855GM,$/;"	e	enum:intel_chips
+INTEL_855GME	basic_fb_driver/intelfb.h	/^	INTEL_855GME,$/;"	e	enum:intel_chips
+INTEL_855_GMCH_GMS_DISABLED	basic_fb_driver/intelfbhw.h	42;"	d
+INTEL_855_GMCH_GMS_MASK	basic_fb_driver/intelfbhw.h	41;"	d
+INTEL_855_GMCH_GMS_STOLEN_16M	basic_fb_driver/intelfbhw.h	46;"	d
+INTEL_855_GMCH_GMS_STOLEN_1M	basic_fb_driver/intelfbhw.h	43;"	d
+INTEL_855_GMCH_GMS_STOLEN_32M	basic_fb_driver/intelfbhw.h	47;"	d
+INTEL_855_GMCH_GMS_STOLEN_4M	basic_fb_driver/intelfbhw.h	44;"	d
+INTEL_855_GMCH_GMS_STOLEN_8M	basic_fb_driver/intelfbhw.h	45;"	d
+INTEL_85XGM	basic_fb_driver/intelfb.h	/^	INTEL_85XGM,$/;"	e	enum:intel_chips
+INTEL_85X_CAPID	basic_fb_driver/intelfbhw.h	10;"	d
+INTEL_85X_VARIANT_MASK	basic_fb_driver/intelfbhw.h	11;"	d
+INTEL_85X_VARIANT_SHIFT	basic_fb_driver/intelfbhw.h	12;"	d
+INTEL_865G	basic_fb_driver/intelfb.h	/^	INTEL_865G,$/;"	e	enum:intel_chips
+INTEL_915G	basic_fb_driver/intelfb.h	/^	INTEL_915G,$/;"	e	enum:intel_chips
+INTEL_915GM	basic_fb_driver/intelfb.h	/^	INTEL_915GM,$/;"	e	enum:intel_chips
+INTEL_915G_GMCH_GMS_STOLEN_48M	basic_fb_driver/intelfbhw.h	49;"	d
+INTEL_915G_GMCH_GMS_STOLEN_64M	basic_fb_driver/intelfbhw.h	50;"	d
+INTEL_945G	basic_fb_driver/intelfb.h	/^	INTEL_945G,$/;"	e	enum:intel_chips
+INTEL_945GM	basic_fb_driver/intelfb.h	/^	INTEL_945GM,$/;"	e	enum:intel_chips
+INTEL_945GME	basic_fb_driver/intelfb.h	/^	INTEL_945GME,$/;"	e	enum:intel_chips
+INTEL_965G	basic_fb_driver/intelfb.h	/^	INTEL_965G,$/;"	e	enum:intel_chips
+INTEL_965GM	basic_fb_driver/intelfb.h	/^	INTEL_965GM,$/;"	e	enum:intel_chips
+INTEL_GMCH_CTRL	basic_fb_driver/intelfbhw.h	28;"	d
+INTEL_GMCH_ENABLED	basic_fb_driver/intelfbhw.h	29;"	d
+INTEL_GMCH_MEM_128M	basic_fb_driver/intelfbhw.h	32;"	d
+INTEL_GMCH_MEM_64M	basic_fb_driver/intelfbhw.h	31;"	d
+INTEL_GMCH_MEM_MASK	basic_fb_driver/intelfbhw.h	30;"	d
+INTEL_REG_SIZE	basic_fb_driver/intelfb.h	68;"	d
+INTEL_VAR_852GM	basic_fb_driver/intelfbhw.h	16;"	d
+INTEL_VAR_852GME	basic_fb_driver/intelfbhw.h	15;"	d
+INTEL_VAR_855GM	basic_fb_driver/intelfbhw.h	14;"	d
+INTEL_VAR_855GME	basic_fb_driver/intelfbhw.h	13;"	d
+IPEHR	basic_fb_driver/intelfbhw.h	86;"	d
+IS_I9XX	basic_fb_driver/intelfb.h	365;"	d
+InitFb	framebuffer /fb.c	/^void InitFb()$/;"	f
+InitGpio	framebuffer /gpio.c	/^void InitGpio()$/;"	f
+KB	basic_fb_driver/intelfb.h	79;"	d
+KDIR	basic_fb_driver/Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNEL_H	framebuffer /kernel.h	2;"	d
+LVDS	basic_fb_driver/intelfbhw.h	268;"	d
+LVDS_PORT	basic_fb_driver/intelfbhw.h	22;"	d
+MAIL_BASE	framebuffer /fb.c	206;"	d	file:
+MAIL_EMPTY	framebuffer /fb.c	218;"	d	file:
+MAIL_FB	framebuffer /fb.c	220;"	d	file:
+MAIL_FULL	framebuffer /fb.c	216;"	d	file:
+MAIL_READ	framebuffer /fb.c	210;"	d	file:
+MAIL_STATUS	framebuffer /fb.c	212;"	d	file:
+MAIL_WRITE	framebuffer /fb.c	211;"	d	file:
+MASK_SHIFT	basic_fb_driver/intelfbhw.h	111;"	d
+MAX_CLOCK	basic_fb_driver/intelfbhw.h	179;"	d
+MAX_MONO_IMM_SIZE	basic_fb_driver/intelfbhw.h	517;"	d
+MAX_OUTPUTS	basic_fb_driver/intelfb.h	130;"	d
+MB	basic_fb_driver/intelfb.h	80;"	d
+MEM_MODE	basic_fb_driver/intelfbhw.h	109;"	d
+MIN_CLOCK	basic_fb_driver/intelfbhw.h	178;"	d
+MI_END_SCENE	basic_fb_driver/intelfbhw.h	476;"	d
+MI_FLUSH	basic_fb_driver/intelfbhw.h	474;"	d
+MI_INHIBIT_RENDER_CACHE_FLUSH	basic_fb_driver/intelfbhw.h	477;"	d
+MI_INVALIDATE_MAP_CACHE	basic_fb_driver/intelfbhw.h	478;"	d
+MI_NOOP	basic_fb_driver/intelfbhw.h	470;"	d
+MI_NOOP_ID_MASK	basic_fb_driver/intelfbhw.h	472;"	d
+MI_NOOP_WRITE_ID	basic_fb_driver/intelfbhw.h	471;"	d
+MI_STORE_DWORD_IMM	basic_fb_driver/intelfbhw.h	480;"	d
+MI_WRITE_DIRTY_STATE	basic_fb_driver/intelfbhw.h	475;"	d
+MemoryBarrier	framebuffer /start.S	/^MemoryBarrier:$/;"	l
+NOACCEL_CHIPSET	basic_fb_driver/intelfb.h	114;"	d
+NOT_MSG	basic_fb_driver/intelfb.h	96;"	d
+NR_DEVS	basic_fb_driver/ownfb.c	26;"	d	file:
+OUTREG	basic_fb_driver/intelfbhw.h	530;"	d
+OUTREG16	basic_fb_driver/intelfbhw.h	528;"	d
+OUTREG8	basic_fb_driver/intelfbhw.h	526;"	d
+OUT_RING	basic_fb_driver/intelfbhw.h	534;"	d
+PALETTE_10_ENTRIES	basic_fb_driver/intelfbhw.h	193;"	d
+PALETTE_10_SIZE	basic_fb_driver/intelfbhw.h	194;"	d
+PALETTE_8_BLUE_SHIFT	basic_fb_driver/intelfbhw.h	198;"	d
+PALETTE_8_ENTRIES	basic_fb_driver/intelfb.h	73;"	d
+PALETTE_8_ENTRIES	basic_fb_driver/intelfbhw.h	190;"	d
+PALETTE_8_GREEN_SHIFT	basic_fb_driver/intelfbhw.h	197;"	d
+PALETTE_8_MASK	basic_fb_driver/intelfbhw.h	195;"	d
+PALETTE_8_RED_SHIFT	basic_fb_driver/intelfbhw.h	196;"	d
+PALETTE_8_SIZE	basic_fb_driver/intelfbhw.h	192;"	d
+PALETTE_A	basic_fb_driver/intelfbhw.h	187;"	d
+PALETTE_B	basic_fb_driver/intelfbhw.h	188;"	d
+PAT_ROP_GXCOPY	basic_fb_driver/intelfbhw.h	508;"	d
+PAT_ROP_GXXOR	basic_fb_driver/intelfbhw.h	509;"	d
+PCI_DEVICE_ID_INTEL_830M	basic_fb_driver/intelfb.h	54;"	d
+PCI_DEVICE_ID_INTEL_845G	basic_fb_driver/intelfb.h	55;"	d
+PCI_DEVICE_ID_INTEL_854	basic_fb_driver/intelfb.h	57;"	d
+PCI_DEVICE_ID_INTEL_85XGM	basic_fb_driver/intelfb.h	56;"	d
+PCI_DEVICE_ID_INTEL_865G	basic_fb_driver/intelfb.h	58;"	d
+PCI_DEVICE_ID_INTEL_915G	basic_fb_driver/intelfb.h	59;"	d
+PCI_DEVICE_ID_INTEL_915GM	basic_fb_driver/intelfb.h	60;"	d
+PCI_DEVICE_ID_INTEL_945G	basic_fb_driver/intelfb.h	61;"	d
+PCI_DEVICE_ID_INTEL_945GM	basic_fb_driver/intelfb.h	62;"	d
+PCI_DEVICE_ID_INTEL_945GME	basic_fb_driver/intelfb.h	63;"	d
+PCI_DEVICE_ID_INTEL_965G	basic_fb_driver/intelfb.h	64;"	d
+PCI_DEVICE_ID_INTEL_965GM	basic_fb_driver/intelfb.h	65;"	d
+PERIPHERAL_BASE	framebuffer /kernel.c	6;"	d	file:
+PFX	basic_fb_driver/intelfb.h	92;"	d
+PIPEACONF	basic_fb_driver/intelfbhw.h	281;"	d
+PIPEASTAT	basic_fb_driver/intelfbhw.h	283;"	d
+PIPEA_DSL	basic_fb_driver/intelfbhw.h	279;"	d
+PIPEBCONF	basic_fb_driver/intelfbhw.h	282;"	d
+PIPEBSTAT	basic_fb_driver/intelfbhw.h	284;"	d
+PIPEB_DSL	basic_fb_driver/intelfbhw.h	280;"	d
+PIPECONF_DISABLE	basic_fb_driver/intelfbhw.h	287;"	d
+PIPECONF_DOUBLE_WIDE	basic_fb_driver/intelfbhw.h	288;"	d
+PIPECONF_ENABLE	basic_fb_driver/intelfbhw.h	286;"	d
+PIPECONF_GAMMA	basic_fb_driver/intelfbhw.h	292;"	d
+PIPECONF_INTERLACE_FIELD_0_ONLY	basic_fb_driver/intelfbhw.h	296;"	d
+PIPECONF_INTERLACE_MASK	basic_fb_driver/intelfbhw.h	297;"	d
+PIPECONF_INTERLACE_W_FIELD_INDICATION	basic_fb_driver/intelfbhw.h	295;"	d
+PIPECONF_LOCKED	basic_fb_driver/intelfbhw.h	290;"	d
+PIPECONF_PALETTE	basic_fb_driver/intelfbhw.h	293;"	d
+PIPECONF_PROGRESSIVE	basic_fb_driver/intelfbhw.h	294;"	d
+PIPECONF_SINGLE_WIDE	basic_fb_driver/intelfbhw.h	289;"	d
+PIPECONF_UNLOCKED	basic_fb_driver/intelfbhw.h	291;"	d
+PIPESTAT_CRC_DONE	basic_fb_driver/intelfbhw.h	314;"	d
+PIPESTAT_CRC_DONE_EN	basic_fb_driver/intelfbhw.h	302;"	d
+PIPESTAT_CRC_ERROR	basic_fb_driver/intelfbhw.h	313;"	d
+PIPESTAT_CRC_ERROR_EN	basic_fb_driver/intelfbhw.h	301;"	d
+PIPESTAT_DISPLINE_COMP	basic_fb_driver/intelfbhw.h	317;"	d
+PIPESTAT_DISPLINE_COMP_EN	basic_fb_driver/intelfbhw.h	305;"	d
+PIPESTAT_FIFO_UNDERRUN	basic_fb_driver/intelfbhw.h	300;"	d
+PIPESTAT_FLD_EVT_EVEN	basic_fb_driver/intelfbhw.h	319;"	d
+PIPESTAT_FLD_EVT_EVEN_EN	basic_fb_driver/intelfbhw.h	307;"	d
+PIPESTAT_FLD_EVT_ODD	basic_fb_driver/intelfbhw.h	318;"	d
+PIPESTAT_FLD_EVT_ODD_EN	basic_fb_driver/intelfbhw.h	306;"	d
+PIPESTAT_HOTPLUG	basic_fb_driver/intelfbhw.h	315;"	d
+PIPESTAT_HOTPLUG_EN	basic_fb_driver/intelfbhw.h	303;"	d
+PIPESTAT_HOTPLUG_STATE	basic_fb_driver/intelfbhw.h	312;"	d
+PIPESTAT_OVL_UPDATE	basic_fb_driver/intelfbhw.h	322;"	d
+PIPESTAT_OVL_UPDATE_EN	basic_fb_driver/intelfbhw.h	310;"	d
+PIPESTAT_TV_HOTPLUG	basic_fb_driver/intelfbhw.h	320;"	d
+PIPESTAT_TV_HOTPLUG_EN	basic_fb_driver/intelfbhw.h	308;"	d
+PIPESTAT_VBLANK	basic_fb_driver/intelfbhw.h	321;"	d
+PIPESTAT_VBLANK_EN	basic_fb_driver/intelfbhw.h	309;"	d
+PIPESTAT_VERTICAL_SYNC_EN	basic_fb_driver/intelfbhw.h	304;"	d
+PIPESTAT_VSYNC	basic_fb_driver/intelfbhw.h	316;"	d
+PIPE_A	basic_fb_driver/intelfbhw.h	182;"	d
+PIPE_A_EVENT_INTERRUPT	basic_fb_driver/intelfbhw.h	96;"	d
+PIPE_B	basic_fb_driver/intelfbhw.h	183;"	d
+PIPE_B_EVENT_INTERRUPT	basic_fb_driver/intelfbhw.h	98;"	d
+PIPE_MASK	basic_fb_driver/intelfbhw.h	184;"	d
+PITCH_SHIFT	basic_fb_driver/intelfbhw.h	511;"	d
+PLL_REFCLK	basic_fb_driver/intelfbhw.h	177;"	d
+PORT_ENABLE	basic_fb_driver/intelfbhw.h	269;"	d
+PORT_PIPE_SELECT_SHIFT	basic_fb_driver/intelfbhw.h	270;"	d
+PORT_TV_FLAGS	basic_fb_driver/intelfbhw.h	272;"	d
+PORT_TV_FLAGS_MASK	basic_fb_driver/intelfbhw.h	271;"	d
+PREFERRED_MODE	basic_fb_driver/intelfb.h	44;"	d
+PRI_RING_EMPTY	basic_fb_driver/intelfbhw.h	89;"	d
+PRI_RING_HEAD	basic_fb_driver/intelfbhw.h	63;"	d
+PRI_RING_LENGTH	basic_fb_driver/intelfbhw.h	71;"	d
+PRI_RING_START	basic_fb_driver/intelfbhw.h	68;"	d
+PRI_RING_TAIL	basic_fb_driver/intelfbhw.h	59;"	d
+PWD	basic_fb_driver/Makefile	/^PWD:=$(shell pwd)$/;"	m
+PrintChar	framebuffer /fb.c	/^static void PrintChar(char c)$/;"	f	file:
+PrintString	framebuffer /fb.c	/^void PrintString(const char *str)$/;"	f
+REGDUMP	basic_fb_driver/intelfb.h	32;"	d
+RINGBUFFER_SIZE	basic_fb_driver/intelfb.h	121;"	d
+RING_ENABLE	basic_fb_driver/intelfbhw.h	78;"	d
+RING_HEAD_MASK	basic_fb_driver/intelfbhw.h	66;"	d
+RING_HEAD_WRAP_MASK	basic_fb_driver/intelfbhw.h	64;"	d
+RING_HEAD_WRAP_SHIFT	basic_fb_driver/intelfbhw.h	65;"	d
+RING_INUSE	basic_fb_driver/intelfbhw.h	61;"	d
+RING_LENGTH_MASK	basic_fb_driver/intelfbhw.h	72;"	d
+RING_MIN_FREE	basic_fb_driver/intelfbhw.h	84;"	d
+RING_NO_REPORT	basic_fb_driver/intelfbhw.h	74;"	d
+RING_REPORT_128K	basic_fb_driver/intelfbhw.h	77;"	d
+RING_REPORT_4K	basic_fb_driver/intelfbhw.h	76;"	d
+RING_REPORT_64K	basic_fb_driver/intelfbhw.h	75;"	d
+RING_REPORT_MASK	basic_fb_driver/intelfbhw.h	73;"	d
+RING_START_MASK	basic_fb_driver/intelfbhw.h	69;"	d
+RING_TAIL_MASK	basic_fb_driver/intelfbhw.h	60;"	d
+ROP_SHIFT	basic_fb_driver/intelfbhw.h	512;"	d
+ROUND_DOWN_TO	basic_fb_driver/intelfb.h	87;"	d
+ROUND_DOWN_TO_PAGE	basic_fb_driver/intelfb.h	89;"	d
+ROUND_UP_TO	basic_fb_driver/intelfb.h	86;"	d
+ROUND_UP_TO_PAGE	basic_fb_driver/intelfb.h	88;"	d
+ReadGpio	framebuffer /gpio.c	/^int ReadGpio()$/;"	f
+ReadMmReg32	framebuffer /kernel.c	/^uint32_t ReadMmReg32(uint32_t base, uint32_t reg)$/;"	f
+SETUP_BLT_CMD	basic_fb_driver/intelfbhw.h	492;"	d
+SRC_COPY_BLT_CMD	basic_fb_driver/intelfbhw.h	487;"	d
+SRC_ROP_GXCOPY	basic_fb_driver/intelfbhw.h	505;"	d
+SRC_ROP_GXXOR	basic_fb_driver/intelfbhw.h	506;"	d
+SRC_SIZE_A	basic_fb_driver/intelfbhw.h	207;"	d
+SRC_SIZE_B	basic_fb_driver/intelfbhw.h	216;"	d
+SRC_SIZE_HORIZ_MASK	basic_fb_driver/intelfbhw.h	243;"	d
+SRC_SIZE_HORIZ_SHIFT	basic_fb_driver/intelfbhw.h	244;"	d
+SRC_SIZE_VERT_MASK	basic_fb_driver/intelfbhw.h	245;"	d
+SRC_SIZE_VERT_SHIFT	basic_fb_driver/intelfbhw.h	246;"	d
+START_RING	basic_fb_driver/intelfbhw.h	540;"	d
+STRIDE_ALIGNMENT	basic_fb_driver/intelfb.h	70;"	d
+STRIDE_ALIGNMENT_I9XX	basic_fb_driver/intelfb.h	71;"	d
+SUPPORTED_CHIPSETS	basic_fb_driver/intelfb.h	18;"	d
+SWF0	basic_fb_driver/intelfbhw.h	440;"	d
+SWF00	basic_fb_driver/intelfbhw.h	449;"	d
+SWF01	basic_fb_driver/intelfbhw.h	450;"	d
+SWF02	basic_fb_driver/intelfbhw.h	451;"	d
+SWF03	basic_fb_driver/intelfbhw.h	452;"	d
+SWF04	basic_fb_driver/intelfbhw.h	453;"	d
+SWF05	basic_fb_driver/intelfbhw.h	454;"	d
+SWF06	basic_fb_driver/intelfbhw.h	455;"	d
+SWF1	basic_fb_driver/intelfbhw.h	441;"	d
+SWF10	basic_fb_driver/intelfbhw.h	457;"	d
+SWF11	basic_fb_driver/intelfbhw.h	458;"	d
+SWF12	basic_fb_driver/intelfbhw.h	459;"	d
+SWF13	basic_fb_driver/intelfbhw.h	460;"	d
+SWF14	basic_fb_driver/intelfbhw.h	461;"	d
+SWF15	basic_fb_driver/intelfbhw.h	462;"	d
+SWF16	basic_fb_driver/intelfbhw.h	463;"	d
+SWF2	basic_fb_driver/intelfbhw.h	442;"	d
+SWF3	basic_fb_driver/intelfbhw.h	443;"	d
+SWF30	basic_fb_driver/intelfbhw.h	465;"	d
+SWF31	basic_fb_driver/intelfbhw.h	466;"	d
+SWF32	basic_fb_driver/intelfbhw.h	467;"	d
+SWF4	basic_fb_driver/intelfbhw.h	444;"	d
+SWF5	basic_fb_driver/intelfbhw.h	445;"	d
+SWF6	basic_fb_driver/intelfbhw.h	446;"	d
+SYNC_FLUSH_ENABLE	basic_fb_driver/intelfbhw.h	105;"	d
+SetStandardColourChar	framebuffer /fb.c	/^static void SetStandardColourChar(char c, struct FrameBufferCharacter *fbc)$/;"	f	file:
+TXT_IMM_BLT_CMD	basic_fb_driver/intelfbhw.h	491;"	d
+ToC	framebuffer /chars/chars.c	/^int ToC()$/;"	f
+TryInitFb	framebuffer /fb.c	/^static int TryInitFb()$/;"	f	file:
+USER_DEFINED_INTERRUPT	basic_fb_driver/intelfbhw.h	101;"	d
+UpdateFb	framebuffer /fb.c	/^static void UpdateFb()$/;"	f	file:
+VACTIVE_MASK	basic_fb_driver/intelfbhw.h	233;"	d
+VACTIVE_SHIFT	basic_fb_driver/intelfbhw.h	234;"	d
+VBLANKEND_MASK	basic_fb_driver/intelfbhw.h	235;"	d
+VBLANKEND_SHIFT	basic_fb_driver/intelfbhw.h	236;"	d
+VBLANKSTART_MASK	basic_fb_driver/intelfbhw.h	237;"	d
+VBLANKSTART_SHIFT	basic_fb_driver/intelfbhw.h	238;"	d
+VBLANK_A	basic_fb_driver/intelfbhw.h	205;"	d
+VBLANK_B	basic_fb_driver/intelfbhw.h	214;"	d
+VERBOSE	basic_fb_driver/intelfb.h	28;"	d
+VERT_SEED	basic_fb_driver/intelfbhw.h	498;"	d
+VGA0_DIVISOR	basic_fb_driver/intelfbhw.h	137;"	d
+VGA1_DIVISOR	basic_fb_driver/intelfbhw.h	138;"	d
+VGACNTRL	basic_fb_driver/intelfbhw.h	425;"	d
+VGAPD	basic_fb_driver/intelfbhw.h	139;"	d
+VGAPD_0_P1_FORCE_DIV2	basic_fb_driver/intelfbhw.h	141;"	d
+VGAPD_0_P1_SHIFT	basic_fb_driver/intelfbhw.h	140;"	d
+VGAPD_0_P2_SHIFT	basic_fb_driver/intelfbhw.h	142;"	d
+VGAPD_1_P1_FORCE_DIV2	basic_fb_driver/intelfbhw.h	144;"	d
+VGAPD_1_P1_SHIFT	basic_fb_driver/intelfbhw.h	143;"	d
+VGAPD_1_P2_SHIFT	basic_fb_driver/intelfbhw.h	145;"	d
+VGA_6BIT_DAC	basic_fb_driver/intelfbhw.h	433;"	d
+VGA_8BIT_DAC	basic_fb_driver/intelfbhw.h	434;"	d
+VGA_DISABLE	basic_fb_driver/intelfbhw.h	426;"	d
+VGA_ENABLE	basic_fb_driver/intelfbhw.h	427;"	d
+VGA_LEGACY_PALETTE	basic_fb_driver/intelfbhw.h	432;"	d
+VGA_PALETTE_A_WRITE_DISABLE	basic_fb_driver/intelfbhw.h	430;"	d
+VGA_PALETTE_B_WRITE_DISABLE	basic_fb_driver/intelfbhw.h	431;"	d
+VGA_PALETTE_READ_SELECT	basic_fb_driver/intelfbhw.h	429;"	d
+VGA_PIPE_SELECT_SHIFT	basic_fb_driver/intelfbhw.h	428;"	d
+VSYNCEND_MASK	basic_fb_driver/intelfbhw.h	239;"	d
+VSYNCEND_SHIFT	basic_fb_driver/intelfbhw.h	240;"	d
+VSYNCSTART_MASK	basic_fb_driver/intelfbhw.h	241;"	d
+VSYNCSTART_SHIFT	basic_fb_driver/intelfbhw.h	242;"	d
+VSYNC_A	basic_fb_driver/intelfbhw.h	206;"	d
+VSYNC_B	basic_fb_driver/intelfbhw.h	215;"	d
+VSYNC_PIPE_A_INTERRUPT	basic_fb_driver/intelfbhw.h	95;"	d
+VSYNC_PIPE_B_INTERRUPT	basic_fb_driver/intelfbhw.h	97;"	d
+VTOTAL_A	basic_fb_driver/intelfbhw.h	204;"	d
+VTOTAL_B	basic_fb_driver/intelfbhw.h	213;"	d
+VTOTAL_MASK	basic_fb_driver/intelfbhw.h	231;"	d
+VTOTAL_SHIFT	basic_fb_driver/intelfbhw.h	232;"	d
+VcToArm	framebuffer /kernel.c	/^void *VcToArm(uint32_t p)$/;"	f
+WIDTH_SHIFT	basic_fb_driver/intelfbhw.h	513;"	d
+WRITE_ALPHA	basic_fb_driver/intelfbhw.h	496;"	d
+WRITE_RGB	basic_fb_driver/intelfbhw.h	497;"	d
+WRN_MSG	basic_fb_driver/intelfb.h	95;"	d
+WaitSomeTime	framebuffer /kernel.c	/^void WaitSomeTime(int n)$/;"	f
+WriteGpio	framebuffer /gpio.c	/^void WriteGpio(int value)$/;"	f
+WriteMmReg32	framebuffer /kernel.c	/^void WriteMmReg32(uint32_t base, uint32_t reg, uint32_t value)$/;"	f
+XY_COLOR_BLT_CMD	basic_fb_driver/intelfbhw.h	484;"	d
+XY_MONO_PAT_BLT_CMD	basic_fb_driver/intelfbhw.h	488;"	d
+XY_MONO_SRC_BLT_CMD	basic_fb_driver/intelfbhw.h	489;"	d
+XY_MONO_SRC_IMM_BLT_CMD	basic_fb_driver/intelfbhw.h	490;"	d
+XY_SETUP_CLIP_BLT_CMD	basic_fb_driver/intelfbhw.h	485;"	d
+XY_SRC_COPY_BLT_CMD	basic_fb_driver/intelfbhw.h	486;"	d
+_INTELFBHW_H	basic_fb_driver/intelfbhw.h	2;"	d
+_INTELFB_H	basic_fb_driver/intelfb.h	3;"	d
+__cached_gcc_-print-file-name_include	basic_fb_driver/.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/4.8\/include$/;"	m
+__this_module	basic_fb_driver/ownfb.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	basic_fb_driver/ownfb.mod.c	/^__used$/;"	v	file:
+__used	basic_fb_driver/ownfb.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+accel	basic_fb_driver/intelfb.h	/^	int accel;$/;"	m	struct:intelfb_info
+accel_flags	fb_var_info.c	/^    __u32 accel_flags;      \/* (OBSOLETE) see fb_info.flags *\/$/;"	m	struct:fb_var_screeninfo	file:
+activate	fb_var_info.c	/^    __u32 activate;         \/* see FB_ACTIVATE_*        *\/$/;"	m	struct:fb_var_screeninfo	file:
+adapter	basic_fb_driver/intelfb.h	/^    struct i2c_adapter adapter;$/;"	m	struct:intelfb_i2c_chan	typeref:struct:intelfb_i2c_chan::i2c_adapter
+add_id	basic_fb_driver/intelfb.h	/^	u32 add_id;$/;"	m	struct:intelfb_hwstate
+addr	basic_fb_driver/ownfb.c	/^unsigned long addr, size;$/;"	v
+adpa	basic_fb_driver/intelfb.h	/^	u32 adpa;$/;"	m	struct:intelfb_hwstate
+algo	basic_fb_driver/intelfb.h	/^    struct i2c_algo_bit_data algo;$/;"	m	struct:intelfb_i2c_chan	typeref:struct:intelfb_i2c_chan::i2c_algo_bit_data
+aperture	basic_fb_driver/intelfb.h	/^	struct intelfb_heap_data aperture;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_heap_data
+b	framebuffer /start.S	/^b entry$/;"	l
+bclrpat_a	basic_fb_driver/intelfb.h	/^	u32 bclrpat_a;$/;"	m	struct:intelfb_hwstate
+bclrpat_b	basic_fb_driver/intelfb.h	/^	u32 bclrpat_b;$/;"	m	struct:intelfb_hwstate
+bgb	framebuffer /fb.c	/^	unsigned char bgb;$/;"	m	struct:FrameBufferCharacter	file:
+bgg	framebuffer /fb.c	/^	unsigned char bgg;$/;"	m	struct:FrameBufferCharacter	file:
+bgr	framebuffer /fb.c	/^	unsigned char bgr;$/;"	m	struct:FrameBufferCharacter	file:
+bits_per_pixel	fb_var_info.c	/^    __u32 bits_per_pixel;       \/* guess what           *\/$/;"	m	struct:fb_var_screeninfo	file:
+blue	fb_var_info.c	/^    struct fb_bitfield blue;$/;"	m	struct:fb_var_screeninfo	typeref:struct:fb_var_screeninfo::fb_bitfield	file:
+bpp	basic_fb_driver/intelfb.h	/^	int bpp, depth;$/;"	m	struct:intelfb_info
+c	framebuffer /fb.c	/^	char c;$/;"	m	struct:FrameBufferCharacter	file:
+cb	framebuffer /fb.c	/^	struct FrameBufferCharacter *cb;$/;"	m	struct:FrameBufferInfo	typeref:struct:FrameBufferInfo::FrameBufferCharacter	file:
+cbheight	framebuffer /fb.c	/^	unsigned int cbheight; \/\/height in characters$/;"	m	struct:FrameBufferInfo	file:
+cbwidth	framebuffer /fb.c	/^	unsigned int cbwidth; \/\/width in characters$/;"	m	struct:FrameBufferInfo	file:
+char_cols	framebuffer /chars/chars.c	/^static const unsigned int char_cols = 26;$/;"	v	file:
+char_height	framebuffer /chars/chars.c	/^static const unsigned int char_height = 16;$/;"	v	file:
+char_index	framebuffer /chars/chars.c	/^static const char *char_index =$/;"	v	file:
+char_rows	framebuffer /chars/chars.c	/^static const unsigned int char_rows = 4;$/;"	v	file:
+char_width	framebuffer /chars/chars.c	/^static const unsigned int char_width = 8;$/;"	v	file:
+charpix	framebuffer /fb.c	/^	unsigned char *charpix; \/\/Character pixels$/;"	m	struct:FrameBufferInfo	file:
+chipset	basic_fb_driver/intelfb.h	/^	int chipset;$/;"	m	struct:intelfb_info
+colorspace	fb_var_info.c	/^    __u32 colorspace;       \/* colorspace for FOURCC-based modes *\/$/;"	m	struct:fb_var_screeninfo	file:
+count	basic_fb_driver/intelfb.h	/^	unsigned int count;$/;"	m	struct:intelfb_vsync
+cursor	basic_fb_driver/intelfb.h	/^	struct intelfb_heap_data cursor;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_heap_data
+cursor_a_base	basic_fb_driver/intelfb.h	/^	u32 cursor_a_base;$/;"	m	struct:intelfb_hwstate
+cursor_a_control	basic_fb_driver/intelfb.h	/^	u32 cursor_a_control;$/;"	m	struct:intelfb_hwstate
+cursor_a_palette	basic_fb_driver/intelfb.h	/^	u32 cursor_a_palette[4];$/;"	m	struct:intelfb_hwstate
+cursor_b_base	basic_fb_driver/intelfb.h	/^	u32 cursor_b_base;$/;"	m	struct:intelfb_hwstate
+cursor_b_control	basic_fb_driver/intelfb.h	/^	u32 cursor_b_control;$/;"	m	struct:intelfb_hwstate
+cursor_b_palette	basic_fb_driver/intelfb.h	/^	u32 cursor_b_palette[4];$/;"	m	struct:intelfb_hwstate
+cursor_blanked	basic_fb_driver/intelfb.h	/^	int cursor_blanked;$/;"	m	struct:intelfb_info
+cursor_on	basic_fb_driver/intelfb.h	/^	int cursor_on;$/;"	m	struct:intelfb_info
+cursor_size	basic_fb_driver/intelfb.h	/^	u32 cursor_size;$/;"	m	struct:intelfb_hwstate
+cursor_src	basic_fb_driver/intelfb.h	/^	u8  cursor_src[64];$/;"	m	struct:intelfb_info
+ddc_bus	basic_fb_driver/intelfb.h	/^    struct intelfb_i2c_chan ddc_bus;$/;"	m	struct:intelfb_output_rec	typeref:struct:intelfb_output_rec::intelfb_i2c_chan
+depth	basic_fb_driver/intelfb.h	/^	int bpp, depth;$/;"	m	struct:intelfb_info
+depth	framebuffer /fb.c	/^	uint32_t depth; \/\/Bits per pixel; set to 24$/;"	m	struct:Bcm2835FrameBuffer	file:
+devname	basic_fb_driver/ownfb.c	/^char *devname ; \/\/contains device name                                          $/;"	v
+dinfo	basic_fb_driver/intelfb.h	/^    struct intelfb_info *dinfo;$/;"	m	struct:intelfb_i2c_chan	typeref:struct:intelfb_i2c_chan::intelfb_info
+disp_a_base	basic_fb_driver/intelfb.h	/^	u32 disp_a_base;$/;"	m	struct:intelfb_hwstate
+disp_a_ctrl	basic_fb_driver/intelfb.h	/^	u32 disp_a_ctrl;$/;"	m	struct:intelfb_hwstate
+disp_a_stride	basic_fb_driver/intelfb.h	/^	u32 disp_a_stride;$/;"	m	struct:intelfb_hwstate
+disp_arb	basic_fb_driver/intelfb.h	/^	u32 disp_arb;$/;"	m	struct:intelfb_hwstate
+disp_b_base	basic_fb_driver/intelfb.h	/^	u32 disp_b_base;$/;"	m	struct:intelfb_hwstate
+disp_b_ctrl	basic_fb_driver/intelfb.h	/^	u32 disp_b_ctrl;$/;"	m	struct:intelfb_hwstate
+disp_b_stride	basic_fb_driver/intelfb.h	/^	u32 disp_b_stride;$/;"	m	struct:intelfb_hwstate
+dpll_a	basic_fb_driver/intelfb.h	/^	u32 dpll_a;$/;"	m	struct:intelfb_hwstate
+dpll_b	basic_fb_driver/intelfb.h	/^	u32 dpll_b;$/;"	m	struct:intelfb_hwstate
+dvoa	basic_fb_driver/intelfb.h	/^	u32 dvoa;$/;"	m	struct:intelfb_hwstate
+dvoa_srcdim	basic_fb_driver/intelfb.h	/^	u32 dvoa_srcdim;$/;"	m	struct:intelfb_hwstate
+dvob	basic_fb_driver/intelfb.h	/^	u32 dvob;$/;"	m	struct:intelfb_hwstate
+dvob_srcdim	basic_fb_driver/intelfb.h	/^	u32 dvob_srcdim;$/;"	m	struct:intelfb_hwstate
+dvoc	basic_fb_driver/intelfb.h	/^	u32 dvoc;$/;"	m	struct:intelfb_hwstate
+dvoc_srcdim	basic_fb_driver/intelfb.h	/^	u32 dvoc_srcdim;$/;"	m	struct:intelfb_hwstate
+entry	framebuffer /start.S	/^entry:$/;"	l
+fb	basic_fb_driver/intelfb.h	/^	struct intelfb_heap_data fb;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_heap_data
+fb_start	basic_fb_driver/intelfb.h	/^	u32 fb_start;$/;"	m	struct:intelfb_info
+fb_var_screeninfo	fb_var_info.c	/^struct fb_var_screeninfo {$/;"	s	file:
+fbinfo	framebuffer /fb.c	/^struct FrameBufferInfo fbinfo;$/;"	v	typeref:struct:FrameBufferInfo
+fbmem_gart	basic_fb_driver/intelfb.h	/^	u8 fbmem_gart;$/;"	m	struct:intelfb_info
+fbops	basic_fb_driver/intelfb.h	/^	struct fb_ops  *fbops;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::fb_ops
+fence	basic_fb_driver/intelfb.h	/^	u32 fence[8];$/;"	m	struct:intelfb_hwstate
+fgb	framebuffer /fb.c	/^	unsigned char fgb;$/;"	m	struct:FrameBufferCharacter	file:
+fgg	framebuffer /fb.c	/^	unsigned char fgg;$/;"	m	struct:FrameBufferCharacter	file:
+fgr	framebuffer /fb.c	/^	unsigned char fgr;$/;"	m	struct:FrameBufferCharacter	file:
+fixed_mode	basic_fb_driver/intelfb.h	/^	int fixed_mode;$/;"	m	struct:intelfb_info
+flag	basic_fb_driver/intelfb.h	/^	int flag;$/;"	m	struct:intelfb_info
+flags	basic_fb_driver/intelfb.h	/^    int flags;$/;"	m	struct:intelfb_output_rec
+fops	basic_fb_driver/ownfb.c	/^struct file_operations fops = {                                                 $/;"	v	typeref:struct:file_operations
+fpa0	basic_fb_driver/intelfb.h	/^	u32 fpa0;$/;"	m	struct:intelfb_hwstate
+fpa1	basic_fb_driver/intelfb.h	/^	u32 fpa1;$/;"	m	struct:intelfb_hwstate
+fpb0	basic_fb_driver/intelfb.h	/^	u32 fpb0;$/;"	m	struct:intelfb_hwstate
+fpb1	basic_fb_driver/intelfb.h	/^	u32 fpb1;$/;"	m	struct:intelfb_hwstate
+fw_blc_0	basic_fb_driver/intelfb.h	/^	u32 fw_blc_0;$/;"	m	struct:intelfb_hwstate
+fw_blc_1	basic_fb_driver/intelfb.h	/^	u32 fw_blc_1;$/;"	m	struct:intelfb_hwstate
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3__-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1__-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-fno-delete-null-pointer-checks_____-O2_-Wno-maybe-uninitialized_--param_allow-store-data-races_0	basic_fb_driver/.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3__-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1__-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-fno-delete-null-pointer-checks_____-O2_-Wno-maybe-uninitialized_--param_allow-store-data-races_0 := y$/;"	m
+gcc-version.sh_-p_gcc	basic_fb_driver/.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_-p_gcc := 040804$/;"	m
+gcc-version.sh_gcc	basic_fb_driver/.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0408$/;"	m
+grayscale	fb_var_info.c	/^    __u32 grayscale;        \/* 0 = color, 1 = grayscale,    *\/$/;"	m	struct:fb_var_screeninfo	file:
+green	fb_var_info.c	/^    struct fb_bitfield green;   \/* else only length is significant *\/$/;"	m	struct:fb_var_screeninfo	typeref:struct:fb_var_screeninfo::fb_bitfield	file:
+gtt_cursor_mem	basic_fb_driver/intelfb.h	/^	struct agp_memory *gtt_cursor_mem; \/* hw cursor *\/$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::agp_memory
+gtt_fb_mem	basic_fb_driver/intelfb.h	/^	struct agp_memory *gtt_fb_mem;     \/* use all stolen memory or vram *\/$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::agp_memory
+gtt_ring_mem	basic_fb_driver/intelfb.h	/^	struct agp_memory *gtt_ring_mem;   \/* ring buffer *\/$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::agp_memory
+hblank_a	basic_fb_driver/intelfb.h	/^	u32 hblank_a;$/;"	m	struct:intelfb_hwstate
+hblank_b	basic_fb_driver/intelfb.h	/^	u32 hblank_b;$/;"	m	struct:intelfb_hwstate
+height	fb_var_info.c	/^    __u32 height;           \/* height of picture in mm    *\/$/;"	m	struct:fb_var_screeninfo	file:
+height	framebuffer /fb.c	/^	uint32_t height; \/\/Height of the frame buffer$/;"	m	struct:Bcm2835FrameBuffer	file:
+height	framebuffer /fb.c	/^	unsigned int height;$/;"	m	struct:FrameBufferInfo	file:
+hsync_a	basic_fb_driver/intelfb.h	/^	u32 hsync_a;$/;"	m	struct:intelfb_hwstate
+hsync_b	basic_fb_driver/intelfb.h	/^	u32 hsync_b;$/;"	m	struct:intelfb_hwstate
+hsync_len	fb_var_info.c	/^    __u32 hsync_len;        \/* length of horizontal sync    *\/$/;"	m	struct:fb_var_screeninfo	file:
+htotal_a	basic_fb_driver/intelfb.h	/^	u32 htotal_a;$/;"	m	struct:intelfb_hwstate
+htotal_b	basic_fb_driver/intelfb.h	/^	u32 htotal_b;$/;"	m	struct:intelfb_hwstate
+hwcursor	basic_fb_driver/intelfb.h	/^	int hwcursor;$/;"	m	struct:intelfb_info
+hwstam	basic_fb_driver/intelfb.h	/^	u16 hwstam;$/;"	m	struct:intelfb_hwstate
+i2c_bus	basic_fb_driver/intelfb.h	/^    struct intelfb_i2c_chan i2c_bus;$/;"	m	struct:intelfb_output_rec	typeref:struct:intelfb_output_rec::intelfb_i2c_chan
+ier	basic_fb_driver/intelfb.h	/^	u16 ier;$/;"	m	struct:intelfb_hwstate
+iir	basic_fb_driver/intelfb.h	/^	u16 iir;$/;"	m	struct:intelfb_hwstate
+imr	basic_fb_driver/intelfb.h	/^	u16 imr;$/;"	m	struct:intelfb_hwstate
+info	basic_fb_driver/intelfb.h	/^	struct fb_info *info;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::fb_info
+initial_fb_base	basic_fb_driver/intelfb.h	/^	u32 initial_fb_base;$/;"	m	struct:intelfb_info
+initial_pitch	basic_fb_driver/intelfb.h	/^	u32 initial_pitch;$/;"	m	struct:intelfb_info
+initial_var	basic_fb_driver/intelfb.h	/^	struct fb_var_screeninfo initial_var;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::fb_var_screeninfo
+initial_vga	basic_fb_driver/intelfb.h	/^	int initial_vga;$/;"	m	struct:intelfb_info
+initial_video_ram	basic_fb_driver/intelfb.h	/^	u32 initial_video_ram;$/;"	m	struct:intelfb_info
+instpm	basic_fb_driver/intelfb.h	/^	u32 instpm;$/;"	m	struct:intelfb_hwstate
+int_lock	basic_fb_driver/intelfb.h	/^	spinlock_t int_lock;$/;"	m	struct:intelfb_info
+intel_chips	basic_fb_driver/intelfb.h	/^enum intel_chips {$/;"	g
+intelfb_heap_data	basic_fb_driver/intelfb.h	/^struct intelfb_heap_data {$/;"	s
+intelfb_hwstate	basic_fb_driver/intelfb.h	/^struct intelfb_hwstate {$/;"	s
+intelfb_i2c_chan	basic_fb_driver/intelfb.h	/^struct intelfb_i2c_chan {$/;"	s
+intelfb_info	basic_fb_driver/intelfb.h	/^struct intelfb_info {$/;"	s
+intelfb_output_rec	basic_fb_driver/intelfb.h	/^struct intelfb_output_rec {$/;"	s
+intelfb_vsync	basic_fb_driver/intelfb.h	/^struct intelfb_vsync {$/;"	s
+irq_flags	basic_fb_driver/intelfb.h	/^	unsigned long irq_flags;$/;"	m	struct:intelfb_info
+kmain	framebuffer /main.c	/^void kmain()$/;"	f
+left_margin	fb_var_info.c	/^    __u32 left_margin;      \/* time from sync to picture    *\/$/;"	m	struct:fb_var_screeninfo	file:
+line_pos	framebuffer /fb.c	/^	unsigned int line_pos; \/\/The position within the line of the cursor$/;"	m	struct:FrameBufferInfo	file:
+lower_margin	fb_var_info.c	/^    __u32 lower_margin;$/;"	m	struct:fb_var_screeninfo	file:
+lvds	basic_fb_driver/intelfb.h	/^	u32 lvds;$/;"	m	struct:intelfb_hwstate
+m_FBFD	fbtest1.c	/^int     m_FBFD;$/;"	v
+m_FixInfo	fbtest1.c	/^struct  fb_fix_screeninfo m_FixInfo;$/;"	v	typeref:struct:fb_fix_screeninfo
+m_FrameBuffer	fbtest1.c	/^void*   m_FrameBuffer;$/;"	v
+m_VarInfo	fbtest1.c	/^struct  fb_var_screeninfo m_VarInfo;$/;"	v	typeref:struct:fb_var_screeninfo
+main	app_stack.c	/^int main()$/;"	f
+main	basic_fb_driver/fb_app.c	/^int main()$/;"	f
+main	fb_screeninfo.c	/^int main()$/;"	f
+main	fb_var_info.c	/^int main()$/;"	f
+main	fbtest1.c	/^int main() {$/;"	f
+main	fbtest2.c	/^int main()$/;"	f
+main	framebuffer /chars/chars.c	/^int main(int argc, const char **argv)$/;"	f
+main	framebuffer.c	/^int main()$/;"	f
+majNo	basic_fb_driver/ownfb.c	/^int majNo ;                                                                     $/;"	v
+mbox_read	framebuffer /fb.c	/^static uint32_t mbox_read()$/;"	f	file:
+mbox_write	framebuffer /fb.c	/^static void mbox_write(uint32_t v)$/;"	f	file:
+mem_mode	basic_fb_driver/intelfb.h	/^	u32 mem_mode;$/;"	m	struct:intelfb_hwstate
+memcpy	framebuffer /kernel.c	/^void *memcpy(void *dest, const void *src, size_t count)$/;"	f
+mmio_base	basic_fb_driver/intelfb.h	/^	u8 __iomem *mmio_base;$/;"	m	struct:intelfb_info
+mmio_base_phys	basic_fb_driver/intelfb.h	/^	u32 mmio_base_phys;$/;"	m	struct:intelfb_info
+mobile	basic_fb_driver/intelfb.h	/^	int mobile;$/;"	m	struct:intelfb_info
+my_cdev	basic_fb_driver/ownfb.c	/^struct cdev *my_cdev ; \/\/holds character device driver descriptor    $/;"	v	typeref:struct:cdev
+mychar_class	basic_fb_driver/ownfb.c	/^ static struct class *mychar_class ;                                             $/;"	v	typeref:struct:class	file:
+mychar_device	basic_fb_driver/ownfb.c	/^ static struct device *mychar_device ;$/;"	v	typeref:struct:device	file:
+mydev	basic_fb_driver/ownfb.c	/^static dev_t mydev ; \/\/encodes major number & minor number device               $/;"	v	file:
+name	basic_fb_driver/intelfb.h	/^	const char *name;$/;"	m	struct:intelfb_info
+nonstd	fb_var_info.c	/^    __u32 nonstd;           \/* != 0 Non standard pixel format *\/$/;"	m	struct:fb_var_screeninfo	file:
+num_outputs	basic_fb_driver/intelfb.h	/^	int num_outputs;$/;"	m	struct:intelfb_info
+obj-m	basic_fb_driver/Makefile	/^obj-m:= ownfb.o $/;"	m
+offset	basic_fb_driver/intelfb.h	/^	u32 offset;		\/* in GATT pages *\/$/;"	m	struct:intelfb_heap_data
+open	basic_fb_driver/intelfb.h	/^	int open;$/;"	m	struct:intelfb_info
+ourfb_driver	basic_fb_driver/ownfb.c	/^static struct pci_driver ourfb_driver = {$/;"	v	typeref:struct:pci_driver	file:
+ourfb_exit	basic_fb_driver/ownfb.c	/^module_exit(ourfb_exit);$/;"	v
+ourfb_exit	basic_fb_driver/ownfb.c	/^static void __exit ourfb_exit(void)$/;"	f	file:
+ourfb_init	basic_fb_driver/ownfb.c	/^module_init(ourfb_init);$/;"	v
+ourfb_init	basic_fb_driver/ownfb.c	/^static int __init ourfb_init(void)$/;"	f	file:
+ourfb_ops	basic_fb_driver/ownfb.c	/^static struct fb_ops ourfb_ops = {$/;"	v	typeref:struct:fb_ops	file:
+ourfb_pci_init	basic_fb_driver/ownfb.c	/^static int ourfb_pci_init(struct pci_dev *dev, const struct pci_device_id *ent)$/;"	f	file:
+ourfb_pci_remove	basic_fb_driver/ownfb.c	/^static void ourfb_pci_remove(struct pci_dev *dp)$/;"	f	file:
+ourfb_pci_tbl	basic_fb_driver/ownfb.c	/^static struct pci_device_id ourfb_pci_tbl[] = {$/;"	v	typeref:struct:pci_device_id	file:
+output	basic_fb_driver/intelfb.h	/^	struct intelfb_output_rec output[MAX_OUTPUTS];$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_output_rec
+palette_a	basic_fb_driver/intelfb.h	/^	u32 palette_a[PALETTE_8_ENTRIES];$/;"	m	struct:intelfb_hwstate
+palette_b	basic_fb_driver/intelfb.h	/^	u32 palette_b[PALETTE_8_ENTRIES];$/;"	m	struct:intelfb_hwstate
+pan_display	basic_fb_driver/intelfb.h	/^	int pan_display;$/;"	m	struct:intelfb_vsync
+pan_offset	basic_fb_driver/intelfb.h	/^	u32 pan_offset;$/;"	m	struct:intelfb_vsync
+parse	fb_var_info.c	/^void parse( struct fb_var_screeninfo var )$/;"	f
+pci_chipset	basic_fb_driver/intelfb.h	/^	int pci_chipset;$/;"	m	struct:intelfb_info
+pdev	basic_fb_driver/intelfb.h	/^	struct pci_dev *pdev;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::pci_dev
+physical	basic_fb_driver/intelfb.h	/^	u32 physical;$/;"	m	struct:intelfb_heap_data
+pipe	basic_fb_driver/intelfb.h	/^	int pipe;$/;"	m	struct:intelfb_info
+pipe	basic_fb_driver/intelfb.h	/^    int pipe;$/;"	m	struct:intelfb_output_rec
+pipe_a_conf	basic_fb_driver/intelfb.h	/^	u32 pipe_a_conf;$/;"	m	struct:intelfb_hwstate
+pipe_b_conf	basic_fb_driver/intelfb.h	/^	u32 pipe_b_conf;$/;"	m	struct:intelfb_hwstate
+pitch	basic_fb_driver/intelfb.h	/^	int xres, yres, pitch;$/;"	m	struct:intelfb_info
+pitch	framebuffer /fb.c	/^	uint32_t pitch; \/\/GPU fills this in; set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+pitch	framebuffer /fb.c	/^	unsigned int pitch; \/\/BCM2835 has this separate, so we use this instead of witdh$/;"	m	struct:FrameBufferInfo	file:
+pixclock	basic_fb_driver/intelfb.h	/^	int pixclock;$/;"	m	struct:intelfb_info
+pixclock	fb_var_info.c	/^    __u32 pixclock;         \/* pixel clock in ps (pico seconds) *\/$/;"	m	struct:fb_var_screeninfo	file:
+pll_index	basic_fb_driver/intelfb.h	/^	int pll_index;$/;"	m	struct:intelfb_info
+pointer	framebuffer /fb.c	/^	uint32_t pointer; \/\/GPU fills this in to be a pointer to the frame buffer$/;"	m	struct:Bcm2835FrameBuffer	file:
+pointer	framebuffer /fb.c	/^	volatile unsigned char *pointer;$/;"	m	struct:FrameBufferInfo	file:
+pseudo_palette	basic_fb_driver/intelfb.h	/^	u32 pseudo_palette[16];$/;"	m	struct:intelfb_info
+red	fb_var_info.c	/^    struct fb_bitfield red;     \/* bitfield in fb mem if true color, *\/$/;"	m	struct:fb_var_screeninfo	typeref:struct:fb_var_screeninfo::fb_bitfield	file:
+reg	basic_fb_driver/intelfb.h	/^    u32 reg;$/;"	m	struct:intelfb_i2c_chan
+registered	basic_fb_driver/intelfb.h	/^	int registered;$/;"	m	struct:intelfb_info
+reserved	fb_var_info.c	/^    __u32 reserved[4];      \/* Reserved for future compatibility *\/$/;"	m	struct:fb_var_screeninfo	file:
+right_margin	fb_var_info.c	/^    __u32 right_margin;     \/* time from picture to sync    *\/$/;"	m	struct:fb_var_screeninfo	file:
+ring	basic_fb_driver/intelfb.h	/^	struct intelfb_heap_data ring;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_heap_data
+ring_active	basic_fb_driver/intelfb.h	/^	int ring_active;$/;"	m	struct:intelfb_info
+ring_head	basic_fb_driver/intelfb.h	/^	u32 ring_head;$/;"	m	struct:intelfb_info
+ring_lockup	basic_fb_driver/intelfb.h	/^	u32 ring_lockup;$/;"	m	struct:intelfb_info
+ring_space	basic_fb_driver/intelfb.h	/^	u32 ring_space;$/;"	m	struct:intelfb_info
+ring_tail	basic_fb_driver/intelfb.h	/^	u32 ring_tail;$/;"	m	struct:intelfb_info
+ring_tail_mask	basic_fb_driver/intelfb.h	/^	u32 ring_tail_mask;$/;"	m	struct:intelfb_info
+rotate	fb_var_info.c	/^    __u32 rotate;           \/* angle we rotate counter clockwise *\/$/;"	m	struct:fb_var_screeninfo	file:
+save_state	basic_fb_driver/intelfb.h	/^	struct intelfb_hwstate save_state;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_hwstate
+size	basic_fb_driver/intelfb.h	/^	u32 size;		\/* in bytes *\/$/;"	m	struct:intelfb_heap_data
+size	basic_fb_driver/ownfb.c	/^unsigned long addr, size;$/;"	v
+size	framebuffer /fb.c	/^	uint32_t size; \/\/GPU fills this in \/\/TODO: Finish$/;"	m	struct:Bcm2835FrameBuffer	file:
+src_size_a	basic_fb_driver/intelfb.h	/^	u32 src_size_a;$/;"	m	struct:intelfb_hwstate
+src_size_b	basic_fb_driver/intelfb.h	/^	u32 src_size_b;$/;"	m	struct:intelfb_hwstate
+swf0x	basic_fb_driver/intelfb.h	/^	u32 swf0x[7];$/;"	m	struct:intelfb_hwstate
+swf1x	basic_fb_driver/intelfb.h	/^	u32 swf1x[7];$/;"	m	struct:intelfb_hwstate
+swf3x	basic_fb_driver/intelfb.h	/^	u32 swf3x[3];$/;"	m	struct:intelfb_hwstate
+sync	fb_var_info.c	/^    __u32 sync;         \/* see FB_SYNC_*        *\/$/;"	m	struct:fb_var_screeninfo	file:
+transp	fb_var_info.c	/^    struct fb_bitfield transp;  \/* transparency         *\/$/;"	m	struct:fb_var_screeninfo	typeref:struct:fb_var_screeninfo::fb_bitfield	file:
+type	basic_fb_driver/intelfb.h	/^    int type;$/;"	m	struct:intelfb_output_rec
+upper_margin	fb_var_info.c	/^    __u32 upper_margin;     \/* time from sync to picture    *\/$/;"	m	struct:fb_var_screeninfo	file:
+vblank_a	basic_fb_driver/intelfb.h	/^	u32 vblank_a;$/;"	m	struct:intelfb_hwstate
+vblank_b	basic_fb_driver/intelfb.h	/^	u32 vblank_b;$/;"	m	struct:intelfb_hwstate
+vga0_divisor	basic_fb_driver/intelfb.h	/^	u32 vga0_divisor;$/;"	m	struct:intelfb_hwstate
+vga1_divisor	basic_fb_driver/intelfb.h	/^	u32 vga1_divisor;$/;"	m	struct:intelfb_hwstate
+vga_pd	basic_fb_driver/intelfb.h	/^	u32 vga_pd;$/;"	m	struct:intelfb_hwstate
+vgacntrl	basic_fb_driver/intelfb.h	/^	u32 vgacntrl;$/;"	m	struct:intelfb_hwstate
+vheight	framebuffer /fb.c	/^	uint32_t vheight; \/\/Simplest thing to do is to set vheight = height$/;"	m	struct:Bcm2835FrameBuffer	file:
+visual	basic_fb_driver/intelfb.h	/^	u32 visual;$/;"	m	struct:intelfb_info
+vmode	fb_var_info.c	/^    __u32 vmode;            \/* see FB_VMODE_*       *\/$/;"	m	struct:fb_var_screeninfo	file:
+vsync	basic_fb_driver/intelfb.h	/^	struct intelfb_vsync vsync;$/;"	m	struct:intelfb_info	typeref:struct:intelfb_info::intelfb_vsync
+vsync_a	basic_fb_driver/intelfb.h	/^	u32 vsync_a;$/;"	m	struct:intelfb_hwstate
+vsync_b	basic_fb_driver/intelfb.h	/^	u32 vsync_b;$/;"	m	struct:intelfb_hwstate
+vsync_len	fb_var_info.c	/^    __u32 vsync_len;        \/* length of vertical sync  *\/$/;"	m	struct:fb_var_screeninfo	file:
+vtotal_a	basic_fb_driver/intelfb.h	/^	u32 vtotal_a;$/;"	m	struct:intelfb_hwstate
+vtotal_b	basic_fb_driver/intelfb.h	/^	u32 vtotal_b;$/;"	m	struct:intelfb_hwstate
+vwidth	framebuffer /fb.c	/^	uint32_t vwidth; \/\/Simplest thing to do is to set vwidth = width$/;"	m	struct:Bcm2835FrameBuffer	file:
+wait	basic_fb_driver/intelfb.h	/^	wait_queue_head_t wait;$/;"	m	struct:intelfb_vsync
+wc_cookie	basic_fb_driver/intelfb.h	/^	int wc_cookie;$/;"	m	struct:intelfb_info
+width	fb_var_info.c	/^    __u32 width;            \/* width of picture in mm     *\/$/;"	m	struct:fb_var_screeninfo	file:
+width	framebuffer /fb.c	/^	uint32_t width; \/\/Width of the frame buffer (pixels)$/;"	m	struct:Bcm2835FrameBuffer	file:
+width	framebuffer /fb.c	/^	unsigned int width;$/;"	m	struct:FrameBufferInfo	file:
+x	framebuffer /fb.c	/^	uint32_t x; \/\/Offset in x direction. Simplest thing to do is set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+xoffs	framebuffer /fb.c	/^	unsigned int xoffs; \/\/x offset$/;"	m	struct:FrameBufferInfo	file:
+xoffset	fb_var_info.c	/^    __u32 xoffset;          \/* offset from virtual to visible *\/$/;"	m	struct:fb_var_screeninfo	file:
+xres	basic_fb_driver/intelfb.h	/^	int xres, yres, pitch;$/;"	m	struct:intelfb_info
+xres	fb_var_info.c	/^    __u32 xres;         \/* visible resolution       *\/$/;"	m	struct:fb_var_screeninfo	file:
+xres_virtual	fb_var_info.c	/^    __u32 xres_virtual;     \/* virtual resolution       *\/$/;"	m	struct:fb_var_screeninfo	file:
+y	framebuffer /fb.c	/^	uint32_t y; \/\/Offset in y direction. Simplest thing to do is set to zero$/;"	m	struct:Bcm2835FrameBuffer	file:
+yoffs	framebuffer /fb.c	/^	unsigned int yoffs; \/\/y offset$/;"	m	struct:FrameBufferInfo	file:
+yoffset	fb_var_info.c	/^    __u32 yoffset;          \/* resolution           *\/$/;"	m	struct:fb_var_screeninfo	file:
+yres	basic_fb_driver/intelfb.h	/^	int xres, yres, pitch;$/;"	m	struct:intelfb_info
+yres	fb_var_info.c	/^    __u32 yres;$/;"	m	struct:fb_var_screeninfo	file:
+yres_virtual	fb_var_info.c	/^    __u32 yres_virtual;$/;"	m	struct:fb_var_screeninfo	file:

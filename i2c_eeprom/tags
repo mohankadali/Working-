@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FILE_NAME	i2c_eeprom_app.c	12;"	d	file:
+FILE_NAME	i2c_eeprom_appioctl.c	13;"	d	file:
+buf	i2c_eeprom2.c	/^char buf[256];$/;"	m	struct:user_info	file:
+buf	i2c_eeprom_appioctl.c	/^char buf[256];$/;"	m	struct:user_info	file:
+cdev	i2c_eeprom2.c	/^	struct cdev cdev;$/;"	m	struct:eeprom_data	typeref:struct:eeprom_data::cdev	file:
+class	i2c_eeprom2.c	/^	struct class *class;$/;"	m	struct:eeprom_data	typeref:struct:eeprom_data::class	file:
+client	i2c_eeprom2.c	/^	struct i2c_client *client;$/;"	m	struct:eeprom_data	typeref:struct:eeprom_data::i2c_client	file:
+count	i2c_eeprom2.c	/^int count;$/;"	m	struct:user_info	file:
+count	i2c_eeprom_appioctl.c	/^int count;$/;"	m	struct:user_info	file:
+devname	i2c_eeprom2.c	27;"	d	file:
+devt	i2c_eeprom2.c	/^	dev_t devt;$/;"	m	struct:eeprom_data	file:
+eeprom_array	i2c_eeprom2.c	/^char eeprom_array[20]="try_proc_array\\n";$/;"	v
+eeprom_attr	i2c_eeprom2.c	/^struct kobj_attribute eeprom_attr = __ATTR(eeprom_value, 0660, sysfs_show, sysfs_store);$/;"	v	typeref:struct:kobj_attribute
+eeprom_close	i2c_eeprom2.c	/^static int eeprom_close(struct inode *inode, struct file *file)$/;"	f	file:
+eeprom_data	i2c_eeprom2.c	/^struct eeprom_data {$/;"	s	file:
+eeprom_driver	i2c_eeprom2.c	/^static struct i2c_driver eeprom_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+eeprom_exit	i2c_eeprom2.c	/^module_exit(eeprom_exit);$/;"	v
+eeprom_exit	i2c_eeprom2.c	/^static void __exit eeprom_exit(void)$/;"	f	file:
+eeprom_ids	i2c_eeprom2.c	/^static const struct i2c_device_id eeprom_ids[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+eeprom_init	i2c_eeprom2.c	/^module_init(eeprom_init);$/;"	v
+eeprom_init	i2c_eeprom2.c	/^static int __init eeprom_init(void)$/;"	f	file:
+eeprom_ioctl	i2c_eeprom2.c	/^static ssize_t eeprom_ioctl(struct file *file, int cmd, struct user_info *user)$/;"	f	file:
+eeprom_open	i2c_eeprom2.c	/^static int eeprom_open(struct inode *inode, struct file *file)$/;"	f	file:
+eeprom_probe	i2c_eeprom2.c	/^static int eeprom_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+eeprom_read	i2c_eeprom2.c	/^static ssize_t eeprom_read(struct file* file, char *buf, size_t count, loff_t *pos) $/;"	f	file:
+eeprom_remove	i2c_eeprom2.c	/^static int eeprom_remove(struct i2c_client *client)$/;"	f	file:
+eeprom_value	i2c_eeprom2.c	/^volatile int eeprom_value = 0;$/;"	v
+eeprom_write	i2c_eeprom2.c	/^static ssize_t eeprom_write(struct file* file, const char *buf, size_t count, loff_t *pos)$/;"	f	file:
+fops	i2c_eeprom2.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+kobj_ref	i2c_eeprom2.c	/^struct kobject *kobj_ref;$/;"	v	typeref:struct:kobject
+main	i2c_eeprom_app.c	/^int main(void) $/;"	f
+main	i2c_eeprom_appioctl.c	/^int main(void) $/;"	f
+open_proc	i2c_eeprom2.c	/^static int open_proc(struct inode *inode, struct file *file)$/;"	f	file:
+pos	i2c_eeprom2.c	/^int pos;$/;"	m	struct:user_info	file:
+pos	i2c_eeprom_appioctl.c	/^int pos;$/;"	m	struct:user_info	file:
+proc_fops	i2c_eeprom2.c	/^static struct file_operations proc_fops = {$/;"	v	typeref:struct:file_operations	file:
+proclen	i2c_eeprom2.c	/^static int proclen = 1;$/;"	v	file:
+read_proc	i2c_eeprom2.c	/^static ssize_t read_proc(struct file *filp, char __user *buffer, size_t length,loff_t * offset)$/;"	f	file:
+release_proc	i2c_eeprom2.c	/^static int release_proc(struct inode *inode, struct file *file)$/;"	f	file:
+sysfs_show	i2c_eeprom2.c	/^static ssize_t sysfs_show(struct kobject *kobj, $/;"	f	file:
+sysfs_store	i2c_eeprom2.c	/^static ssize_t sysfs_store(struct kobject *kobj, $/;"	f	file:
+user_info	i2c_eeprom2.c	/^struct user_info$/;"	s	file:
+user_info	i2c_eeprom_appioctl.c	/^struct user_info $/;"	s	file:
+write_buff	i2c_eeprom2.c	/^	u8 *write_buff;$/;"	m	struct:eeprom_data	file:
+write_max	i2c_eeprom2.c	/^	u16 write_max;$/;"	m	struct:eeprom_data	file:
+write_proc	i2c_eeprom2.c	/^static ssize_t write_proc(struct file *filp, const char *buff, size_t len, loff_t * off)$/;"	f	file:

@@ -1,0 +1,1 @@
+cmd_/Backup/MOHAN/framebuffer/basic_fb_driver/ownfb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /Backup/MOHAN/framebuffer/basic_fb_driver/ownfb.ko /Backup/MOHAN/framebuffer/basic_fb_driver/ownfb.o /Backup/MOHAN/framebuffer/basic_fb_driver/ownfb.mod.o ;  true

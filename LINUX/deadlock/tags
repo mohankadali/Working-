@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+amount	deadlock_1.c	/^  int amount;$/;"	m	struct:__anon2	file:
+amount	deadlock_avoid_1.c	/^  int amount;$/;"	m	struct:__anon4	file:
+balance	deadlock_1.c	/^  int balance;$/;"	m	struct:__anon1	file:
+balance	deadlock_avoid_1.c	/^  int balance;$/;"	m	struct:__anon3	file:
+balance_mutex	deadlock_1.c	/^  pthread_mutex_t balance_mutex;$/;"	m	struct:__anon1	file:
+balance_mutex	deadlock_avoid_1.c	/^  pthread_mutex_t balance_mutex;$/;"	m	struct:__anon3	file:
+bank_account	deadlock_1.c	/^} bank_account;$/;"	t	typeref:struct:__anon1	file:
+bank_account	deadlock_avoid_1.c	/^} bank_account;$/;"	t	typeref:struct:__anon3	file:
+create_bank_account	deadlock_1.c	/^void create_bank_account(bank_account **ba, int initial_amount) {$/;"	f
+create_bank_account	deadlock_avoid_1.c	/^void create_bank_account(bank_account **ba, int initial_amount) {$/;"	f
+deposit	deadlock_1.c	/^void *deposit(void *ptr) {$/;"	f
+deposit	deadlock_avoid_1.c	/^void *deposit(void *ptr) {$/;"	f
+deposit_thr_args	deadlock_1.c	/^} deposit_thr_args;$/;"	t	typeref:struct:__anon2	file:
+deposit_thr_args	deadlock_avoid_1.c	/^} deposit_thr_args;$/;"	t	typeref:struct:__anon4	file:
+from	deadlock_1.c	/^  bank_account *from;$/;"	m	struct:__anon2	file:
+from	deadlock_avoid_1.c	/^  bank_account *from;$/;"	m	struct:__anon4	file:
+global_id	deadlock_avoid_1.c	/^unsigned int global_id = 1;$/;"	v
+id	deadlock_avoid_1.c	/^  unsigned int id; \/* Should never be changed after initialized *\/$/;"	m	struct:__anon3	file:
+main	deadlock_1.c	/^int main(void) {$/;"	f
+main	deadlock_2.c	/^main() {$/;"	f
+main	deadlock_avoid_1.c	/^int main(void) {$/;"	f
+main	deadlock_avoid_2.c	/^main() {$/;"	f
+read	deadlock_2.c	/^void* read(void *temp) {$/;"	f
+read	deadlock_avoid_2.c	/^void* read(void *temp) {$/;"	f
+read_mutex	deadlock_2.c	/^pthread_mutex_t read_mutex;$/;"	v
+read_mutex	deadlock_avoid_2.c	/^pthread_mutex_t read_mutex;$/;"	v
+to	deadlock_1.c	/^  bank_account *to;$/;"	m	struct:__anon2	file:
+to	deadlock_avoid_1.c	/^  bank_account *to;$/;"	m	struct:__anon4	file:
+write	deadlock_2.c	/^void* write(void *temp) {$/;"	f
+write	deadlock_avoid_2.c	/^void* write(void *temp) {$/;"	f
+write_mutex	deadlock_2.c	/^pthread_mutex_t write_mutex;$/;"	v
+write_mutex	deadlock_avoid_2.c	/^pthread_mutex_t write_mutex;$/;"	v

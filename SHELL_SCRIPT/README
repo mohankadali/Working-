@@ -1,0 +1,23 @@
+
+shebang (#!):
+    
+    * This is used by the shell to decide which interpreter to run the rest of the script, and ignored by the shell that actually runs the script. 
+
+comments (#): 
+
+    * # is used for writing the commnets 
+
+Variables:
+    
+    * if you want to write longer scripts that reference paths often, you probably want to utilize variables. 
+    * SOURCEDIR=/home/user/Documents/
+    * DESTDIR=/media/diskid/user_backup/Documents/
+
+echo,read :
+    
+    * echo is used to print on display
+    * read is like a scanf
+
+    
+
+

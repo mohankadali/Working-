@@ -1,0 +1,32 @@
+#include<stdio.h> 
+typedef struct link {
+    struct link *next;
+    struct link *prev;
+}LINK;
+
+typedef struct task {
+    int a;
+    struct link tasks;
+    int b;
+}TASK;
+
+
+    
+int main()
+{
+  LINK  *head = malloc(sizeof(LINK));
+printf("%d\n",sizeof(LINK));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

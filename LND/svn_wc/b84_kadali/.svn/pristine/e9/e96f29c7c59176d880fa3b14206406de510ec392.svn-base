@@ -1,0 +1,26 @@
+#include<linux/init.h>
+#include<linux/module.h>
+#include<linux/fs.h>
+#include<linux/sched.h>
+#include<linux/cdev.h>
+#include<asm/uaccess.h>
+#include<linux/device.h>
+#include<linux/slab.h>
+
+MODULE_LICENSE("Dual BSD/GPL");
+
+/** Constants **/
+#define FIRST_MINOR 0
+#define NR_DEVS 1       //Number of device numbers
+//extern long  myioctl(struct file * fp , unsigned int request ,unsigned long arc);
+
+
+int myRelease(struct inode *in, struct file *fp)
+{
+	printk(KERN_INFO "Open sun");
+	
+
+    return 0;
+}
+
+EXPORT_SYMBOL(myRelease);

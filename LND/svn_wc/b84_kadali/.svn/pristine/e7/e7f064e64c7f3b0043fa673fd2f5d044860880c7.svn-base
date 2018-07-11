@@ -1,0 +1,3 @@
+0x48077bdf	myioctl	/home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod1	EXPORT_SYMBOL
+0xa2b6fdcb	myRelease	/home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod3	EXPORT_SYMBOL
+0xeeb95ef1	myOpen	/home/mohana/svn_wc/b84_kadali/Linux/Assignments/ITOS/modprobe/kmod2	EXPORT_SYMBOL

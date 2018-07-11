@@ -1,0 +1,17 @@
+In order to allocate memory from kernel various types APIs are used.
+1) void* kmalloc( size_t size,int flags);
+2) void *vmalloc(unsigned long  size);
+
+Kmalloc() is use to allocate memory requested from the kernel.
+The memory allocated is returned by the API and it is physically as well virtually contiguous.
+The defintion of kmalloc is usually found in <slab.h> header file.
+
+
+
+
+Vmalloc() is used to allocate memory from the kernel.
+The memory allocated is virtually contiguous but not physically contiguous.
+The major advantage of vmalloc is that if enough physical contiguous memory is not available 
+then it will allocate memory virtually in chunks and will link that memory 
+so it appears to be virtually contiguous.
+

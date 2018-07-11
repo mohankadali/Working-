@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include"header.h"
+int main(void)
+{
+	char *str;
+	char s_buff[MAX], d_buff[MAX], buff[MAX];
+	char *ch, *num, *address;
+	int n, qn;
+	printf("enter question number\n");
+	fgets(str, 3, stdin);
+	qn=atoi(str);
+	switch(qn) {
+		case 1:
+			printf("enter a string\n");
+			fgets(s_buff, MAX, stdin);
+			str_copy(d_buff, s_buff);
+			fputs(d_buff, stdout);
+			break;
+		case 2:
+			printf("enter a string\n");
+			fgets(s_buff, MAX, stdin);
+			printf("how many letters you want to copy\n");
+			fgets(num,4,stdin);
+			n = atoi(num);
+			strn_copy(d_buff, s_buff,n);
+			fputs(d_buff, stdout);
+			printf("\n");
+			break;
+		case 3:
+			printf("enter sting\n");
+			fgets(buff, MAX, stdin);
+			printf("which char address you want in this string\n");
+			fgets(&ch,2,stdin);
+			address=char_addr_instr(buff, ch);
+			printf("address of the char in string is %p\n",address);
+			break;
+
+	}
+}

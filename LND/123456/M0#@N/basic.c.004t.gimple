@@ -1,0 +1,15 @@
+main ()
+{
+  char s[20];
+
+  try
+    {
+      s = "hello world";
+    }
+  finally
+    {
+      s = {CLOBBER};
+    }
+}
+
+

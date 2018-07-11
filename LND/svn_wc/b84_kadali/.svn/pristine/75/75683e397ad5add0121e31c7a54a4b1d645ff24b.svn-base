@@ -1,0 +1,1 @@
+cmd_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.ko /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o

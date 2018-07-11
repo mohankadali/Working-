@@ -1,0 +1,1 @@
+extern gvar =20;

@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIT_LENGTH	header.h	4;"	d
+CC	Makefile	/^CC = gcc #compiler to use$/;"	m
+INCLUDES	Makefile	/^INCLUDES = -I .$/;"	m
+MAX	header.h	2;"	d
+OBJS	Makefile	/^OBJS =  *.c   $/;"	m
+OPTION	Makefile	/^OPTION = -o2 -g -Wall$/;"	m
+ass_1	1.c	/^int ass_1 ( void ){$/;"	f
+ass_10	10.c	/^int ass_10 ( void ){$/;"	f
+ass_11	11.c	/^int ass_11 ( ) {$/;"	f
+ass_2	2.c	/^int ass_2 ( void ){$/;"	f
+ass_3	3.c	/^int ass_3 ( void ){     $/;"	f
+bit_swap1	1.c	/^int bit_swap1 ( int num , int s , int d ){                      \/\/function definition called function$/;"	f
+bit_swap10	10.c	/^int bit_swap10 ( int x , int p , int num , int y ){             \/\/ called function......$/;"	f
+bit_swap2	2.c	/^int bit_swap2 ( int snum , int s , int dnum , int d ){   \/\/called function   $/;"	f
+bit_swap3	3.c	/^int bit_swap3 ( int snum , int s , int dnum , int d , int num ){   \/\/called function$/;"	f
+bit_ts	header.h	133;"	d
+clear_leftmost_set	header.h	75;"	d
+clear_range_bits	header.h	102;"	d
+clear_rightmost_set	header.h	65;"	d
+cnt_leading_cleared_bits	8.c	/^int cnt_leading_cleared_bits(int num){$/;"	f
+cnt_leading_set_bits	8.c	/^int cnt_leading_set_bits(int num){              \/\/called function$/;"	f
+cnt_trailing_cleared_bits	8.c	/^int cnt_trailing_cleared_bits ( int num ){      \/\/called function$/;"	f
+cnt_trailing_set_bits	8.c	/^int cnt_trailing_set_bits (int num){            \/\/called function$/;"	f
+count	7.c	/^int count ( void ){$/;"	f
+count_bit_clear	7.c	/^int count_bit_clear(int num){                               \/\/called function$/;"	f
+count_bit_set	7.c	/^int count_bit_set(int num){                                 \/\/  called function $/;"	f
+even_bit_toggle	4.c	/^int even_bit_toggle ( int num ){                               \/\/called function$/;"	f
+invert	11.c	/^int invert (int x , int p , int num ){                     \/\/called function$/;"	f
+leading	8.c	/^int leading(){$/;"	f
+left_adjusted	header.h	131;"	d
+left_rotate_bits	6.c	/^unsigned int left_rotate_bits(unsigned int num){            \/\/called function$/;"	f
+left_rotate_n_bits	6.c	/^unsigned int left_rotate_n_bits ( unsigned int num , int n ){       \/\/called function$/;"	f
+main	main.c	/^int main( )                              \/\/ main starts from here     $/;"	f
+max_min_nums	header.h	53;"	d
+odd_bit_toggle	4.c	/^int odd_bit_toggle ( int num ){$/;"	f
+right_rotate_bits	6.c	/^unsigned int right_rotate_bits(unsigned int num){           \/\/called function for right rorate bits$/;"	f
+right_rotate_n_bits	6.c	/^unsigned int right_rotate_n_bits ( unsigned int num , int n ){  \/\/called function for right rotate bits$/;"	f
+rotate	6.c	/^int rotate ( ){$/;"	f
+set_leftmost_clear	header.h	85;"	d
+set_range_bits	header.h	94;"	d
+set_rightmost_clear	header.h	70;"	d
+toggle	4.c	/^int toggle ( ) {$/;"	f
+toggle_range_bits	header.h	110;"	d

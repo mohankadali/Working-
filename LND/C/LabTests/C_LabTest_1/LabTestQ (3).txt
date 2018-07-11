@@ -1,0 +1,2 @@
+3. Implement memcpy function.
+Check whether the given number is palindrome or not using bitwise operators.

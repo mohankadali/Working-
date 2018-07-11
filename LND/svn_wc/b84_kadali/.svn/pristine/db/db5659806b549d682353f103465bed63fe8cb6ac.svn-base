@@ -1,0 +1,166 @@
+#include<stdio.h> 
+#include<stdlib.h>
+#define MAX 10
+typedef struct st
+{
+    int r;
+    struct  st *next ;
+}ST;
+void add_begin(ST **ptr)
+{
+    ST *temp;
+    temp = (ST*) malloc(sizeof(ST));
+    printf("enter the data...\n");
+    scanf("%d",&temp->r);
+    if(*ptr == 0)
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+    else
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+}
+
+void add_end(ST **ptr)
+{
+    ST *temp;
+    temp = (ST*) malloc(sizeof(ST));
+    printf("enter the data...\n");
+    scanf("%d",&temp->r);
+    if(*ptr == 0)
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+    else
+    {
+        ST *temp1 = *ptr;
+        while(temp1->next)
+        {
+            temp1= temp1->next;
+        }
+        temp->next = temp1->next;
+        temp1->next = temp;
+    }
+}
+
+void add_middle(ST **ptr)
+{
+    ST *temp;
+    temp = (ST*) malloc(sizeof(ST));
+    printf("enter the data...\n");
+    scanf("%d",&temp->r);
+    if(*ptr == 0 || (*ptr)->r > temp->r)
+    {
+        temp->next = *ptr;
+        *ptr = temp;
+    }
+    else
+    {
+        ST *temp1 = *ptr;
+        while(temp1)
+        {
+            if( temp1->next == 0 || temp1->next->r > temp->r )
+            {
+                temp->next = temp1->next;
+                temp1->next = temp;
+                break;
+            }    
+            temp1= temp1->next;
+        }
+    }
+}
+void rev(ST **ptr)
+{
+    ST *pri = 0,*cur = 0,*nex= *ptr; 
+    while(nex)
+    {
+        cur = nex;
+        nex = cur->next;
+        cur->next = pri;
+        pri = cur;
+    }
+    *ptr = cur; 
+}
+void display(ST *ptr)
+{
+    while(ptr)
+    {
+        printf("%d ",ptr->r);
+        ptr = ptr->next;
+    }
+    printf("\n");
+}
+void print_middle(ST *ptr)
+{
+    ST *slow = ptr;
+    ST *fast = ptr;
+    while(fast && fast->next)
+    {
+        slow = slow ->next;
+        fast = fast ->next->next;
+    }
+    printf("middle node = %d\n",slow->r);
+}
+
+void circular(ST *ptr)
+{
+    // An empty linked list is circular
+    if (ptr == NULL)
+        printf("yessss...\n");
+
+    // Next of head
+    ST *temp = ptr->next;
+
+    // This loop would stope in both cases (1) If
+    // Circular (2) Not circular
+    while (temp != NULL && temp != ptr)
+        temp = temp->next;
+
+    // If loop stopped because of circular
+    // condition
+    if(temp == ptr)
+        printf("yesss...\n");
+    else
+        printf("no,this is not a circular...\n");
+
+}
+
+
+ST* recrev(ST *ptr)
+{
+    ST *temp;
+
+    if(ptr == 0 || ptr -> next ==0)
+        return ptr;
+    temp = recrev (ptr->next);
+    ptr->next->next = ptr;
+    ptr->next = NULL;
+    return temp;
+}
+
+
+int main()
+{
+
+    ST *ptr = NULL, *ptr1;
+    char ch;
+    do
+    {
+        add_middle (&ptr);
+        printf ("enter y if u want to add more....\n");
+        scanf (" %c",&ch);
+    } while (ch == 'y');
+    display (ptr);
+    rev (&ptr);
+    display (ptr);
+    print_middle (ptr);
+    circular (ptr);
+    ptr1 = recrev (ptr);
+    display (ptr1);
+    return 0;
+}
+

@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Assignment1	Makefile	/^Assignment1 =  main_Ass1.c local_data_fork.c  global_data_fork.c open_file_before_fork.c $/;"	m
+Assignment1	pthread/Makefile	/^Assignment1 =  main_Ass1.c$/;"	m
+Assignment2	Makefile	/^Assignment2 =  main_Ass2.c local_data_vfork.c  global_data_vfork.c open_file_before_vfork.c$/;"	m
+Assignment2	pthread/Makefile	/^Assignment2 =  main_Ass2.c process_create_process.c process_create_thread.c thread_create_process.c thread_create_thread.c$/;"	m
+Assignment3	Makefile	/^Assignment3 = main_Ass3.c$/;"	m
+Assignment3	pthread/Makefile	/^Assignment3 =  main_Ass3.c local_data_pthread.c  global_data_pthread.c open_file_by_thread.c$/;"	m
+Assignment4	Makefile	/^Assignment4 = main_Ass4.c$/;"	m
+Assignment4	pthread/Makefile	/^Assignment4 =  main_Ass4.c handle_alarm.c$/;"	m
+Assignment5	ps/Makefile	/^ Assignment5 =  main_Ass5.c$/;"	m
+Assignment5	pthread/Makefile	/^Assignment5 =  main_Ass5.c handle_thread_alarm.c$/;"	m
+Assignment6	pthread/Makefile	/^Assignment6 =  main_Ass6.c mutex_handle_thread_alarm.c$/;"	m
+FIRST_MINOR	ps/ps_mod.c	15;"	d	file:
+FIRST_MINOR	vfork.c	15;"	d	file:
+INCLUDES	Makefile	/^INCLUDES 	= -I. -Wno-unused-result$/;"	m
+INCLUDES	ps/Makefile	/^ INCLUDES = -I. -Wno-unused-result$/;"	m
+INCLUDES	pthread/Makefile	/^INCLUDES = -I .\/   $/;"	m
+KDIR	Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build $/;"	m
+KDIR	ps/Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build $/;"	m
+LINE_BUF	pthread/mypthread.h	18;"	d
+LINK	ps/Makefile	/^LINK:=\/lib\/modules\/$(shell uname -r)$/;"	m
+MSG_SIZE	pthread/mypthread.h	17;"	d
+NR_DEV	ps/ps_mod.c	16;"	d	file:
+NR_DEV	vfork.c	16;"	d	file:
+OPTIONS	Makefile	/^OPTIONS 	=-O2 -g -Wall$/;"	m
+OPTIONS	ps/Makefile	/^ OPTIONS =-O2 -g -Wall$/;"	m
+OPTIONS	pthread/Makefile	/^OPTIONS = -g -Wall $/;"	m
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+PWD	ps/Makefile	/^PWD:=$(shell pwd)$/;"	m
+_FORK_H	fork.h	4;"	d
+_FORK_H	ps/fork.h	4;"	d
+_MYPTHREAD_H	pthread/mypthread.h	4;"	d
+cc	Makefile	/^cc 			= gcc # compilar to use $/;"	m
+cc	ps/Makefile	/^ cc = gcc # compilar to use $/;"	m
+cc	pthread/Makefile	/^cc = gcc # compilar to use $/;"	m
+devname	ps/ps_mod.c	/^char * devname ;$/;"	v
+devname	vfork.c	/^char * devname ;$/;"	v
+file_write	pthread/open_file_by_thread.c	/^void* file_write (void * tid ) $/;"	f
+fops	ps/ps_mod.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+fops	vfork.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+global_const	global_data_fork.c	/^int const global_const = 25 ;          \/*global data in ro section *\/$/;"	v
+global_const	global_data_vfork.c	/^    int const global_const = 25 ;          \/*global data in ro section *\/$/;"	v
+global_const	pthread/global_data_pthread.c	/^    int const global_const = 25 ;          \/*global data in ro section *\/$/;"	v
+global_ptr	global_data_fork.c	/^int *global_ptr  ;                     \/*global pointer in data *\/$/;"	v
+global_ptr	global_data_vfork.c	/^    int *global_ptr  ;                     \/*global pointer in data *\/$/;"	v
+global_ptr	pthread/global_data_pthread.c	/^    int *global_ptr  ;                     \/*global pointer in data *\/$/;"	v
+global_var	global_data_fork.c	/^int global_var  ;                      \/*global data under experiment *\/$/;"	v
+global_var	global_data_vfork.c	/^    int global_var  ;                      \/*global data under experiment *\/$/;"	v
+global_var	pthread/global_data_pthread.c	/^    int global_var  ;                      \/*global data under experiment *\/$/;"	v
+global_var_experiment	global_data_fork.c	/^int global_var_experiment (void)$/;"	f
+global_var_experiment	global_data_vfork.c	/^int global_var_experiment (void)$/;"	f
+global_var_experiment	pthread/global_data_pthread.c	/^void*  global_var_experiment (void* tid2)$/;"	f
+global_var_init	global_data_fork.c	/^int global_var_init = 30 ;             \/*init data under experiment  *\/$/;"	v
+global_var_init	global_data_vfork.c	/^    int global_var_init = 30 ;             \/*init data under experiment  *\/$/;"	v
+global_var_init	pthread/global_data_pthread.c	/^    int global_var_init = 30 ;             \/*init data under experiment  *\/$/;"	v
+global_volatile	global_data_fork.c	/^int volatile global_volatile = 70 ;    \/*global volatile is in data *\/$/;"	v
+global_volatile	global_data_vfork.c	/^    int volatile global_volatile = 70 ;    \/*global volatile is in data *\/$/;"	v
+global_volatile	pthread/global_data_pthread.c	/^    int volatile global_volatile = 70 ;    \/*global volatile is in data *\/$/;"	v
+handle_alarm	pthread/handle_alarm.c	/^int handle_alarm ( int seconds , char * msg ) $/;"	f
+handle_zombies	pthread/handle_alarm.c	/^int handle_zombies ( void ) $/;"	f
+local_var_experiment	local_data_fork.c	/^int local_var_experiment (void)$/;"	f
+local_var_experiment	local_data_vfork.c	/^int local_var_experiment (void)$/;"	f
+local_var_experiment	pthread/local_data_pthread.c	/^void* local_var_experiment (void* tid1)$/;"	f
+m_handle_thread_alarm	pthread/handle_thread_alarm.c	/^void *  m_handle_thread_alarm ( void * line   ) $/;"	f
+m_handle_thread_alarm	pthread/mutex_handle_thread_alarm.c	/^void *  m_handle_thread_alarm ( void * line   ) $/;"	f
+main	main_Ass1.c	/^int main(void)$/;"	f
+main	main_Ass2.c	/^int main(void)$/;"	f
+main	main_Ass3.c	/^int main(int argc , char ** argv )$/;"	f
+main	main_Ass4.c	/^int main(int argc , char ** argv )$/;"	f
+main	ps/main_Ass5.c	/^int main(void)$/;"	f
+main	pthread/main_Ass1.c	/^int main(void)$/;"	f
+main	pthread/main_Ass2.c	/^int main(void)$/;"	f
+main	pthread/main_Ass3.c	/^int main(void)$/;"	f
+main	pthread/main_Ass4.c	/^int main(void)$/;"	f
+main	pthread/main_Ass5.c	/^int main(void)$/;"	f
+main	pthread/main_Ass6.c	/^int main(void)$/;"	f
+mejNo	ps/ps_mod.c	/^int mejNo ;              \/\/ encodes mejor number and min number $/;"	v
+mejNo	vfork.c	/^int mejNo ;              \/\/ encodes mejor number and min number $/;"	v
+mlock	pthread/main_Ass6.c	/^pthread_mutex_t mlock = PTHREAD_MUTEX_INITIALIZER ; $/;"	v
+my_Exit	ps/ps_mod.c	/^module_exit (my_Exit);$/;"	v
+my_Exit	ps/ps_mod.c	/^static void my_Exit ( void ) $/;"	f	file:
+my_Exit	vfork.c	/^module_exit (my_Exit);$/;"	v
+my_Exit	vfork.c	/^static void my_Exit ( void ) $/;"	f	file:
+my_Init	ps/ps_mod.c	/^module_init (my_Init);$/;"	v
+my_Init	ps/ps_mod.c	/^static int __init my_Init (void)$/;"	f	file:
+my_Init	vfork.c	/^module_init (my_Init);$/;"	v
+my_Init	vfork.c	/^static int __init my_Init (void)$/;"	f	file:
+my_Open	my_open.c	/^EXPORT_SYMBOL_GPL (my_Open);$/;"	v
+my_Open	my_open.c	/^int my_Open (struct inode * inode , struct file * filep )$/;"	f
+my_Open	ps/my_open.c	/^EXPORT_SYMBOL_GPL (my_Open);$/;"	v
+my_Open	ps/my_open.c	/^int my_Open (struct inode * inode , struct file * filep )$/;"	f
+my_Release	my_release.c	/^	 EXPORT_SYMBOL_GPL(my_Release);	$/;"	v
+my_Release	my_release.c	/^int my_Release (struct inode * in , struct file * fp )$/;"	f
+my_Release	ps/my_release.c	/^	 EXPORT_SYMBOL_GPL(my_Release);	$/;"	v
+my_Release	ps/my_release.c	/^int my_Release (struct inode * in , struct file * fp )$/;"	f
+my_cdev	ps/ps_mod.c	/^struct cdev* my_cdev ;  \/\/ holds char device driver descriptor $/;"	v	typeref:struct:cdev
+my_cdev	vfork.c	/^struct cdev* my_cdev ;  \/\/ holds char device driver descriptor $/;"	v	typeref:struct:cdev
+my_ps	ps/my_ps.c	/^EXPORT_SYMBOL (my_ps);	$/;"	v
+my_ps	ps/my_ps.c	/^long my_ps (struct file * fp , unsigned int pid , long unsigned ppid )$/;"	f
+my_vfork	my_vfork.c	/^EXPORT_SYMBOL (my_vfork);	$/;"	v
+my_vfork	my_vfork.c	/^long my_vfork (struct file * fp , unsigned int pid , long unsigned ppid )$/;"	f
+mychar_class	ps/ps_mod.c	/^static struct class * mychar_class ;$/;"	v	typeref:struct:class	file:
+mychar_class	vfork.c	/^static struct class * mychar_class ;$/;"	v	typeref:struct:class	file:
+mychar_device	ps/ps_mod.c	/^static struct device *mychar_device ;$/;"	v	typeref:struct:device	file:
+mychar_device	vfork.c	/^static struct device *mychar_device ;$/;"	v	typeref:struct:device	file:
+mydev	ps/ps_mod.c	/^static dev_t mydev ;$/;"	v	file:
+mydev	vfork.c	/^static dev_t mydev ;$/;"	v	file:
+obj-m	Makefile	/^obj-m:=vfork.o my_open.o my_vfork.o my_release.o$/;"	m
+obj-m	ps/Makefile	/^obj-m:=ps_mod.o my_open.o my_ps.o my_release.o$/;"	m
+open_my_file_txt	open_file_before_fork.c	/^int open_my_file_txt ( void ) $/;"	f
+open_my_file_txt	open_file_before_vfork.c	/^int open_my_file_txt ( void ) $/;"	f
+pid	global_data_fork.c	/^int pid  ;                 $/;"	v
+pid	global_data_vfork.c	/^    int pid  ;                 $/;"	v
+pid	pthread/global_data_pthread.c	/^    int pid  ;                 $/;"	v
+process_create_process	pthread/process_create_process.c	/^int process_create_process (void ) $/;"	f
+process_create_thread	pthread/process_create_thread.c	/^int process_create_thread (void)$/;"	f
+status	global_data_fork.c	/^int status ;  $/;"	v
+status	pthread/global_data_pthread.c	/^    int status ;  $/;"	v
+thread_create_process	pthread/thread_create_process.c	/^int thread_create_process (void)$/;"	f
+thread_create_thread	pthread/thread_create_thread.c	/^int thread_create_thread (void)$/;"	f
+thread_id	pthread/main_Ass1.c	/^void * thread_id ( void * tid  ) $/;"	f
+thread_id	pthread/process_create_thread.c	/^void * thread_id ( void * tid  ) $/;"	f
+thread_id1	pthread/thread_create_process.c	/^void * thread_id1 ( void * tid  ) $/;"	f
+tid	pthread/main_Ass5.c	/^pthread_t  tid ; $/;"	v
+tid	pthread/main_Ass6.c	/^pthread_t  tid ; $/;"	v
+tid1	pthread/main_Ass3.c	/^pthread_t tid1 ;                         \/*thread id first   *\/ $/;"	v
+tid2	pthread/main_Ass3.c	/^pthread_t tid2 ;                         \/*thread id  two   *\/$/;"	v
+tid3	pthread/main_Ass3.c	/^pthread_t tid3 ;                         \/*thread id  two   *\/$/;"	v

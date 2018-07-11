@@ -1,0 +1,1 @@
+cmd_/home/vaibhav/svn_wc/b84_vaibhav/Linux/Assignments/ITOS/lskmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/vaibhav/svn_wc/b84_vaibhav/Linux/Assignments/ITOS/lskmod.ko /home/vaibhav/svn_wc/b84_vaibhav/Linux/Assignments/ITOS/lskmod.o /home/vaibhav/svn_wc/b84_vaibhav/Linux/Assignments/ITOS/lskmod.mod.o ;  true

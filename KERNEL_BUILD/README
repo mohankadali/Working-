@@ -1,0 +1,15 @@
+STEP 1 :
+
+Download latest kernel image from https://kernel.org 
+
+STEP 2 :
+sudo su
+cd /usr/src/
+tar -xvJf ~/Downloads/linux-4.11.tar.xz ( x-extract, v-verbose,J-xz,f-Archive file)
+    
+mkdir build logs
+cd logs
+in logs directory create  bzImage, modules, modules_install, install
+using touch
+/logs# touch bzImage modules modules_install instal
+

@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Assignment1	Makefile	/^Assignment1 =  main_Ass1.c$/;"	m
+Assignment2	Makefile	/^Assignment2 =  main_Ass2.c process_create_process.c process_create_thread.c thread_create_process.c thread_create_thread.c$/;"	m
+Assignment3	Makefile	/^Assignment3 =  main_Ass3.c local_data_pthread.c  global_data_pthread.c open_file_by_thread.c$/;"	m
+Assignment4	Makefile	/^Assignment4 =  main_Ass4.c handle_alarm.c$/;"	m
+Assignment5	Makefile	/^Assignment5 =  main_Ass5.c handle_thread_alarm.c$/;"	m
+Assignment6	Makefile	/^Assignment6 =  main_Ass6.c mutex_handle_thread_alarm.c$/;"	m
+INCLUDES	Makefile	/^INCLUDES = -I .\/   $/;"	m
+LINE_BUF	mypthread.h	18;"	d
+MSG_SIZE	mypthread.h	17;"	d
+OPTIONS	Makefile	/^OPTIONS = -g -Wall $/;"	m
+_MYPTHREAD_H	mypthread.h	4;"	d
+cc	Makefile	/^cc = gcc # compilar to use $/;"	m
+file_write	open_file_by_thread.c	/^void* file_write (void * tid ) $/;"	f
+global_const	global_data_pthread.c	/^    int const global_const = 25 ;          \/*global data in ro section *\/$/;"	v
+global_ptr	global_data_pthread.c	/^    int *global_ptr  ;                     \/*global pointer in data *\/$/;"	v
+global_var	global_data_pthread.c	/^    int global_var  ;                      \/*global data under experiment *\/$/;"	v
+global_var_experiment	global_data_pthread.c	/^void*  global_var_experiment (void* tid2)$/;"	f
+global_var_init	global_data_pthread.c	/^    int global_var_init = 30 ;             \/*init data under experiment  *\/$/;"	v
+global_volatile	global_data_pthread.c	/^    int volatile global_volatile = 70 ;    \/*global volatile is in data *\/$/;"	v
+handle_alarm	handle_alarm.c	/^int handle_alarm ( int seconds , char * msg ) $/;"	f
+handle_zombies	handle_alarm.c	/^int handle_zombies ( void ) $/;"	f
+local_var_experiment	local_data_pthread.c	/^void* local_var_experiment (void* tid1)$/;"	f
+m_handle_thread_alarm	handle_thread_alarm.c	/^void *  m_handle_thread_alarm ( void * line   ) $/;"	f
+m_handle_thread_alarm	mutex_handle_thread_alarm.c	/^void *  m_handle_thread_alarm ( void * line   ) $/;"	f
+main	main_Ass1.c	/^int main(void)$/;"	f
+main	main_Ass2.c	/^int main(void)$/;"	f
+main	main_Ass3.c	/^int main(void)$/;"	f
+main	main_Ass4.c	/^int main(void)$/;"	f
+main	main_Ass5.c	/^int main(void)$/;"	f
+main	main_Ass6.c	/^int main(void)$/;"	f
+mlock	main_Ass6.c	/^pthread_mutex_t mlock = PTHREAD_MUTEX_INITIALIZER ; $/;"	v
+pid	global_data_pthread.c	/^    int pid  ;                 $/;"	v
+process_create_process	process_create_process.c	/^int process_create_process (void ) $/;"	f
+process_create_thread	process_create_thread.c	/^int process_create_thread (void)$/;"	f
+status	global_data_pthread.c	/^    int status ;  $/;"	v
+thread_create_process	thread_create_process.c	/^int thread_create_process (void)$/;"	f
+thread_create_thread	thread_create_thread.c	/^int thread_create_thread (void)$/;"	f
+thread_id	main_Ass1.c	/^void * thread_id ( void * tid  ) $/;"	f
+thread_id	process_create_thread.c	/^void * thread_id ( void * tid  ) $/;"	f
+thread_id1	thread_create_process.c	/^void * thread_id1 ( void * tid  ) $/;"	f
+tid	main_Ass5.c	/^pthread_t  tid ; $/;"	v
+tid	main_Ass6.c	/^pthread_t  tid ; $/;"	v
+tid1	main_Ass3.c	/^pthread_t tid1 ;                         \/*thread id first   *\/ $/;"	v
+tid2	main_Ass3.c	/^pthread_t tid2 ;                         \/*thread id  two   *\/$/;"	v
+tid3	main_Ass3.c	/^pthread_t tid3 ;                         \/*thread id  two   *\/$/;"	v

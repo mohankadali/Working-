@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A1_H	ds_ass1_header.h	2;"	d
+CC	makefile	/^CC = gcc$/;"	m
+INCLUDE	makefile	/^INCLUDE = -I .$/;"	m
+MAX	ds_ass1_header.h	16;"	d
+OPTION	makefile	/^OPTION = -Wall -Wno-unused-result$/;"	m
+SRC	makefile	/^SRC = *.c$/;"	m
+a1	a1_stack.c	/^void a1 ( void )$/;"	f
+a2	a2_stack_linklist.c	/^void a2 ( void )$/;"	f
+a3	a3_queue.c	/^void a3 ( void )$/;"	f
+a4	a4_cir_queue.c	/^void a4 ( void )$/;"	f
+a5	a5_singlylist.c	/^void a5 ( void )$/;"	f
+a6	a6_doublylist.c	/^void a6 ( void )$/;"	f
+a7	a7_cir_singly.c	/^void a7 ( void )$/;"	f
+a8	a8_cir_doubly.c	/^void a8 ( void )$/;"	f
+cir_de_q	a4_cir_deq.c	/^void cir_de_q ( int *front, int *rear, int *count )$/;"	f
+cir_delete_first	a7_delete_cir_list.c	/^slist * cir_delete_first ( slist **head  )$/;"	f
+cir_delete_last	a7_delete_cir_list.c	/^slist * cir_delete_last ( slist **head  )$/;"	f
+cir_display_slist	a7_cir_display_slist.c	/^void cir_display_slist ( slist *head )$/;"	f
+cir_en_q	a4_cir_enq.c	/^void cir_en_q ( int ele, int *front, int *rear, int *count )$/;"	f
+cir_insert_first	a7_insert_cir_slist.c	/^slist * cir_insert_first ( slist **head, int data )$/;"	f
+cir_insert_last	a7_insert_cir_slist.c	/^slist *cir_insert_last ( slist **head, int data )$/;"	f
+cir_q	ds_ass1_header.h	/^int cir_q [ MAX ];$/;"	v
+count	ds_ass1_header.h	/^int count;$/;"	v
+create_node	a5_insert_slist_node.c	/^slist *create_node ( int data )$/;"	f
+d_cir_display_dlist	a8_cir_display_dlist.c	/^void d_cir_display_dlist ( dlist *head )$/;"	f
+d_cir_insert_first	a8_insert_cir_dlist.c	/^dlist * d_cir_insert_first ( dlist **head, int data )$/;"	f
+d_cir_insert_last	a8_insert_cir_dlist.c	/^dlist *d_cir_insert_last ( dlist **head, int data )$/;"	f
+d_create_node	a6_d_insert_list.c	/^dlist *d_create_node ( int data ) $/;"	f
+d_delete_after_num	a6_delete_dlist.c	/^dlist *d_delete_after_num ( dlist *head , int num )$/;"	f
+d_delete_after_pos	a6_delete_dlist.c	/^dlist *d_delete_after_pos ( dlist *head , int pos )$/;"	f
+d_delete_at_pos	a6_delete_dlist.c	/^dlist * d_delete_at_pos ( dlist *head , int pos )$/;"	f
+d_delete_before_num	a6_delete_dlist.c	/^dlist *d_delete_before_num ( dlist *head , int num )$/;"	f
+d_delete_before_pos	a6_delete_dlist.c	/^dlist *d_delete_before_pos ( dlist *head , int pos )$/;"	f
+d_delete_first	a6_delete_dlist.c	/^dlist * d_delete_first ( dlist *head  )$/;"	f
+d_delete_last	a6_delete_dlist.c	/^dlist * d_delete_last ( dlist *head  )$/;"	f
+d_delete_middle	a6_delete_dlist.c	/^dlist *d_delete_middle ( dlist *head  )$/;"	f
+d_delete_penultimate	a6_delete_dlist.c	/^dlist *d_delete_penultimate ( dlist *head  )$/;"	f
+d_insert_after_num	a6_d_insert_list.c	/^dlist *d_insert_after_num ( dlist *head, int data, int num )$/;"	f
+d_insert_after_pos	a6_d_insert_list.c	/^dlist *d_insert_after_pos ( dlist *head, int data, int pos )$/;"	f
+d_insert_at_pos	a6_d_insert_list.c	/^dlist *d_insert_at_pos ( dlist *head, int data, int pos )$/;"	f
+d_insert_before_num	a6_d_insert_list.c	/^dlist *d_insert_before_num ( dlist *head, int data, int num )$/;"	f
+d_insert_before_pos	a6_d_insert_list.c	/^dlist *d_insert_before_pos ( dlist *head, int data, int pos )$/;"	f
+d_insert_first	a6_d_insert_list.c	/^dlist *d_insert_first ( dlist *head , int data )$/;"	f
+d_insert_last	a6_d_insert_list.c	/^dlist *d_insert_last ( dlist *head , int data )$/;"	f
+d_insert_middle	a6_d_insert_list.c	/^dlist *d_insert_middle ( dlist *head, int data )$/;"	f
+d_insert_penultimate	a6_d_insert_list.c	/^dlist *d_insert_penultimate ( dlist *head, int data )$/;"	f
+d_list	ds_ass1_header.h	/^typedef struct d_list$/;"	s
+data	ds_ass1_header.h	/^    int data;$/;"	m	struct:d_list
+data	ds_ass1_header.h	/^    int data;$/;"	m	struct:s_list
+de_q	a3_deq.c	/^void de_q ( int *front, int *rear )$/;"	f
+delete_after_num	a5_delete_slist_node.c	/^slist *delete_after_num ( slist *head , int num )$/;"	f
+delete_after_pos	a5_delete_slist_node.c	/^slist *delete_after_pos ( slist *head , int pos )$/;"	f
+delete_at_pos	a5_delete_slist_node.c	/^slist * delete_at_pos ( slist *head , int pos )$/;"	f
+delete_before_num	a5_delete_slist_node.c	/^slist *delete_before_num ( slist *head , int num )$/;"	f
+delete_before_pos	a5_delete_slist_node.c	/^slist *delete_before_pos ( slist *head , int pos )$/;"	f
+delete_first	a5_delete_slist_node.c	/^slist * delete_first ( slist *head  )$/;"	f
+delete_last	a5_delete_slist_node.c	/^slist * delete_last ( slist *head  )$/;"	f
+delete_middle	a5_delete_slist_node.c	/^slist *delete_middle ( slist *head  )$/;"	f
+delete_penultimate	a5_delete_slist_node.c	/^slist *delete_penultimate ( slist *head  )$/;"	f
+display	a1_display.c	/^void display ( void )$/;"	f
+display_cir_q	a4_cir_display.c	/^void display_cir_q ( int front,int count )$/;"	f
+display_dlist	a6_display_dlist.c	/^void display_dlist ( dlist *head )$/;"	f
+display_list	a2_display_list.c	/^void display_list ( slist *head )$/;"	f
+display_q	a3_display.c	/^void display_q ( int *front, int *rear )$/;"	f
+display_slist	a5_display_slist.c	/^void display_slist ( slist *head )$/;"	f
+dlist	ds_ass1_header.h	/^} dlist;$/;"	t	typeref:struct:d_list
+en_q	a3_enq.c	/^void en_q ( int ele, int *front, int *rear )$/;"	f
+insert_after_num	a5_insert_slist_node.c	/^slist *insert_after_num ( slist *head, int data, int num )$/;"	f
+insert_after_pos	a5_insert_slist_node.c	/^slist *insert_after_pos ( slist *head, int data, int pos )$/;"	f
+insert_at_pos	a5_insert_slist_node.c	/^slist *insert_at_pos ( slist *head, int data, int pos )$/;"	f
+insert_before_num	a5_insert_slist_node.c	/^slist *insert_before_num ( slist *head, int data, int num )$/;"	f
+insert_before_pos	a5_insert_slist_node.c	/^slist *insert_before_pos ( slist *head, int data, int pos )$/;"	f
+insert_first	a5_insert_slist_node.c	/^slist * insert_first ( slist *head, int data )$/;"	f
+insert_last	a5_insert_slist_node.c	/^slist *  insert_last ( slist *head, int data )$/;"	f
+insert_middle	a5_insert_slist_node.c	/^slist *insert_middle ( slist *head, int data )$/;"	f
+insert_penultimate	a5_insert_slist_node.c	/^slist *insert_penultimate ( slist *head, int data )$/;"	f
+is_empty	a4_cir_deq.c	/^int is_empty ( int *count )$/;"	f
+main	ds_ass1_main.c	/^int main(void)$/;"	f
+next	ds_ass1_header.h	/^    struct d_list *next;$/;"	m	struct:d_list	typeref:struct:d_list::d_list
+next	ds_ass1_header.h	/^    struct s_list *next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+pop	a1_pop.c	/^void pop ( int *top )$/;"	f
+pop_list	a2_pop_list.c	/^void pop_list ( slist **head )$/;"	f
+prev	ds_ass1_header.h	/^    struct d_list *prev;$/;"	m	struct:d_list	typeref:struct:d_list::d_list
+push	a1_push.c	/^void push ( int ele, int *top )$/;"	f
+push_list	a2_push_list.c	/^void push_list ( slist **head, int ele )$/;"	f
+q	ds_ass1_header.h	/^int q [ MAX ];$/;"	v
+s_list	ds_ass1_header.h	/^typedef struct s_list$/;"	s
+slist	ds_ass1_header.h	/^} slist;$/;"	t	typeref:struct:s_list
+stack	ds_ass1_header.h	/^int stack [ MAX ];$/;"	v
