@@ -6,7 +6,7 @@ int main()
         int x[]={2,4,6,8,1,3,7};
         int n =sizeof(x)/sizeof(x[0]);
 
-#if 0 //Insertion
+#if 1 //Insertion
         int pos = 3;
         int element = 10;
         for(int i =n-1;i>=0;i--)
@@ -26,7 +26,7 @@ int main()
 #endif
 
 
-#if 1 //Deletion
+#if 0 //Deletion
         int pos = 3;
         for(int i =0;i<n;i++)
         {
