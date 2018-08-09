@@ -3,28 +3,28 @@
 using namespace std;
 
 struct st {
-//    private:
+        //    private:
         int num;
-    public:
+        public:
         void set()
         {
-            num  = 100;
+                num  = 100;
 
         }
         void display()
         {
-            cout << "in display fun num :" << num << endl;
+                cout << "in display fun num :" << num << endl;
         }
 };
 void check(st var )
 {
-    cout << "in check fun num :" << var.num << endl;
+        cout << "in check fun num :" << var.num << endl;
 }
 int main()
 {
-    st var ;
-    var.set();
-    var.display();
-    check(var);
-    return 0;
+        st var ;
+        var.set();
+        var.display();
+        check(var);
+        return 0;
 }

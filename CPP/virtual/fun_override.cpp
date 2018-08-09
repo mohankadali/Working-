@@ -2,34 +2,34 @@
 using namespace std;
 class base 
 {
-	public:
-virtual 	void fun(void)
-		{
-			cout << "base class fun " << endl;
-		}
+        public:
+         	void fun(void)
+                {
+                        cout << "base class fun " << endl;
+                }
 };
 class derived : public base
 {
-	public:
-		void fun(void)
-		{
-			cout << "derived class " << endl;
-		}
+        public:
+                void fun(void)
+                {
+                        cout << "derived class " << endl;
+                }
 };
 int main()
 {
-/*
-	derived obj;
-	obj.fun();
-*/
+        /*
+           derived obj;
+           obj.fun();
+         */
 
-base *ptr ;
+        base *ptr ;
 
-derived obj;
+        derived obj;
 
-ptr = &obj;
+        ptr = &obj;
 
-ptr-> fun();
+        ptr-> fun();
 
-return 0;
+        return 0;
 }

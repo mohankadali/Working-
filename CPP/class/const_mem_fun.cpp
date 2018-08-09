@@ -2,22 +2,23 @@
 using namespace std;
 class A
 {
-    int num;
-    public:
-    void set (int a)
-    {
-        num  = a ;
-    }
-    void display () const 
-    {
-        num = num + 5;
-        cout << "modified data :" << num << endl;  
-    } 
+        private:
+        int num;
+        public:
+        void set (int a)
+        {
+                num  = a ;
+        }
+        void display ()// const 
+        {
+                num = num + 5;
+                cout << "modified data :" << num << endl;  
+        } 
 };
 int main(void)
 {
-    A obj;
-    obj.set(1);
-    obj.display();
-    return 0;
+        A obj;
+        obj.set(1);
+        obj.display();
+        return 0;
 }

@@ -3,14 +3,14 @@ using namespace std;
 int x = 10;
 int get ()
 {
-return x;
+        return x;
 }
 int main()
 {
-    int x =3;
-    cout << x << endl;
-//    cout << get() << endl;
-    cout << :: x << endl;
+        int x =3;
+        cout << x << endl;
+        //    cout << get() << endl;
+        cout << :: x << endl;
 
-    return 0;
+        return 0;
 }
