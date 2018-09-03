@@ -1,0 +1,19 @@
+#version 330 core
+
+out vec3 fragmentcolor;
+
+/* for drwaing the angle we need three vetices  */
+
+layout(location = 0) in vec3 vertexPosition_modelspace;
+
+layout(location = 1) in vec3 vertexcolor;
+
+void main(){
+
+    gl_Position.xyz = vertexPosition_modelspace;
+
+    gl_Position.w = 2.1;
+
+    fragmentcolor = vertexcolor;
+}
+

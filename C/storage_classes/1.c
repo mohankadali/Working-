@@ -2,7 +2,7 @@
 int main()
 {
         static int i=5;
-        if(--i){
+        if(i--){
                 main();
                 printf("%d ",i);
         }

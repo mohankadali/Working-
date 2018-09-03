@@ -11,13 +11,13 @@ int main()
                 dup(fd[1]);
                 close(fd[0]);
                 execlp("ls","ls",NULL);
-        }  else if(pid == 0){ //child process
+        }else if(pid == 0){ //child process
                 printf("in child\n");
                 close(0);
                 dup(fd[0]);
                 close(fd[1]);
                 execlp("wc","wc",NULL);
-        }  else {
+        }else {
                 printf("fork failed\n");
         }
         return 0;

@@ -1,0 +1,16 @@
+#version 330 core
+
+out vec3 fragmentcolor;
+
+/* for point and line drawing 2 vertices are enough  */
+
+layout(location = 0) in vec2 vertexPosition_modelspace;
+
+void main(){
+
+    gl_Position.xy = vertexPosition_modelspace;
+
+    gl_Position.w = 2.1;
+
+}
+

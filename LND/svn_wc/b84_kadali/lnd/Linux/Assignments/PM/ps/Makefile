@@ -1,9 +1,9 @@
 
 obj-m:=ps_mod.o my_open.o my_ps.o my_release.o
- cc = gcc # compilar to use 
- OPTIONS =-O2 -g -Wall
- INCLUDES = -I. -Wno-unused-result
- Assignment5 =  main_Ass5.c
+cc = gcc # compilar to use 
+OPTIONS =-O2 -g -Wall
+INCLUDES = -I. -Wno-unused-result
+Assignment5 =  main_Ass5.c
 KDIR:=/lib/modules/$(shell uname -r)/build 
 PWD:=$(shell pwd)
 LINK:=/lib/modules/$(shell uname -r)

@@ -18,8 +18,10 @@ int main()
                                                                           C/C++ extension loading library. GLEW provides efficient run-time mechanisms
                                                                           for determining which OpenGL extensions are supported on the target platform.
                                                                           OpenGL core and extension functionality is exposed in a single header file.
+                                                                          Run Time Machanism:Every thread JVM creates a run time stack,every all performed 
+                                                                          in the thread is stored in that stack
                                                                         */
-
+        
         glfwSetInputMode (window,GLFW_STICKY_KEYS,GL_TRUE);             /* This function sets an input mode option for the specified window.
                                                                            The mode must be one of GLFW_CURSOR, GLFW_STICKY_KEYS or
                                                                            GLFW_STICKY_MOUSE_BUTTONS.

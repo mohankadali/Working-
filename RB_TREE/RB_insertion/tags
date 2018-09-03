@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLACK	header.h	/^	enum { BLACK , RED } color;$/;"	e	enum:st::__anon1
+CC	Makefile	/^CC        = gcc$/;"	m
+GREEN	header.h	17;"	d
+INCLUDES	Makefile	/^INCLUDES  = -I.$/;"	m
+MAX	header.h	15;"	d
+OBJS	Makefile	/^OBJS      = *.c$/;"	m
+OPTIONS	Makefile	/^OPTIONS   = -g  -Wall  $/;"	m
+RB_TREE	header.h	/^}RB_TREE;$/;"	t	typeref:struct:st
+RED	header.h	/^	enum { BLACK , RED } color;$/;"	e	enum:st::__anon1
+REDD	header.h	16;"	d
+RESET	header.h	18;"	d
+__HEADER_H	header.h	5;"	d
+balance_tree	balance_tree.c	/^void balance_tree (RB_TREE *cur_node )$/;"	f
+choice	header.h	/^int choice; $/;"	v
+color	header.h	/^	enum { BLACK , RED } color;$/;"	m	struct:st	typeref:enum:st::__anon1
+create_node	header.h	/^RB_TREE *create_node;$/;"	v
+create_rb_tree_node	create_rb_tree_node.c	/^RB_TREE* create_rb_tree_node(RB_TREE *parent)$/;"	f
+data	header.h	/^	int data;$/;"	m	struct:st
+dummy_rbt_node	dummy_rbt_node.c	/^RB_TREE* dummy_rbt_node (void)		  			\/\/ *******   inserting the dummy nodes    ******** \/\/$/;"	f
+insert_rbt_node	insert_rbt_node.c	/^void insert_rbt_node (void)$/;"	f
+left	header.h	/^	struct st *left;$/;"	m	struct:st	typeref:struct:st::st
+main	rb_tree_main.c	/^int main()$/;"	f
+num	header.h	/^int num;$/;"	v
+parent	header.h	/^	struct st *parent;$/;"	m	struct:st	typeref:struct:st::st
+rbt_preorder_traversal	rbt_preorder_traversal.c	/^RB_TREE *rbt_preorder_traversal (RB_TREE *root)			\/\/ ******   preorder traversal function definition ****** \/\/$/;"	f
+right	header.h	/^	struct st *right;$/;"	m	struct:st	typeref:struct:st::st
+root	header.h	/^RB_TREE *root;$/;"	v
+rotate_left	rotate_left.c	/^void rotate_left (RB_TREE *ptr)$/;"	f
+rotate_right	rotate_right.c	/^void rotate_right (RB_TREE *ptr)$/;"	f
+st	header.h	/^typedef struct  st {$/;"	s
+temp_dummy	header.h	/^RB_TREE *temp_dummy;$/;"	v
