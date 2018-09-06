@@ -9,8 +9,8 @@ union telephone
 int main()
 {
   union telephone index = {
-    .name = "Aoe",
     .number = 12345,
+    .name = "Aoe"
   };
   printf("Name: %s\n", index.name);
   printf("Telephone number: %d\n", index.number);

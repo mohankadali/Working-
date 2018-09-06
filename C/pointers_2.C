@@ -5,7 +5,7 @@ int main()
 
         char *ptr = NULL;
         strcpy(ptr,"hi");
-printf("%s\n",ptr);
+        printf("%s\n",ptr);
         return 0;
 }
 

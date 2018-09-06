@@ -4,6 +4,7 @@ struct st{
 short int c;
 short int d;
 short int e;
+//int f;
 };
 
 int main()

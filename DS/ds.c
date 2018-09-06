@@ -179,19 +179,19 @@ int smallest_element(ST* head)
  
     while (head != NULL) {
  
-        if (min > head->r)
-            min = head->r;
- 
-        head = head->next;
+            if (min > head->r)
+                    min = head->r;
+
+            head = head->next;
     }
-printf("min:%d\n",min);
+    printf("min:%d\n",min);
 }
 void reverse (ST **ptr)
 {
         ST *pri =NULL,*cur = NULL, *nex = *ptr;
-int *p = 0;
-printf("%d\n",*p);       
-while(nex)
+        int *p = 0;
+        printf("%d\n",*p);       
+        while(nex)
         {
                 cur = nex;
                 nex = cur -> next;
@@ -219,7 +219,7 @@ void remove_duplicates(ST *start)
                 free(dup);
             }
             else 
-                ptr2 = ptr2->next;
+                    ptr2 = ptr2->next;
         }
         ptr1 = ptr1->next;
     }
@@ -227,10 +227,10 @@ void remove_duplicates(ST *start)
 
 void delete_beg(ST **ptr)
 {
-ST *temp;
-temp = *ptr;
-*ptr = temp -> next;
-free(temp);
+        ST *temp;
+        temp = *ptr;
+        *ptr = temp -> next;
+        free(temp);
 }
 
 void delete_rear(ST **ptr)

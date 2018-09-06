@@ -1,7 +1,7 @@
 #include <stdio.h>
-extern int x ;
-static int y =0;
-int z =10;
+extern int ext_var ;
+static int glo_sta_var =0;
+int glo_var =10;
 int main()
 {
 
