@@ -1,0 +1,1 @@
+cmd_/Backup/MOHAN/RPI_INSMOD/own_module/own_module.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /Backup/MOHAN/RPI_INSMOD/own_module/own_module.ko /Backup/MOHAN/RPI_INSMOD/own_module/own_module.o /Backup/MOHAN/RPI_INSMOD/own_module/own_module.mod.o ;  true

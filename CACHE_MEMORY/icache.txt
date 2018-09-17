@@ -1,0 +1,3 @@
+Instruction cache is just another level of memory to access instructions faster. ... Also
+instructions are sequential, so if cpu accesses instruction at N, it is likely that it
+will access to instruction at N+1 too.

@@ -1,0 +1,2 @@
+The data cache would include cache lines fetched from memory for loading into a register
+as data.
