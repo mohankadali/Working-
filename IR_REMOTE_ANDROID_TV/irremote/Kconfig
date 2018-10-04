@@ -1,0 +1,15 @@
+config ARCH_HAVE_CUSTOM_GPIO_H
+        bool
+        help
+          Selecting this config option from the architecture Kconfig allows
+          the architecture to provide a custom asm/gpio.h implementation
+          overriding the default implementations.  New uses of this are
+          strongly discouraged.
+
+
+menu "MOHAN IR_REMOTE"
+        config MOHAN
+                tristate "MOHAN_IR_REMOTE SUPPORT"
+                select RT_MUTEXES
+                select IRQ_DOMAIN
+endmenu
