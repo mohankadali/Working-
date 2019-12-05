@@ -3,10 +3,7 @@ using namespace std;
 class Vehicle 
 {
         public:
-                Vehicle()
-                {
-                        cout << "Vehicle constructor" << endl;
-                }
+                Vehicle();
                 ~Vehicle()
                 {
                         cout << "Vehicle destructor" << endl;
@@ -36,8 +33,14 @@ class Car: public fourWheeler
                         cout<<"Car destructor"<<endl;
                 }
 };
+Car::fourWheeler::Vehicle::Vehicle()
+{
+        cout << "Vehicle constructor" << endl;
+}
 int main()
 {   
         Car obj;
         return 0;
 }
+
+

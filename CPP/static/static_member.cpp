@@ -30,9 +30,9 @@ int main(void) {
     cout << "Inital Stage Count: " << Box::getcount() << endl;
     
     Box Box1(3.3, 1.2, 1.5);    // Declare box1
-    cout << "volume: " << Box1.Volume() << endl;
+//    cout << "volume: " << Box1.Volume() << endl;
     Box Box2(8.5, 6.0, 2.0);    // Declare box2
-    cout << "volume: " << Box2.Volume() << endl;
+//    cout << "volume: " << Box2.Volume() << endl;
     
     cout << "Final Stage Count: " << Box::getcount() << endl;
     return 0;

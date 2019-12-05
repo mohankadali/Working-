@@ -1,24 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-        int a=0;
-        {
-                int a=10;
-                printf("%d",a);
-                a++;
-                {
-                        a=20;
-                }
-                {
-                        printf(" %d",a);
-                        int a=30; 
-                        {
-                                a++;
-                        }
-                        printf(" %d",a++);
-                }
-                printf(" %d",a++);
-        }
-        printf(" %d",a);
-        return 0;
-} 
+	auto int i = 1;
+	{
+		auto int i = 2;
+		{
+			auto int i = 3;
+			printf ( "\n%d ", i);
+		}
+		printf ( "%d ", i);
+	}
+	printf( "%d\n", i);
+}

@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 class Shape {
+        protected:
+                int width;
+                int height;
         public:
                 void setWidth(int w) {
                         width = w;
@@ -8,9 +11,6 @@ class Shape {
                 void setHeight(int h) {
                         height = h;
                 }
-        protected:
-                int width;
-                int height;
 };
 // Derived class
 class Rectangle: public Shape 

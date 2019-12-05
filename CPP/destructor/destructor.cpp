@@ -8,12 +8,12 @@ class A
         {
                 cout << "constructor" <<endl;
                 p = new int[5];
-                cout << p << endl;
+                cout << *p << endl;
                 delete p; 
         }
         void del_fun()
         {
-                delete p;
+//                delete p;
                 p = NULL;
                 cout << p << endl;
         }
@@ -25,14 +25,15 @@ class A
 void fun()
 {
         A obj;
-        //    obj.A();   // we cant call constructor explicitly
-        obj.~A();  //we can call destructor multiple times but no use 
+    //    obj.A();   // we cant call constructor explicitly
+    //    obj.~A();  //we can call destructor multiple times but no use 
 }
 int main(void)
 {
 
-        //    fun();
+        fun();
         A *obj = new A;
-        //    (*obj).del_fun();
-        return 0;
+        (*obj).del_fun();
+        delete obj;
+      return 0;
 }
