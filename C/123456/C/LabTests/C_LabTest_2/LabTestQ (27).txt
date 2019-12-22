@@ -1,2 +1,0 @@
-27. Largest and smallest word in a given string
-Number of non repeated elements in an array. 

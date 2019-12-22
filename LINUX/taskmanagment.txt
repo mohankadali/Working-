@@ -1,0 +1,131 @@
+Task managment:
+
+
+	Process :- its a program under execution.
+
+		   if a.out runs kernel will take contents means code and meta data finally create a process.
+
+		   we can see the process and attributes using command ps -ef | grep "a.out" and /proc/pid_number  
+
+		   for syncronous process run ./a.out
+ 		   for asynchromus process run ./a.out & (using ps command we can see that process)
+		   learn about parallelism 
+		   asynchronous programming is required if a program have a potential of having a parallel activity. 
+	           or else no use of asyncronous program (no need to create a new process).
+		
+		   ex1: R = (A+B) * (C+D)
+		       T1 = A+B	 
+		       T2 = C+D  (new process can create)
+  		       R = T1 * T2	
+
+		   ex2: client 1(process1)              client 2(process 2)
+			
+				server (iterative server)	
+		if server is busy with transfer a file to process one , process two needs to wait so we can create a other server process 
+		with same functionality using fork() means a child process
+		These are cocurent servers created by fork. this is example of fork will help.
+
+			
+		 ex3:
+			shell also an example of asyncronous process its explicitly creating a child process 
+
+	fork():- its basic process management creates a new process
+
+	process in kernel:-  task_struct (kernel will create this datastructure , we can all it as a context also)
+			     in user space we seen only content, but in kernel we can see both content and context/process	
+		
+		 
+
+
+	exec() :- when fork creates a child process/new proess/task_strut etc... ,
+ 		  this exec will copy the contents of a.out into code page and update all the page tables in /proc/pid_name
+	
+	
+	wait() :- wait for a process to chage the state 
+		  depends on wait schedular will pick the process to execute 	
+    		  child wont communicate with parent , there is a mediator between them call kernel, 
+		  so if child terminates kernel will send info to parent later it will terminate the parent process
+	
+	
+	Threads :- thread share the data of the parent as well as all the vfs data structures.
+		   gcc -lpthread thread_create.c 
+		   
+		  note: if main function/process exits all sub processes/threads will also exit(so, we need to use pthread_exit(NULL) func 
+		        to finish all the sub threads exicution).
+	
+		   use ps -eLl commands while running threads.		
+			 
+		  thread is also called as light weight process.becuase new tassk_struct will create but shares all the vfs, data sectioons used from main 
+		  thread/process.
+		
+		  when context switching between two processes p1,p2 scheduler ensures that  MMU/TLB will flush otherwise p2 will be accessing data  of p1
+		  becuase both will generate different virtual address/ same physical address so schedulat should flush to avoid this.
+		  
+		note: if there is a context switching between p1 and t1 ,should there will be a flush of tlb as well as processes caches ?
+		ans: No,(read about tgid,pid etc...)
+		
+	task :-   creation of new entity, means the process of creating new entity using process/thread called as task that swhy there is a task_struct 
+		  data structure for both process and thread.  
+	 	
+	clone():- using clone() we can create a task(child process).task is just a name to create a context.
+		  here once clone is used there will be acopy of mm datastructures and vfs data structures, and used the same file descriptor
+		 (read man page fore clone) 
+
+	scheduler :- it is a kernel function, which will be a executed at variaous points in the kernel. 
+	
+	real time / non real time threads :- 
+			
+		POSIX : portable operating standard.
+		portability : we can execute the same a.out file in other machine also if hardware is same. 
+			      incase hardware is different for compilation we shouls not face any linker errors(means same library name will be there).	
+		Real time priorities : 1 to 99
+		non real time priorities(normal) : 100 to 139
+			we can see those priorities in task_struct there is a field called tr_priority
+ 		Real time threads :SCHED_FIFO,SCHED_RR
+		non real time threads :SCHED_OTHER,CFS
+		
+	
+	signals:-  open man 7 signal.
+		   every signal has numbered macros 
+		   signal is a special function independently executed not sequentially, kernel will provide a mechanism for it(that is signal system call)
+ 		   read about man 2 signal
+		   		
+ 	         	
+	
+	priority inversion, inheritance and ceiling:-
+		  all are dealing with priority based threads, scheduling and mutex.
+		  ex: T1 - highest priority thread
+		      T2 - middle
+		      T3 - low 
+		   T1 ,T3 are sharing resources and associated with mutex.
+		   T2 independent of sharing resources like T1, T3.
+
+		1) T3 first started excution after some time T2 which have more priority than T3 So context switching happens and T2 get a chance for execution
+		2) T2 will start excution and in middle T1 comes context switching will be there control moves to T1.
+ 		3) but T1, T3 are sharing resources and T3 aquaired lock so T1 will be in wait state to get a resource.
+		4) control moves to T2 again and finish its job.
+		5) T3 will execute and release the lock.
+		6) Now T1 will get a chance to execute.
+		7) here priority inversion happened.
+			
+		  		
+	priority inheritance:
+	
+		1) T3 first started excution after some time T2 which have more priority than T3 So context switching happens and T2 get a chance for execution
+		2) T2 will start excution and in middle T1 comes context switching will be there control moves to T1.
+		3) but T1, T3 are sharing resources and T3 aquaired lock so T1 will be in wait state to get a resource.
+		4) Now to avaoid the priority inversion we need to write mutex logic such a way that immediatly rise the priority of T3 into T1.
+		5) Now T1,T3 wil be in same priority, T3 already aquired the lock T3 will finish the job, 
+		6) T2 wont come into picture because T3 have more priority than T2.
+		7) now T1 will start execution 
+		8) later T2 will start execution.
+
+	priority ceiling:
+		here we need to set a highest priority that is ceil priority.
+		means whenever a T3 started the job it has to be finish its job irrespective of their priority. once T3 finishes its job 
+		T1 will start execution with out waiting for resources 
+		These are solutions for avoiding inversion.  	
+		
+		 
+			
+	

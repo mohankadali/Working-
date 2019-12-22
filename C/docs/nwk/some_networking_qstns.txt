@@ -1,0 +1,85 @@
+
+
+					
+
+NETWORKING
+socket programming
+OSI layers
+
+
+
+				NETWORKING
+
+OSI layer and TCP layer
+How connection establishment and connection termination happens?
+What are the devices that cane be used in network layer?
+How each devices is working?
+How routing happens?
+Headers
+Why connection oriented and connection less?
+Can we use connect() in udp?
+How TTLis used?
+How ICMP works?
+How ping works? What will happen when ping to outside network?
+Socket programming
+Which layer which system call is used ? 
+Unix domain Socket? How it is differed from IPC?
+Socket address structure and how each call works in the layers?
+Why listen is used and backlog?
+Host1 and host2 are connected in router 1 and  host3 and host4 are connected to different router
+ping from host2 to host3 works but ping from host1to host3 doesnot work why?
+How routing is happening from one network to another
+How DHCP  work?
+How DNS works internally
+Concurrent server
+
+
+
+1.Different types of sockets
+2.Explain raw and unix domain socket
+3.Explain functionality of session layer
+4.Difference between TCP and UDP protocol.
+
+
+
+1.Explain about TCP/IP stack
+2.What happens after entering www.google.com in web browser( DNS)
+3.Explain about ARP protocol
+4.Difference between TCP and UDP protocol along with protocols that are using these protocols.
+5.IP address classess
+6.Explain about 3way handshaking
+7.Why do we need port number
+
+
+
+
+Networking:
+
+1. TCP/IP Stack and explain about each layer.
+2. Why IP address.
+3. Network devices.
+4. Arp cache and how to include entry manually in it.
+5. Protocols used in Application layer.
+6. Socket Programming for TCP.
+7. Which system call blocks in TCP and explain.
+8. How bind system call works.
+9. Is it possible for a server or a client to send data after sending a FIN packet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

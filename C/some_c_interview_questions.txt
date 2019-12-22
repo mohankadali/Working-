@@ -1,0 +1,199 @@
+what is header guard ? explain?
+
+What is Core file?
+
+command used to do packing during compile time ?
+
+stack and queue real time applications?
+
+addr2line tool, valgrind tool?
+
+levels of optimization ?
+
+what is flexible array ?
+
+what you know about files ? (read files concept)
+
+strstr ,strtok ?
+
+deference between array of pointers  and pointer to an array ?
+
+Enum data type and using enum inside a structure?
+
+Variable list arguments?
+
+What is lvalue and rvalue?
+
+Where the command line arguments are stored?
+
+Do preprocessing directives follow any order?
+
+Why Intermediate code generation?
+
+Use of function pointer and how it can be accessed and where it is getting stored?
+
+Size of structures , where it can be used?
+
+What are the types of library and how its been resolved the address of library?
+
+Bit fields?
+
+What is cross-compilation and how to implement that?
+
+Difference between memcpy and memmove?
+
+How free() works?
+
+What happens when two header files are included?
+
+What is stub code?
+
+What is call Back function?
+
+What is the maximum  no.of arguments to be passed to a function?
+
+What is address binding?
+
+What is present in object file?
+
+Explain about linkers and loader?
+
+how to declare a varible with size 0 ?
+
+how to Print a string without printf ?
+
+How memory mapping will happen?
+
+Copying specific number of bits from in one number to other number using bitwise opeartors?
+
+Can we give break inside ifelse?
+
+Program to find endianess of the machine using structure or union?
+
+initialising an array of structure objects?
+
+preprocessor directives?
+
+Declare a variable that should be present in stack and its lifetime is throughout the program?
+
+What happens if in the program given like printf(“%d”) and printf(“%d”,)?
+
+undefined macro in which compiler stage it will give error?
+
+Declare 10 array of function pointers and initialize it?
+
+Define loopback fuction?
+
+Implement your own sizeof its work in all condition ex: for constant value...my_size(7)?
+
+Implement memcpy() and memmove()(without using other temp buffer means not allocated any storage space for that variable)?
+
+readelf , objdump ?
+
+why we using #define to define a constant . rather than by using keyword..i.e like int a =10; ?
+
+In case of volatile, how the compiler takes the data every time from 14.memory, not from the cache ?
+
+Explain about padding? how do you avoid it? and what is uses of that??
+
+Nested  union possible or not?if possible explain the senario?
+
+Is there any  relation between padding and internal hardware??
+
+how can you pass the pragma pack value through gcc?
+
+Explain preprocessor  directives?how to define & undefine the value at run time?
+
+What is the benefit of using an enum rather than a #defined constant ? Explain with an example?
+
+How variable argument lists works in c?
+
+How do you override a defined macro?
+
+How many levels deep can include files be nested?
+
+Can you define which header file to include at compile time?
+
+Can a file other than a .h file be included with #include?
+
+How to pass entire array to a function as call by value ?
+
+What is the purpose of main( ) function?
+
+Take byte as an input give bit as an output?
+
+About the arrays bound checking?
+
+When does the compiler not implicitly generate the address of the first element of an array?
+
+Can the sizeof operator be used to tell the size of an array passed to a function?
+
+I have byte array, I need to set a bit at position 500 ?
+
+Can we return more than two values from a function without using Pointers?
+
+Are pointers integers? 
+
+What does it mean when a pointer is used in an if statement? 
+
+How to convert float to binary ?
+
+What is typedef. How it is Different from #define ?
+
+what are weak symbols, explain its advantages or disadvantages?
+
+What is garbage collection?
+
+Int a;  printf(“%u” , &a)  if it prints 67. Is it possible ? (He wants to ask whether the address of integer can be starts with odd address ?)
+
+Which expression always return true? Which always return false?
+
+Write the equivalent expression for x%8?
+
+Why n++ executes faster than n+1?
+
+What is the difference between NULL and NUL?
+
+Can static variables be declared in a header file?
+
+why the static variable coming in other file ,if you pass as a function argument?
+
+why we are not using register variables globally?
+
+can we use static variable in one file as a extern variable in other file?
+
+i am taking array as a pointer and passing that pointer address in function , can i change some value in that array in that function?
+
+how will you pass command line argument in GDB?
+
+what is the specific use of BSS data segment?
+
+tell about SDLC ?
+
+Using one array create 2 stacks and optimize it?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

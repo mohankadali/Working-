@@ -1,0 +1,188 @@
+Important Questions
+
+for some questions:
+http://socialledge.com/sjsu/index.php/Interview_Preparation_Question_and_Answer
+
+
+
+
+
+				PROGRAMS(Optimization is mandatory)
+
+Remove multiple white spaces with single space
+Remove duplicate characters
+Given a number , postion1, position2 and n , Copy the bits from postion1 n times and paste in position2 n times
+Nibble swapping
+Test  a particular bit is set , if it is set then sum all the bits that are set from that bit till last bit
+
+
+				TOOLCHAIN
+
+gcc options
+gdb options
+Make file 
+How to switch between threads in gdb?
+How to come out of loop in gdb
+What is finish and return in gdb?
+Run time inclusion of C files
+memory leak?
+In the following snippet predict the output when it is given  globally and locally 
+
+	int a[3];
+	int i;
+	for(i=0;i<10;i++){
+		a[i] = i;
+	}
+
+
+19. To predict the output:
+
+a) char *ptr;
+	strcpy(ptr,”hello”);
+
+b) char arr[10];
+	strcpy(arr,”hello”);
+
+c) char *ptr = NULL;
+	strcpy(ptr,”hello”);
+
+
+write the declarations for below:
+
+1. Array of 10 integers.
+2. p is a pointer to an integer.
+3. n is a pointer to character.
+4. ac is a pointer to a array of characters.
+5. s is a pointer to a string.
+6. m is a pointer to a array of integers.
+7. ap is an array of 10 pointers to integers.
+8. ca is an array of 10 character pointers.
+9. sa is an array of 5 string pointers.
+10. mc is an array of string pointer intialized to months of year.
+11. a2d is an 2D array of 3*2 size. 
+
+
+
+9. WAP to Reverse the bits in a number.
+17. WAP to count the number of characters in a file.
+
+
+Data Structures:
+
+1. WAP to delete a node in BST.
+2.WAP to print nth node from the end of linked list.
+3. Sorting Techniques.
+
+Toolchain:
+
+1. What is use of toolchain ?
+2. What is the use of gdb?
+3. Write a makefile.
+4. Uses of makefile.
+5. Explain shared and static library.
+
+
+Data Structures:
+
+1. To sort and remove duplicates in a linked list.
+2. Time complexity of all Sorting techniques .
+
+Tool Chain:
+
+1. What is dwarf format and elf format?
+2. What is readelf?
+3. Valgrind and efence
+4. Drawback of gdb?
+5. Strace  and ltrace?
+6. make file for cross-compilation
+7. Memory overruns and underruns.
+8. Explain about ELF header.
+9. How makefile checks the timestamp.
+5)Enum :
+	what is enumerators
+	what happens if we use negative values in enumerators
+	Can we assign floating point values
+22)Program to check whether the list is circular linked list or not
+33)Difference between ?= and := in makefile
+
+
+
+
+
+DS
+nth node from end of an linked list
+all sorting and seraching techniques with efficiency
+quick sort
+insertion sort
+fibonacci series using recursion and the output should be stored in an linked list
+
+
+TOOL CHAIN
+gdb
+make
+memory overun and underun
+GNU tools
+how to debug using objdump
+can we use conditional compilation inside make
+cross compilation
+valgrind
+
+SDLC
+why sdlc?
+Waterfall model
+iterative model
+scrum model
+
+MAKE:
+
+1. What is MAKE file and why ?
+2. What is ?= , difference between ?= and := ?
+
+1. write a program to find whether a list is circular or not?
+2. Tell the logic orally to find whether a list has a loop or not?
+
+1.SDLC and testing concepts(regression and stress)
+2.simple makefile 
+
+
+
+
+
+DS:
+
+1. WAP to given sorted array list and build a balanced BST(complete BST).
+2.Deletion in BST(NOT COPY DATA ONLY UPDATE ADDRESS). Without using recursion.
+3. Implement threaded tree(Insertion).
+4. Delete a middle node in single linked list we have only head pointer of list.(check all condition).
+5. how to find loop in list and delete.
+6. what is output:
+	struct node {
+		int n;
+		char b[0]; //...here zero only...//
+};
+
+int main(void) {
+	struct node *n = (struct node *) malloc(100);
+
+	strcpy(n -> b, “global edge”);
+	printf(“%s\n”, n -> b);
+	return 0;
+}
+
+7. Reverse linked list using recursion.
+8. Merge two sorted list in one list.
+
+See Also:
+Quict sort and merge sort.
+Display circular linked list.
+Priority Queqe.(note: check on condition)
+Stack of queue and Queue of stack.
+Threaded Tree deletion.(what is andvantage of th-tree)
+Basic of AVL and  RB Tree.
+DCL List.
+
+
+
+
+
+

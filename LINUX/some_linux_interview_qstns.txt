@@ -1,0 +1,550 @@
+
+What is IPC and expalin the IPC mechanisms with their advantages and disadvantages?
+
+What is the use of pthread condition variables.
+
+WAP in which thread1 have to send message and thread2 have to receive message concurrently.
+
+WAP in which thread1 have to print odd  numbers and thread2 have to print even numbers concurrently.
+
+Explain the flow of signals.
+
+What is the initial state of each process.
+
+What happens when a task is created.
+
+Explain task state space diagram.
+
+What is TLB?
+
+What happens when there is no entry in TLB?
+
+What is the difference between page fault and segmentation fault?
+
+What is memory management?
+
+What is VFS ?
+
+What is demand paging?
+
+What is the need of virtual address.
+
+Why paging ?
+
+Why segmentation?
+
+What happens when page fault occurs.
+
+why virtual memory.
+
+What are all the header files included in device driver Program?
+
+Why Scheduling?
+
+How do you register a signal in kernel ?
+
+Does signal is synchronous or Asynchronous? why ?
+
+what is priority inversion?what are the methods to avoid inversion?
+
+what is signal? Phases of signal? types of signal ?
+
+What is TLB hit and miss ?
+
+What happen when TLB miss and hit?
+
+Difference between fork,vfork,clone,thread and excec?
+
+why Ipc?
+
+Which is efficient way of communication?
+
+Scenarios for each where the IPC mechanism is used?
+
+Can we change the size of message in message queue?
+
+Why semaphore? Difference between semaphore and mutex?
+
+Why VFS?How vfs is able to do operation in different filesystem?
+
+What is the maximum size the data can be stored in files? How we can store exceeding that?
+
+Structures maintained by VFS?and use of each?
+
+How the session is created ?
+
+How the traversing through the structures happens when open() is called in various filesystems?
+
+How the file last accessed and modified time can be known without ioctl()?
+
+How will execute concurrent server
+
+Why we use exit in vfork? Is that efficient way?
+
+why thread id?
+
+When various files is opened and memory allocation is done and file is not closed and memory aloocated is not freed, what will happen? Will it be closed automatically? Or what happens?
+
+Why mutex? When parent is adding a node and child should consume the node without any waiting ? What is the mechanism?
+
+Why we use signals?Types of signals?When signals will be handled and how?
+
+Physical address space and virtual address space?
+
+Why 3G for user and  1GB for kernel? Cane we change it?
+
+When USB is plugged it should not work
+
+Kernel page tables
+
+Process context and interrupt context?
+
+I have two threads t1 and t2.t1 adds element in array and t2 removes elements.eexecute using mutex and conditional variables.
+
+major and minor number
+
+flow of system call
+
+interrupt vector table
+
+why virtual address space?
+
+Disadvantages of physical address?
+
+Three process are available named as p1,p2,p3 . P1 wants to send some messgae to p2 . P2 and
+       p3 are waiting to receive message from p1. P3 should not receive any message from p1.  How
+       do you achieve this ?
+
+give a practical application of semaphore?why you cannot use mutex over there?
+
+Are signals synchronous or asynchronous - why?
+
+What is name mangling?
+
+modes of execution why 3GVAS  for user and 1GVAS  for kernel
+
+superblock and inode structure members ?
+
+How will you find the pid of running process
+
+how file can be identified
+
+program to create a daemon process
+
+When do my init function executes in device driver
+
+Need for module_init
+
+How you will find whether you are in kernel mode or user mode
+
+How will you send signal from one process to another process
+
+one process contains function definition write program to invoke the function from another process by using particular ipc
+
+what are the contains of inode tables
+
+define namei algorithm
+
+How to handle signals and write a simple code for it 
+
+what are the signals that cannot be handled and explain why
+
+What happens if we use only virtual address without physical address
+
+How arguments are passed to system call routine in kernel space
+
+mmap system call working.
+
+ASCII full form?
+
+Diff btw sdram and dram?
+
+Types of ROM?
+
+What is Round robin scheduling?
+
+Which is the default scheduling algorithm in PC?
+
+What happened when PC start (Boot process )?
+
+About i2c.... Spi and i2c Diff?
+
+How interrupt works?
+
+How to handle interrupt? 
+
+What is the Use of gpio pins?
+
+Diff betw polling and interrupt give one Example of polling?
+
+Soft and hard rtos Diff?
+
+Monolithic and micro kernel Diff?
+
+What is Initramfs, initrd,rootfs and ramfs?
+
+what are the steps to bring-up the board?
+
+If one proceess acquired spinlock and again another process want to acquire same spinlock 
+ than what happens with another process?
+
+How spinlock works?
+
+What will happen if i used spinlock in single processor system.
+
+How i2c protocol works?
+
+What are the i2c API you used in your project?
+
+How you read the data from rtc?
+
+Explain I2c framework in linux kernel.
+
+If i want to make a new option in makemenuconfig to choose the driver entry point built in 
+ or module than which file you need to modify?
+
+How to add & where you add the driver into the kernel?
+
+If you developed a driver and want to compile with kernel than what you do?
+
+Can we have same major number for more than one device file?
+
+Do you know the board configuration and machine configuration file for your target board?
+
+If i have a custom new board and kernel doesn't have bsp for this new board than 
+ 	What are the steps you follow to port bsp and what modification you have to do in kernel?
+
+Have you done bsp porting?
+
+What are the steps you follow to compile the kernel for your board?
+
+What are the tools required to build the kernel images?
+
+If default config is not available than how you configure your kernel?
+
+What are the modification you did for kernel?
+
+What is device tree and what is the use of it?
+
+What is probe function and what exactly it contains?
+
+When probe invokes?
+
+Difference between kmalloc() and vmalloc()
+
+booting process.
+
+If you observe any kernel panic, how you will debug.
+
+Crash occurred in one core out of 8 cores how you will find which core has crashed and how you will debug
+
+How probe will invoke.
+
+Driver explanation which one you have worked.
+
+What is board file?
+
+what is device tree and why we need?
+
+What is interrupt handler and how it will invoke?
+
+what is do_irq()
+
+what is top half and bottom half, difference between softirq, tasklet and work queues.
+ (i2c/spi/gpio)protocol explanation
+
+From user level how we can access the hardware register ?
+
+Relation between auto focus and clarity.
+
+If one proceess acquired spinlock and again another process want to acquire same spinlock 
+   than what happens with another process?
+
+Explain Scheduler function?
+
+What is stack overflow?
+
+signal handler in the case of child ( when the signal wll be handled ) if  parent recieve signal and then creted child and child executed first then  when signal will be handled and who wll handle ? 
+
+how open sytem call work( with file table, UFDT, IT)
+
+diff bw unix and linux ?
+
+What is preemption?
+
+what are the unix concepts u know? 
+
+what to do if I want to delete the process after executing.
+
+What is virtual address and physical address?                                          
+
+How virtual address is mapped into physical address? Which hardware does it?   
+
+Multitasking is implemented in software level or hardware support is also needed?
+
+Any real life use where multiple resources are accessed in synchronization                                      
+
+How and Where counting semaphores are used explain?                                            
+
+What is the difference between VxWorks kernel and Linux kernel ?        
+
+Why DOS is not multitasking system and Linux is multitasking ?
+
+If one code is written to the system which does not support paging, What changes has to be made to run it on the system which supports paging ?
+  
+In case of paging system suppose reading is happened at the end of one page.  How it locates the next address to read ?
+
+What do u know about multi-threaded applications?    
+
+In which case we have to use spin locks 
+
+When SIGBUS signal is generated?  
+
+How are default signals handled?                                            
+
+What are different modes of signals?                                           
+
+What happens if same signal is sent more then once?
+
+What are signals? how they have been implemented?
+
+If two processes uses one shared library, how the other process come to know  that particular library is already loaded in memory?
+
+Explain physical memory layout. Explain different segments.                                          
+
+where are the shared libraries loaded?
+
+When are the shared libraries loaded in main memory? 
+
+explain scheduling algorithm?                                              
+
+What threads will share?                                             
+
+About watch dog timer, How can we convert the the Watchdog timer interrupt(Its a software interrupt)to hardware interrup                                                                    
+signals are part of IPC yes/no. Justify.                                          
+
+what is multithreading and multiprogrmming.                                           
+
+Explain  concept of multtreading using CPU.                                          
+
+what is pipeline.                                              
+
+What are different IPC mechanisms? Which ipc do u prefer and why? What is deadlock?  Which ipc did u use in project and why? How is synchronization achieved, give example? How does Mutex work? Did you work on shared memory? What is critical section? How do u avoid deadlock?
+
+You have data coming from bus and Program Status Register will indicate whether data is available and you are processing 500 bytes of data and when you are processing 250 th byte,if PSR will indicate data is available, how do u handle processing data(either in drivers or normal way) with PSR indication?                                            
+
+Is it possible to have dead lock situation where there is only one process  and only one resource.
+
+How rm works ?                                             
+
+What grep command will do?                                            
+                                   
+How are u going to check the default shell in your system ?                                    
+
+How can u change the default shell ?                                         
+
+What does this first line #!/bin/bash in the shell script indicate ?                                     
+
+Which shell will interpret if u use #!/bin/csh as the first line in the                                   
+                                      
+What is the difference between  dup and dup2?                                        
+                                   
+In shell , how will you find the details of devices which have been mounted ?                                 
+
+Write a program to generate 5 childs they run parallel?                                       
+
+About umask                                               
+                              
+Explain the shared memory?                                             
+                                  
+What is the difference b/w hardware and software interrupts?                                        
+
+What is privilaged mode ? Give examples?                                          
+                                       
+How the system call execution takesplace?                                           
+
+Explain the context layers of the process?                                          
+
+Which command you used to check shared library?       
+
+Explain virtual address mapping? 
+                                    
+What is the difference b/w EXT2 and EXT3?                                         
+
+What is journaling?                                              
+
+What fsck will do?  --> check and repair filesystems                                       
+
+Explain the imlplementation of Linux file system?                                          
+
+What are the contents of inode?                                           
+
+Explain about probe function?
+
+How did you debug drivers.
+
+Explain about what ever you used API for implementing drivers?
+
+Explain About device tree?
+
+What is device path?
+
+What is dtsi, dts, dtb?
+
+How did you compiled device tree?
+
+what is input of dtc?
+
+Advantage of device tree?
+
+When device tree will invoked?
+
+where did you write in device tree?
+
+Tell members in device tree?
+
+Explain about EEPROM Driver Read and Write Functions?
+
+How we will come to know if one sender sending msg and received by reciever  which type of it is. (int, char, string)
+
+write aprogram to send structure variables from client to server and chage in server like
+     struct {
+     	int a= 10;
+     	char *ptr = “GESL”;
+     	int c = 20;
+     };
+
+who will decide the size of datagram and where it will be store?
+
+who is moving from .bss to data?
+
+P1, P2 processes are there. P1 sending signal from P2 , how it will send???
+
+How p2 will recognize the signal came  from P1 only??? which structure???
+
+if home directory contains libstr.a libstr.so then while including which one is included in your program(static or dynamic library)?i.e.. cc main.c -L /home/  -lstr
+ans:static library  
+
+why you cant handle kill signal?
+
+If signal is SIGINT then how u handle the signal ?if u handled what  will happen?
+
+open a file which contails some 1000 lines ,using system call how u will count total number of      words in it?
+
+Types of file sytem? Explain the content of superblock,inode list?
+
+Expalin booting process?what is the pid of init & swapper?
+
+what is real uid ,effective uid & setuid?
+
+You have data coming from bus and Program Status Register will indicate whether data is available and you are processing 500 bytes of data and when you are processing 250 th byte,if PSR will indicate data is available, how do u handle processing data(either in drivers or
+normal way) with PSR indication?  
+
+What are different IPC mechanisms? Which ipc do u prefer and why? What is deadlock? Which ipc did u use in project and why? How is synchronization achieved, give example? How does Mutex work? Did you work on shared memory? What is critical section? How do u avoid deadlock?
+
+About watch dog timer, How can we convert the the Watchdog timer interrupt
+	   (Its a software interrupt)to hardware interrupt
+
+what is multithreading and multiprogrmming.
+
+                                       
+                         
+
+
+
+
+
+
+ 
+                                             
+                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+link for threads :
+link :http://interviewquestionsanswers.org/_Linux-Threads
+
+Digital Electronics:
+
+1.what is active low signal.
+2.discussion on logic gates(AND ,OR ,NOT,XOR,XNOR);
+3.discussion on MUX.
+4.power gateing and Edge gating...?
+5.what is PLL and PLC...?
+6.what is pipeling
+7.tell me any processor ..?
+8. memory hirarcy
+9.what is cache memory..why using cache memory
+10.cache ratio 
+11. how cache memory interact with processor..?
+12.ARM ARCHITECTURE...?
+
+
+1.deadlock scenarios?
+3.what is flipflop ?and types?
+4.latch?
+5.diff b/w latch and flipflop?
+6.explain about PCM?
+7.sampler,quantizer,sampling rate?
+8.samping error?
+9.what is mosfet?
+10.diff b/w pmos and nmos?
+11.What is Op-Amp?problems on  Op-Amp?
+12.what is Nyquist rate?
+15.Explain android flow of display subsystem?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
