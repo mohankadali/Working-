@@ -21,11 +21,13 @@ int main(int argc , char ** argv )
                 exit (0) ;
                 break  ; 
             case  0 :
+                  printf("before exec....\n");
                 execlp (argv[i] , argv[i] , argv[i+1] ,  NULL ) ; /*launch new process exec process*/
                   printf("after exec....\n");
                 exit(0) ;
             default :  
                 wait (&status) ;
+                  printf("parent process....\n");
         }
     }
     return 0 ;

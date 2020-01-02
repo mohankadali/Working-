@@ -35,7 +35,7 @@ int local_var_experiment (void)
     local_ptr = malloc (sizeof (int)*15 ) ;
     *local_ptr  = 60 ;
 
-    if(!( pid_t = vfork() ) )
+    if(!( pid_t = fork() ) )
     { 
     
 

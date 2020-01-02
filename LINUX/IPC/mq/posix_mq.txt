@@ -1,0 +1,13 @@
+
+*	we need to create or open a messae queue first for that mq_open function will be used, queue identified by the name.
+
+*	
+
+*	advantages:	
+		There are no direct connections between programs.
+		Communication between programs can be independent.
+		single producer with multiple consumers.
+		Applications can assign a priority to a message.
+		Security.
+		Data integrity.
+		Recovery support.

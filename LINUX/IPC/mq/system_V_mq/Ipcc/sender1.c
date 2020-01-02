@@ -15,7 +15,7 @@ int main(void)
 
 	long int msg_type;
 	int msqid,i,n;
-2	printf("Creating a Message Queue \n");
+	printf("Creating a Message Queue \n");
 	msqid = msgget(0x20,IPC_CREAT|0666);
 	if(msqid==-1)
 	{

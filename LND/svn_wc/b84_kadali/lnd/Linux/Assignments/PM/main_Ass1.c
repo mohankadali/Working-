@@ -10,9 +10,5 @@ int main(void)
     global_var_experiment () ;
     printf ("Calling for file operation by fork \n");
     open_my_file_txt () ; 
-
     return 0; 
 } 
-
-
-

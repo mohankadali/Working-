@@ -1,0 +1,33 @@
+
+*	Its a signalling mechanism
+*	A process is an execution environment, for which code and data sigments have been initialized from a program
+	during an exec system call.
+*	A process can do read/write operations in its address space but synchronization matters here.
+*	A process can share different address space but coming to threads shares the same address space so synchronization more
+	difficult in threads 
+*	semaphore is provided by kernel
+
+*	three basic operations of semaphore
+	1) create a semaphore(non negative integer) using system calls we can incre/decre value 
+	2) operations (P) - wait, acquire, lock 
+	3) operations (V) - signal, release, unlock
+
+*	initially sem = 0;
+	P(sem);
+	some logic;
+	V(sem);
+	
+	P operation: (sem_wait)
+	
+		if(sem == 0)
+		block;
+		if(sem > 0)
+		sem--;
+	
+	V operation : (sem_post)
+	
+		sem++;
+	
+*		
+	
+	

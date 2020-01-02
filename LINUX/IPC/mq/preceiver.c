@@ -10,7 +10,6 @@
 #define MAX_MESSAGES 10
 #define MAX_MSG_SIZE 256
 #define MSG_BUFFER_SIZE MAX_MSG_SIZE + 10
-
 int main (int argc, char **argv) 
 { 
     char client_queue_name [64];

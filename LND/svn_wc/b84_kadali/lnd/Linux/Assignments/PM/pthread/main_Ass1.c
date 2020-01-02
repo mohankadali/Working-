@@ -17,7 +17,7 @@ int main(void)
         exit (EXIT_FAILURE ) ;
     } 
 
-
+sleep(1)	;
     printf ("Group leader id :  %d\n" , getpid() );
     pthread_join ( tid1 , NULL ) ; 
 

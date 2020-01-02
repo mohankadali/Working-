@@ -8,9 +8,8 @@
 int main()
 {
         int fd;
-        char * myfifo = "/tmp/myfifo";
+        char * myfifo = "/tmp/mohan";
         char buf[MAX_BUF];
-
         /* open, read, and display the message from the FIFO */
         fd = open(myfifo, O_RDONLY);
         printf ("before read....\n");

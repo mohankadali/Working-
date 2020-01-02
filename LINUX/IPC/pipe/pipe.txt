@@ -1,0 +1,18 @@
+	
+*	we need a two file descriptors one for reading and other for writing.
+
+* 	pipefd[0] - reading 
+	pipefd[1] - writing
+
+	
+*	while communication, unused descriptor should close a file descriptors to avoid the buffer leakage.
+
+* 	we should know the usage of read and write system calls 
+		ssize_t read(int fd, void *buf, size_t count);
+		ssize_t write(int fd, const void *buf, size_t count);
+
+*	read system call and fgets are blocking mechanism while execution means waiting for the input data.
+
+*	only related or same process can communicate means same executable file with two process.
+
+*	example is pipe (|) 	

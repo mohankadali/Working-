@@ -21,7 +21,7 @@ int main(int argc , char ** argv )
         /*launch new exec process*/
         exit(0) ;
        default :
-       sleep(1) ; 
+       sleep(1);
        printf ("perent waiting ...\n"); 
    } 
 

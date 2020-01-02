@@ -1,0 +1,17 @@
+
+*	we need to create a fifo in desired path using mkfifo
+
+*	using open system call we need to open a fifo with permissions(flags)
+
+*	once we open fifo we can write data into the fifo using write system call 
+
+*	same way we need to do in other process till open system call (no need to create a fifo again already created in first process)
+
+*	second process we need to read the data using read system call.
+
+*	once operation done, we needto unlink the fifo using unlink function, otherwise after process termination 
+	also the fifo will be stored in memory. 
+
+*	use: we can communicate with two different process 
+
+*	disadvantage: we cant communicate multiple process using single nammed pipe
