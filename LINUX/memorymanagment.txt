@@ -1,0 +1,75 @@
+*	task_struct -> mm_struct -> vm_area_struct
+	address regions ( vm_area_struct ) this is a doubly linked list
+	if its a single process its linked list if the tree becomes bigger, kernel will convert it into rb tree.
+	there is another field in vm_area_strcut is vm_file which is used to tell the virtual address contains are in file or not 
+	mm -> mmap -> code, data, heap, stack(these have start and stop addresses, program 
+        counter will take care of these handlings.)
+
+*	allocating a virtual address is nothing but, creating a vm_area_struct node in the linked list of vm_area_struct.
+
+*	access legality violation -> if we try to write the data into already utilizing address then its a violation of accessing address.
+
+*	address legality illegal address violation -> if we try to access the address which is not present.
+
+*	 we need these validations because of physical addresses are contraints 
+
+
+
+
+*	Virtual Address Space, File Offset Space, Physical Address Space 
+
+*	Kernel should allocate page frame for code and data which maps the process and physical memory(will see it later in page translators)
+
+*	memory is 4k chunks 
+
+*	kernel has to maintain about information for every page (4k size) physical memory
+
+*	VAS ---> FOS 
+
+*	when we place or arrange a code in the file should have file offset sapce (sequence of bytes referenced by offset range 0 to EOF) 
+	and corresponding virtual address start from the same page base address(with last three nibbles should be zero and should match 
+	with file offset address).
+
+*	we need to maintain a symmetry that contents of file base address should match the contents in VAS(means offset should be same).
+	
+*	we have multiple ways to maintain this symmetry (readelf can help you to see the addresses)
+
+*	generally dynamic linker will split data segments into multiple sections
+	
+*	segment - data , code etc...
+	
+*	section - .rodata, .plt, .got etc...
+
+*	if we dont use 4k page completetly, remaining virtual address spacxe will be wasted next page wont contnue from the next address space 
+	simple internal fragmntation can not be handled in paging.	
+	To avoid this fragmentation we need to map the same address space for both code and data (lower will use code and upper will data).
+
+*	file offset is required only untill kernel copies contents file to the memory once its done file will be closed later 
+	VA and PA will come into picture.
+
+*	page         --- virtual address
+	page frames  --- physical address 
+	these are the namming conventions for 4k chunks 
+
+*	once a.out run, linker/process will generate virtual addresses those are maped to file, later translate VA to PA.
+
+*	address translation:
+	translation table will a part of context
+	
+*	for example code segment virtual base address generated(0x00048528) here (528 is the offset),
+	kernel will do mask of the least 12 bits(0xFFFFF000).
+	PA = 0x00048528 & 0xFFFFF000)
+	exact PA = PA | 528
+	
+	so we can the PA and once I get the PA just add the offset so will get exact PA of the content.
+
+*	
+
+*	
+
+
+	
+	
+	 	
+
+		
