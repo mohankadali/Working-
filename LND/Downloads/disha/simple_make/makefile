@@ -1,4 +1,4 @@
-.PHONY: all clean
+#.PHONY: all clean
 all : exec1 exec2
 	make exec1 exec2	
 

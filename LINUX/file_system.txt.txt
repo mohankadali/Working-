@@ -1,0 +1,74 @@
+
+Apps - vfs - ext2 - block device drvers - block devices(harddisk)
+
+vfs can communicate with any file system
+
+an hard disk not only contains data we provided also contains some meta data related to hard disk
+
+hard disk contains sequence of blocks
+
+driver can see the hard disk exactly the same way of hard disk looks means driver knows about cylinder, sectors and tracks etc...
+
+mian components of vfs super block, struct inode , struct dentry, struct file, struct address space.
+
+super block  - basic information, aggregated file ystem information 
+inode block  - file descriptor 
+dentry       - list of entries, everyfile should have entry.
+struct_file  - kernel or vfs will open a session through file descriptor(struct_file) its a session based transaction.
+address space -  will holds the address of the file (format tree or radix tree or page cache)
+
+super block mainted per file system
+inode block maintained per file 
+dentry is for directory entry 
+struct_file maintained for session open a file struct_file will be alive if close it will remove 
+address space is for object embedded in the file
+
+
+
+open_namei() - it will translate a file.txt into a corresponding dentry object, vfs will maintain a dentry it will handle.
+	
+	dentry - inode - address space - data of file (page cache) page tree 
+			|
+			|		
+			|
+		struct_file(f_op,f_mapping , fd[]->in,out,err)
+
+
+after this multiple scenarios will come into picture 
+
+1. data present in cache. 
+2. data need to fetch from hrd disk 
+3. data not present in hadrdisk. 
+
+
+
+
+File system:
+it is a strctural organization of files on a media.
+
+if we  type ls - li
+we can see the multiple file types those are recognized by ext2 file system.
+files are nothng but a data 
+
+every file have meta info for actual information,
+
+boot block - blocks(0 to n) 
+		|	
+		|
+	     super block(1) - group descriptor(n) - data bitmap - inode bitmap - inode table - data blocks 	
+
+inode - file descriptor
+inodde bitmap - indicate number of inodes present in block group.
+data bitmap - indicates the data blocks in block group
+
+
+
+
+
+
+
+
+
+
+
+

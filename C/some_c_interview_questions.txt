@@ -172,19 +172,46 @@ tell about SDLC ?
 
 Using one array create 2 stacks and optimize it?
 
+How we will come to know if one sender sending msg and received by reciever  which type of it is. (int, char, string)
+
+write aprogram to send structure variables from client to server and chage in server like
+     struct {
+     	int a= 10;
+     	char *ptr = “GESL”;
+     	int c = 20;
+     };
+
+who will decide the size of datagram and where it will be store?
+
+who is moving from .bss to data?
+
+Given an array of fixed length with only 0, 1, 2 numbers filled in random order:
+     ex:
+       Given an array of size = 20
+         i/p: 1, 0, 2, 0, 2, 1, 0, 0, 2, 1, 1, 2, 0, 2, 1, 0, 1, 1, 0, 1
+         o/p: 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2.
+     Conditions apply: you can only use 1 loop.
+
+Why do we need to typecast  return value of  the  malloc() when creating node ?
+    NOTE : Interview panel  Said I am using without typecasting in my program.
+
+How memory will allocate with malloc() internally(program_break,brk(),sbrk() explanation)
 
 
+If we declare one variable in header file and again we declare same variable in c file(header file included) what it will happen. If we initialize the variable in header file what it will happen.
 
+how to print maximum value of amy data type?
 
+In PC where c program stored & Run?
 
+Implement atox. 
 
+How to allocate memory to a ptr without deleting the existing memory?Write the syntax for the same?
 
+we have one sample1.c, one sample2.s, one sample.h file how will you compile all in a single command.
 
-
-
-
-
-
+Compilation Process Explain step by step?
+        commands to execute a.c , a.i, a.s, a.o,         how compiler will identify dead code (optimization techinque)
 
 
 

@@ -34,174 +34,174 @@ static irq_handler_t  irgpio_irq_handler(unsigned int irq, void *dev_id, struct 
 /*
    Function name: unique_val
 Description : Return the key code by passing unique key value in switch case.
-*/
+ */
 int unique_val(void)
 {
-    current_t_bit = (data & 0xFF000000)? 0 : 1;
-    if(current_t_bit != last_t_bit){}
+	current_t_bit = (data & 0xFF000000)? 0 : 1;
+	if(current_t_bit != last_t_bit){}
 
-    printk(KERN_INFO "inside fun data = %lx",data); 
+	printk(KERN_INFO "inside fun data = %lx",data); 
 
-    switch(data){
-        case 0x100114:
-            printk("MOHAN Button pressed = \" Play \" \n");
-            return KEY_PLAY;
-            break;
+	switch(data){
+		case 0x100114:
+			printk("MOHAN Button pressed = \" Play \" \n");
+			return KEY_PLAY;
+			break;
 
-        case 0x100141:
-            printk("MOHAN Button pressed = \" Stop \" \n");
-            return KEY_STOP;
-            break;
+		case 0x100141:
+			printk("MOHAN Button pressed = \" Stop \" \n");
+			return KEY_STOP;
+			break;
 
-        case 0x100050:
-            printk("MOHAN Button pressed = \" Power \" \n");
-            return KEY_POWER;
-            break;
+		case 0x100050:
+			printk("MOHAN Button pressed = \" Power \" \n");
+			return KEY_POWER;
+			break;
 
-        case 0x100115:
-            printk("MOHAN Button pressed = \" Record \" \n");
-            return KEY_RECORD;
-            break;
+		case 0x100115:
+			printk("MOHAN Button pressed = \" Record \" \n");
+			return KEY_RECORD;
+			break;
 
-        case 0x100404:
-            printk("MOHAN Button pressed = \" OK \" \n");
-            return KEY_ENTER; 
-            break;
+		case 0x100404:
+			printk("MOHAN Button pressed = \" OK \" \n");
+			return KEY_ENTER; 
+			break;
 
-        case 0x40100404:
-            printk("MOHAN Button pressed = \" OK \" \n");
-            return KEY_ENTER;
-            break;
+		case 0x40100404:
+			printk("MOHAN Button pressed = \" OK \" \n");
+			return KEY_ENTER;
+			break;
 
-        case 0x100405:
-            printk("MOHAN Button pressed = \" Back \" \n");
-            return KEY_BACK; 
-            break;
+		case 0x100405:
+			printk("MOHAN Button pressed = \" Back \" \n");
+			return KEY_BACK; 
+			break;
 
-        case 0x100145:
-            printk("MOHAN Button pressed = \" Replay \" \n");
-            return 16;
-            break;
+		case 0x100145:
+			printk("MOHAN Button pressed = \" Replay \" \n");
+			return 16;
+			break;
 
-        case 0x100144:
-            printk("MOHAN Button pressed = \" Skip \" \n");
-            return 17; 
-            break;
+		case 0x100144:
+			printk("MOHAN Button pressed = \" Skip \" \n");
+			return 17; 
+			break;
 
-        case 0x100111:
-            printk("MOHAN Button pressed = \" Rew \" \n");
-            return KEY_REWIND;
-            break;
+		case 0x100111:
+			printk("MOHAN Button pressed = \" Rew \" \n");
+			return KEY_REWIND;
+			break;
 
-        case 0x100401:
-            printk("MOHAN Button pressed = \" Right \" \n");
-            return KEY_RIGHT;
-            break;
+		case 0x100401:
+			printk("MOHAN Button pressed = \" Right \" \n");
+			return KEY_RIGHT;
+			break;
 
-        case 0x100400:
-            printk("MOHAN Button pressed = \" Left \" \n");
-            return KEY_LEFT;
-            break;
+		case 0x100400:
+			printk("MOHAN Button pressed = \" Left \" \n");
+			return KEY_LEFT;
+			break;
 
-        case 0x40100401:
-            printk("MOHAN Button pressed = \" Right \" \n");
-            return KEY_RIGHT;
-            break;
+		case 0x40100401:
+			printk("MOHAN Button pressed = \" Right \" \n");
+			return KEY_RIGHT;
+			break;
 
-        case 0x40100400:
-            printk("MOHAN Button pressed = \" Left \" \n");
-            return KEY_LEFT;
-            break;
+		case 0x40100400:
+			printk("MOHAN Button pressed = \" Left \" \n");
+			return KEY_LEFT;
+			break;
 
-        case 0x100154:
-            printk("MOHAN Button pressed = \" Up \" \n");
-            return KEY_UP;
-            break;
+		case 0x100154:
+			printk("MOHAN Button pressed = \" Up \" \n");
+			return KEY_UP;
+			break;
 
-        case 0x100155:
-            printk("MOHAN Button pressed = \" Down \" \n");
-            return KEY_DOWN;
-            break;
+		case 0x100155:
+			printk("MOHAN Button pressed = \" Down \" \n");
+			return KEY_DOWN;
+			break;
 
-        case 0x100100:
-            printk("MOHAN Button pressed = \" Vol+ \" \n");
-            return KEY_VOLUMEUP;
-            break;
+		case 0x100100:
+			printk("MOHAN Button pressed = \" Vol+ \" \n");
+			return KEY_VOLUMEUP;
+			break;
 
-        case 0x100101:
-            printk("MOHAN Button pressed = \" Vol- \" \n");
-            return KEY_VOLUMEDOWN;
-            break;
+		case 0x100101:
+			printk("MOHAN Button pressed = \" Vol- \" \n");
+			return KEY_VOLUMEDOWN;
+			break;
 
-        case 0x100104:
-            printk("MOHAN Button pressed = \" Ch+ \" \n");
-            return KEY_CHANNELUP;
-            break;
+		case 0x100104:
+			printk("MOHAN Button pressed = \" Ch+ \" \n");
+			return KEY_CHANNELUP;
+			break;
 
-        case 0x100105:
-            printk("MOHAN Button pressed = \" Ch- \" \n");
-            return KEY_CHANNELDOWN;
-            break;
+		case 0x100105:
+			printk("MOHAN Button pressed = \" Ch- \" \n");
+			return KEY_CHANNELDOWN;
+			break;
 
-        case 0x100051:
-            printk("MOHAN Button pressed = \" Start \" \n");
-            return KEY_HOME;
-            break;
+		case 0x100051:
+			printk("MOHAN Button pressed = \" Start \" \n");
+			return KEY_HOME;
+			break;
 
-        case 0x100054:
-            printk("MOHAN Button pressed = \" Mute \" \n");
-            return KEY_MUTE;
-            break;
+		case 0x100054:
+			printk("MOHAN Button pressed = \" Mute \" \n");
+			return KEY_MUTE;
+			break;
 
-        case 0x101040:
-            printk("MOHAN Button pressed = \" Record TV \" \n");
-            return 27;
-            break;
+		case 0x101040:
+			printk("MOHAN Button pressed = \" Record TV \" \n");
+			return 27;
+			break;
 
-        case 0x100414:
-            printk("MOHAN Button pressed = \" Guide \" \n");
-            return KEY_PROGRAM;
-            break;
+		case 0x100414:
+			printk("MOHAN Button pressed = \" Guide \" \n");
+			return KEY_PROGRAM;
+			break;
 
-        case 0x100411:
-            printk("MOHAN Button pressed = \" Live TV \" \n");
-            return 29;
-            break;
+		case 0x100411:
+			printk("MOHAN Button pressed = \" Live TV \" \n");
+			return 29;
+			break;
 
-        case 0x100410:
-            printk("MOHAN Button pressed = \" DVD Menu \" \n");
-            return KEY_DVD;
-            break;
+		case 0x100410:
+			printk("MOHAN Button pressed = \" DVD Menu \" \n");
+			return KEY_DVD;
+			break;
 
-        case 0x100110:
-            printk("MOHAN Button pressed = \" Fwd \" \n");
-            return KEY_FORWARD;
-            break;
+		case 0x100110:
+			printk("MOHAN Button pressed = \" Fwd \" \n");
+			return KEY_FORWARD;
+			break;
 
-        case 0x100140:
-            printk("MOHAN Button pressed = \" Pause \" \n");
-            return KEY_PAUSE;
-            break;
+		case 0x100140:
+			printk("MOHAN Button pressed = \" Pause \" \n");
+			return KEY_PAUSE;
+			break;
 
-        case 0x100055:
-            printk("MOHAN Button pressed = \" More \" \n");
-            return 33;
-            break;
+		case 0x100055:
+			printk("MOHAN Button pressed = \" More \" \n");
+			return 33;
+			break;
 
-        default:
-            break;
-    }
-    return 0;
+		default:
+			break;
+	}
+	return 0;
 }
 /*
    Function name: irdata_show
 Description : To display the key's unique value
-*/
+ */
 
 
 static ssize_t irdata_show(struct kobject *kobj, struct kobj_attribute *attr, char *buf)
 {
-    return sprintf(buf, "%ld\n", data); 
+	return sprintf(buf, "%ld\n", data); 
 }
 
 
@@ -209,14 +209,14 @@ static struct kobj_attribute ir_attr = __ATTR_RO(irdata);
 
 
 static struct attribute *ir_attrs[] = {
-    &ir_attr.attr,
-    NULL,
+	&ir_attr.attr,
+	NULL,
 };
 
 
 static struct attribute_group attr_group = {
-    .name  = gpioName,
-    .attrs = ir_attrs,
+	.name  = gpioName,
+	.attrs = ir_attrs,
 };
 
 
@@ -225,93 +225,93 @@ static struct kobject *ir_kobj;
 /*
    Function name: irRemote_init
 Description : Creating a sysfs entry and registering IRremote has input deivce
-*/
+ */
 static int __init irRemote_init(void){
-    int result = 0;
-    int error;
-    unsigned long IRQflags = IRQF_TRIGGER_RISING | IRQF_TRIGGER_FALLING;
+	int result = 0;
+	int error;
+	unsigned long IRQflags = IRQF_TRIGGER_RISING | IRQF_TRIGGER_FALLING;
 
-    printk(KERN_INFO "IR Remote:MOHAN_Initializing the IR Remote LKM\n");
-    sprintf(gpioName, "gpio%d", gpioIr);
-    ir_kobj = kobject_create_and_add("irRemote", kernel_kobj->parent);     //Creating an sysfs entry
-    if(!ir_kobj){
-        printk(KERN_ALERT "IR Remote: failed to create kobject mapping\n");
-        return -ENOMEM;
-    }
+	printk(KERN_INFO "IR Remote:MOHAN_Initializing the IR Remote LKM\n");
+	sprintf(gpioName, "gpio%d", gpioIr);
+	ir_kobj = kobject_create_and_add("irRemote", kernel_kobj->parent);     //Creating an sysfs entry
+	if(!ir_kobj){
+		printk(KERN_ALERT "IR Remote: failed to create kobject mapping\n");
+		return -ENOMEM;
+	}
 
-    result = sysfs_create_group(ir_kobj, &attr_group);
-    if(result) {
-        printk(KERN_ALERT "IR Remote: failed to create sysfs group\n");
-        kobject_put(ir_kobj);
-        return result;
-    }
-    getnstimeofday(&ts_last);
-    ts_diff = timespec_sub(ts_last, ts_last);
-    printk("ts_diff :%d\n",ts_diff);
+	result = sysfs_create_group(ir_kobj, &attr_group);
+	if(result) {
+		printk(KERN_ALERT "IR Remote: failed to create sysfs group\n");
+		kobject_put(ir_kobj);
+		return result;
+	}
+	getnstimeofday(&ts_last);
+	ts_diff = timespec_sub(ts_last, ts_last);
+	printk("ts_diff :%d\n",ts_diff);
 
-    gpio_request(gpioIr, "sysfs");          //requesting for gpio pin
-    gpio_direction_input(gpioIr);           //setting gpio pin as input pin
-    gpio_export(gpioIr, false);
+	gpio_request(gpioIr, "sysfs");          //requesting for gpio pin
+	gpio_direction_input(gpioIr);           //setting gpio pin as input pin
+	gpio_export(gpioIr, false);
 
-    printk(KERN_INFO "IR Remote: MOHAN_The gpio state is currently: %d\n", gpio_get_value(gpioIr));
+	printk(KERN_INFO "IR Remote: MOHAN_The gpio state is currently: %d\n", gpio_get_value(gpioIr));
 
-    irqNumber = gpio_to_irq(gpioIr);        //Requesting for irq number  
-    printk(KERN_INFO "IR Remote: The MOHAN_irData is mapped to IRQ: %d\n", irqNumber);
+	irqNumber = gpio_to_irq(gpioIr);        //Requesting for irq number  
+	printk(KERN_INFO "IR Remote: The MOHAN_irData is mapped to IRQ: %d\n", irqNumber);
 
-    button_dev = input_allocate_device();     //Allocating memory  for input device struct
-    if (!button_dev) {
-        printk(KERN_ERR "button.c: Not enough memory\n");
-    }
-    button_dev->evbit[0] = BIT_MASK(EV_KEY);
-    button_dev->name = "IRremote";
+	button_dev = input_allocate_device();     //Allocating memory  for input device struct
+	if (!button_dev) {
+		printk(KERN_ERR "button.c: Not enough memory\n");
+	}
+	button_dev->evbit[0] = BIT_MASK(EV_KEY);
+	button_dev->name = "IRremote";
 
-    set_bit(EV_KEY, button_dev->evbit);            
-    set_bit(KEY_LEFT,button_dev->keybit);
-    set_bit(KEY_RIGHT,button_dev->keybit);
-    set_bit(KEY_UP,button_dev->keybit);
-    set_bit(KEY_DOWN,button_dev->keybit);
-    set_bit(KEY_ENTER,button_dev->keybit);
-    set_bit(KEY_BACK,button_dev->keybit);
-    set_bit(KEY_VOLUMEUP,button_dev->keybit);
-    set_bit(KEY_VOLUMEDOWN,button_dev->keybit);
-    set_bit(KEY_CHANNELUP,button_dev->keybit);
-    set_bit(KEY_CHANNELDOWN,button_dev->keybit);
-    set_bit(KEY_HOME,button_dev->keybit);
-    set_bit(KEY_FORWARD,button_dev->keybit);
-    set_bit(KEY_PAUSE,button_dev->keybit);
-    set_bit(KEY_DVD,button_dev->keybit);
-    set_bit(KEY_PROGRAM,button_dev->keybit);
-    set_bit(KEY_REWIND,button_dev->keybit);
-    set_bit(KEY_POWER,button_dev->keybit);
-    set_bit(KEY_STOP,button_dev->keybit);
-    set_bit(KEY_PLAY,button_dev->keybit);
-    set_bit(KEY_PAUSE,button_dev->keybit);
+	set_bit(EV_KEY, button_dev->evbit);            
+	set_bit(KEY_LEFT,button_dev->keybit);
+	set_bit(KEY_RIGHT,button_dev->keybit);
+	set_bit(KEY_UP,button_dev->keybit);
+	set_bit(KEY_DOWN,button_dev->keybit);
+	set_bit(KEY_ENTER,button_dev->keybit);
+	set_bit(KEY_BACK,button_dev->keybit);
+	set_bit(KEY_VOLUMEUP,button_dev->keybit);
+	set_bit(KEY_VOLUMEDOWN,button_dev->keybit);
+	set_bit(KEY_CHANNELUP,button_dev->keybit);
+	set_bit(KEY_CHANNELDOWN,button_dev->keybit);
+	set_bit(KEY_HOME,button_dev->keybit);
+	set_bit(KEY_FORWARD,button_dev->keybit);
+	set_bit(KEY_PAUSE,button_dev->keybit);
+	set_bit(KEY_DVD,button_dev->keybit);
+	set_bit(KEY_PROGRAM,button_dev->keybit);
+	set_bit(KEY_REWIND,button_dev->keybit);
+	set_bit(KEY_POWER,button_dev->keybit);
+	set_bit(KEY_STOP,button_dev->keybit);
+	set_bit(KEY_PLAY,button_dev->keybit);
+	set_bit(KEY_PAUSE,button_dev->keybit);
 
-    error = input_register_device(button_dev);              //Registering IR remote has input device
-    if (error) {
-        printk(KERN_ERR "button.c: Failed to register device\n");
-    }
+	error = input_register_device(button_dev);              //Registering IR remote has input device
+	if (error) {
+		printk(KERN_ERR "button.c: Failed to register device\n");
+	}
 
-    result = request_irq(irqNumber,                          //Requesting for interrupt when button is pressed
-            (irq_handler_t) irgpio_irq_handler,
-            IRQflags,
-            "ir_remote_handler",
-            NULL);
-    return result;
+	result = request_irq(irqNumber,                          //Requesting for interrupt when button is pressed
+			(irq_handler_t) irgpio_irq_handler,
+			IRQflags,
+			"ir_remote_handler",
+			NULL);
+	return result;
 }
 
 /*
    Function name: irRemote_exit 
 Description : Deallocate all the memory and free irq
-*/
+ */
 
 static void __exit irRemote_exit(void){
-    tasklet_kill(&tasklet);
-    kobject_put(ir_kobj);
-    free_irq(irqNumber, NULL);
-    gpio_unexport(gpioIr);
-    gpio_free(gpioIr);
-    printk(KERN_INFO "IR Remote:MOHAN_Goodbye from the IR Remote LKM!\n");
+	tasklet_kill(&tasklet);
+	kobject_put(ir_kobj);
+	free_irq(irqNumber, NULL);
+	gpio_unexport(gpioIr);
+	gpio_free(gpioIr);
+	printk(KERN_INFO "IR Remote:MOHAN_Goodbye from the IR Remote LKM!\n");
 }
 void tasklet_fn(unsigned long arg)
 {
@@ -336,12 +336,12 @@ void tasklet_fn(unsigned long arg)
 				data = data | (rbuf & (1<<(i*2)));
 			}
 			printk(KERN_INFO "data = %lx",data); 
-                 input=unique_val();
-	         printk(KERN_INFO "IR Remote : MOHAN_input value %d \n",input);
-	         input_event(button_dev, EV_KEY,input,1);            //Trigering input event when any key is pressed
-	         input_event(button_dev, EV_KEY,input,0);            //To intimate the release 
-	          input_sync(button_dev);
-                 nbits = 0;
+			input=unique_val();
+			printk(KERN_INFO "IR Remote : MOHAN_input value %d \n",input);
+			input_event(button_dev, EV_KEY,input,1);            //Trigering input event when any key is pressed
+			input_event(button_dev, EV_KEY,input,0);            //To intimate the release 
+			input_sync(button_dev);
+			nbits = 0;
 		}
 	}
 }
@@ -352,7 +352,7 @@ Description : Interrupt handler to get unique value for each key when the key is
 static irq_handler_t irgpio_irq_handler(unsigned int irq, void *dev_id, struct pt_regs *regs){
 
 	//static int input = 0;
-        getnstimeofday(&ts_current);
+	getnstimeofday(&ts_current);
 	ts_diff = timespec_sub(ts_current, ts_last);          //calculatuing time difference for IRQF_TRIGGER_RISING and IRQF_TRIGGER_FALLING.
 	ts_last = ts_current;
 	isPulse = !isPulse;
@@ -363,7 +363,7 @@ static irq_handler_t irgpio_irq_handler(unsigned int irq, void *dev_id, struct p
 	//input_sync(button_dev);
 	tasklet_schedule(&tasklet);                              //To intimate that no more data.Intimate event to hal 
 	//nbits = 0;
-    return (irq_handler_t) IRQ_HANDLED;
+	return (irq_handler_t) IRQ_HANDLED;
 
 }
 

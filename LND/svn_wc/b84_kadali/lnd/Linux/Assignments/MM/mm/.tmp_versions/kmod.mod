@@ -1,2 +1,2 @@
-/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.ko
-/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.o
+/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.ko
+/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.o

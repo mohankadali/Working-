@@ -1,4 +1,4 @@
-#.PHONY:clean
+.PHONY:clean
 app:main.o add.o sub.o
 	gcc -o clean main.o add.o sub.o
 
@@ -6,7 +6,7 @@ app:main.o add.o sub.o
 	gcc -c main.c add.c sub.c   
 
 
-.PHONY:clean
+#.PHONY:clean
 clean:
 	rm *.o
 	rm clean

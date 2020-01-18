@@ -1,4 +1,4 @@
 all:
-	@$(MAKE) -C $(PWD)/1
+	@$(MAKE) -C $(PWD)/3
 
 

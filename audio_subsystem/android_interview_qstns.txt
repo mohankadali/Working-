@@ -1,0 +1,69 @@
+What is UART
+Write program to check whether the values filled in given suduko table are valid or not valid
+Write script to know the how many error messages captured in the given log file
+Write Test cases for the LIFT
+What is System testing?
+Difference between Severity and priority?
+Explain about Jira.
+What is role of CCB and who are members of it?
+How do you set priority if CCB is not there ?
+What is progressive and interlace scanning?
+What type of scanning takes place in a phone(Interlace or Scanning)?
+What is TS Reader Lite?
+What is Dog Food Testing?
+Difference between MPEG 1 and MPEG 2?
+Differene betwwen H.264 and MPEG 4?
+What are differnt type of video codecs?
+Diffrence between Black box testing and White box testing?
+What is NTSC,ATSC,DVB and PAL?
+What is Smoke Testing and Sanity Testing?
+If you are handing on testing team, If developer want to add new feature or module to an application. As a tester, what is your role and input to developer's team with regard to adding new feature.(repeated in next round)
+Write a python script for searching an item in text file with three inputs?
+read the directory where file is located.?
+Read the file?
+Write a python script to print a list items in line by line fashion?
+Write functional cases for camera.?
+Regular expression in Perl.?
+Send a mail via smtplib in python
+What is main approach for automation testing?
+1. What is your approach for end to end testing?
+2. what is split in python?
+3. You are given with two dice, all faces are empty. write numbers in 12 faces of dice in such a way that, if you throw 2 dice a time. Any number should between 1 to 31(number of days in July).
+4. You are in a situation where your lead/manager is on leave. developer is not responding well to your queries about testing issues. What is your approach?
+5. How did you wrote scripts for invoking any application?
+6. What was your method for stress testing using Perl?
+7. How would you collect logs for audio call?
+1. How would you collect logs for audio call, which audio codec is supported in CDMA phones
+2. Difference between MP3 file and MWE file
+3. write 7th and 8th digit of this series of numbers (0, 20,33,400, 505,600 ---, ----)
+4. What is binary numbers, write binary numbers for 1-10
+1. Write regular expression for validating the IP address ?
+2. Write regular expression for validating the Email address ?
+     Hints :
+     1. Mail id contains . (dot)
+     2. It may contains numbers(0..9)
+     3. It may contains underscore(_)
+     4. Domain name may be com,in,org etc
+3. Write regular expression for validate the door number and pin code.?
+     Hints :
+     1. Read the xlsx file and fetch the address form the sheet
+     2. Validate the address
+         Ex - #129 2nd main road
+              3rd cross vijayanagar-560040
+4. Difference between qw and ""? Example
+5. Difference between say and print ?
+6. How to handle error condition in perl ?
+7. Difference between use and require ?
+2. Explain ADB commands.
+3. Explain test cases you have developed.
+4. What is sensor?Why it is used?
+5. What is accelerometer?Explain in which case accelerometer is used.
+6. Do you have some experience on sensors?
+7. Write a program to reverse linked list.
+8. Explain some ADB commands.What is "adb disable verity" command ?
+9. How you will find glitch in audio playing?
+Suppose audio is playing  and device is getting 'whats app' notification.So audio player is supposed to pause for a while.
+But audio player is not paused.How will you debug?
+2. Tell test cases for proximity sensor.
+3. Tell test case scenarios for stress testing of proximity sensor.
+

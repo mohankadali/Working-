@@ -1,6 +1,462 @@
+Q need A:
+Q:SDLC life cycle 
+Q:WAP in which thread1 have to send message and thread2 have to receive message concurrently.
+Q:WAP in which thread1 have to print odd  numbers and thread2 have to print even numbers concurrently.
+Q:Why mutex? When parent is adding a node and child should consume the node without any waiting ? What is the mechanism?
+Q:What are all the header files included in device driver Program?
+Q:I have two threads t1 and t2.t1 adds element in array and t2 removes elements, execute using mutex and conditional variables.
+Q:one process contains function definition write program to invoke the function from another process by using particular ipc
+Q:When do my init function executes in device driver
+Q:How arguments are passed to system call routine in kernel space
+Q:If two processes uses one shared library, how the other process come to know  that particular library is already loaded in memory?
+Q:About watch dog timer, How can we convert the the Watchdog timer interrupt(Its a software interrupt)to hardware interrup
+Q:What is the difference between  dup and dup2?
+Q:Write a program to generate 5 childs they run parallel?
+Q:What is the difference b/w hardware and software interrupts?
+Q:P1, P2 processes are there.P1 sending signal from P2,how it will send?How p2 will recognize the signal came from P1 only?which structure?
+Q:Diff btw sdram and dram?
+Q:What is the Use of gpio pins?
+Q:About i2c.... Spi and i2c Diff?
+Q:Soft and hard rtos Diff?
+Q:Monolithic and micro kernel Diff?
+Q:What is Initramfs, initrd,rootfs and ramfs?
+Q:How the session is created ?
+Q:How the traversing through the structures happens when open() is called in various filesystems?
+Q:what are the steps to bring-up the board?
+Q:How i2c protocol works?
+Q:What are the i2c API you used in your project?
+Q:How you read the data from rtc?
+Q:Explain I2c framework in linux kernel.
+Q:What is the difference b/w EXT2 and EXT3?                                         
+Q:What is journaling?                                              
+Q:Three process are available named as p1,p2,p3 . P1 wants to send some messgae to p2 . P2 and
+       p3 are waiting to receive message from p1. P3 should not receive any message from p1.  How
+       do you achieve this ?
+Q:If i have a custom new board and kernel doesn't have bsp for this new board than 
+ 	What are the steps you follow to port bsp and what modification you have to do in kernel?
+Q:what is top half and bottom half, difference between softirq, tasklet and work queues.
+  (i2c/spi/gpio)protocol explanation
+Q:signal handler in the case of child ( when the signal wll be handled ) 
+  if parent recieve signal and then creted child and child executed   first then  when signal will be handled and who wll handle ? 
+Q:You have data coming from bus and Program Status Register will indicate whether data is available and you are 
+  processing 500 bytes of data and when you are processing 250 th byte,if PSR will indicate data is available, 
+  how do u handle processing data(either in drivers or normal way) with PSR indication?  
+Q:You have data coming from bus and Program Status Register will indicate whether data is available and you are processing 500 bytes 
+  of data and when you are processing 250 th byte,if PSR will indicate data is available, how do u handle processing 
+  data(either in drivers or normal way) with PSR indication?
+Q:In case of paging system suppose reading is happened at the end of one page.  How it locates the next address to read ?
+Q:If one code is written to the system which does not support paging, What changes has to be made to run it on the
+  system which supports paging ?
+Q:   Three threads are there say thread1,thread2,thread3
+   condition: thread3 sends the messages  to thread1 and thread2 which ever is free, means message switching b/w thread1 and thread2
+   How to achieve this condition??
+
+Q:How to check cpu utilization in our system ? ---> TOP(command)
+Q:Diffrence between typedef and #define ?
+Q:How many register in fiq and irq .  
+Q:How to allocate memory without malloc and calloc.
+Q:How to find memory leak without valgrind .
+Q:Where u use kgdb and gdb .
+Q:I2C and what is arbitration .
+Q:What happen if we define hader file static.
+Q:How u-boot communicates with kernel ?
+Q:I2C Arbitration ? How master will get to know that he has lost the arbitration?
+Q:How to Optimize your code ? Tell 3-4ways ?
+Q:volatile --- if your cpu is having no cache how it will do optimization ?
+Q:How many device connect to one i2c ?
+Q:mrproper ?
+Q:What is the diffrence between in Andriod kernel and linux Kernel ?
+Q:Modular Programing ?
+Q:How the value assing in union . If I take in union member char a; and int b;  and we assing the value char a=1. Now what the value of int b. 
+Q:Race condition. 
+Q:Diffrence between. Text and binary file. 
+Q:How the value store if char a=1; in little indian and big indian. 
+Q:what is man page. 
+Q:What type of instruction use in 8051 instruction. 
+Q:In my file one image store how can i store this image in another file. 
+Q:What is data structure. Diffrence between linear and non-linear data structure. 
+Q:Tell me 2 method copy a file data in another file. 
+Q:About your self .
+Q:Expalin boot and rootfs partition .
+Q:Kernel log .
+Q:Boot.scr File .
+Q:Root file system .
+Q:Diffrence between uimage and zimage and bzimage .
+Q:.config file .
+Q:How system call works ?
+Q:How will you read/write device registers?
+Q:What is memory mapped I/O?
+Q:Explain about user and kernel virtual addresses.
+Q:Explain Ring Buffer in detail.
+Q:Daisy chain configuration in SPI.
+Q:How to identify memory leaks in userspace and kernel space.
+Q:What if sysfs was not there in linux ?
+Q:Why linux does not make use of ICOTL instead of sysfs ?
+Q:In Android the will the kernel use sysfs instead of ioctl ?
+Q:Implimentaion of reqest_irq() in kernel. How it is implemented ?
+Q:How kernel pushes interrupt handler to vector table ?
+Q:device tree is a part of kernel or not?
+Q:How to pass the device tree node address to the bootloader?
+Q:What are the ARM modes?
+Q:Crash occurred in one core out of 8 cores how you will find which core has crashed and how you will debug?
+Q:what is do_irq()
+Q:what is top half and bottom half, difference between softirq, tasklet and work queues.
+Q:If in my system interrupt context not be there then what will happen? And what is need of both context ? 
+Q:use of sysfs and proc?
+Q:without system calls can we communicate with kernel space or not ?
+Q:what is 1960*1080 at 60hz
+Q:/sysfs and  /dev , /proc differences
+Q:Interrupts in top half and bottom halfs(enabled or disabled .if yes ? Why?)
+Q:What is AT commands... Which AT commands u used in yr project? 
+Q:What is the API version for Android Q?
+Q:Explain VSYNC ? which VSYNC you have used ? H/W VSYNC or Software VSYNC?
+Q:How driver will handle if system in sleep mode or resume mode?
+Q:Any API will call before calling init_module() in kernel space?
+Q:memory barries.
+Q:What is Initramfs, initrd,rootfs and ramfs?
+Q:What is PIC ?
+Q:Softirq and tasklet Diff (Main diff) ?
+Q:Explain flag in reqvest_irq ? which flag use in your project ? 
+Q:What is shared flag ? 
+Q:Explain shared flag with example ?
+Q:Interrupt context ?
+Q:Where the irq no define in kernel ?
+Q:Vector table in system call ?
+Q:How many vector address are there for the system call ?
+Q:What is address of vector address ?(SWI 0X80)
+Q:What happen when u come user to kernel space ?
+Q:Explain CPSR ?
+Q:Explain what happen when we change one mode to another mode ?
+Q:How to register driver in kernel. How to identify diver in kernel.
+Q:Low level i2c and high level i2c.
+	i2c_core high level driver. 
+	i2c_omap Low level driver.
+	i2c_core is used to communicate between i2c and driver. work as a middeater.
+Q:How to register i2c in kernel and how to identify the i2c for your driver.
+Q:Low level i2c and high level i2c.
+Q:Character device driver code flow. Impliment a character device in linux.
+Q:ARM (arm register).(Diffrence between fiq and irq).
+Q:uni process how to use spinlock.
+Q:Diffrence between mutax, syncronization, spinlock.
+Q:Void and null derefrence output. (null-segmentation fault/NULL-first type cast)
+Q:Static variable use in diffrent file. (thrught pionter)
+Q:compilation process and who step is responsible create for memory segment.
+Q:Vector and non vector address.   
+Q:Thread and hoW to shared data independent thread and dependent thread. 
+Q:Process. Where process is run. (RAM)
+Q:ARM. / ARM Mode / Undefined mode. / How change the mode user and processor. (7 mode / undefined instraction / Processor)
+Q:Diffrence between virtual address and Physical address. (actual adresss - physical address/ genrated by cpu - virtual address)
+Q:Where kernel is run virtual address and Physical address. (physical address)
+Q:Inode.   ---> Is a data structure cantain the information of file. "struct indode *inode;" internally repersent the file. like - file   metata . 
+  (when it open, size, permission like this inforamtion).  
+Q:Multiple file operation repersent open descriptors on a single file but all point a single file discriptor.
+Q:Muxconfigration.
+Q:How to export kernel module.   (EXPORT_MODULE / EXPORT_MODULE_GPL) 
+Q:IN structure nested unions are possibe?
+Q:what are things you done in BSP
+Q:what are things you done in U-boot
+Q:what is speed of ARM 9 ?
+Q:Project related question like code flow , GPIO.
+Q:How to echo work in GPIO.
+Q:Where global static variables are stored ? Data sagment in memory ? 
+Q:What is difference between  local static and global static ? 
+Q:Why you have two separate data, bss ? 
+Q:What is external linkage and internal linkage ? Dynamic linkage and static linkage. 
+Q:Two masters are try to access the same bus what happen ? 
+Q:What is arbitration and synchronization ? 
+Q:Take two masters and explain arbitration and synchronization, how it can get this(wired AND) ? //
+Q:What is the use of proc file system  ? 
+Q:What is the use of class create ? and were we can see this information ? 
+Q:Take one unsigned int a=0xaabbccdd, i want to access this value separate like aa,bbcc,dd ? 
+Q:Take one unsigned int a=0xaabbccff; in who many ways i can access this value ?>>>>>>>>>>>>>>>>>
+     explain all possibility
+Q:Implement strncat lib function, and explain details ?>>>>>>>>>>>>>>>>
+     1.handled situations ?
+     2.unhandled situations ?
+Q:Take char **p;  allocate memory for two dimentional array a[5][3];
+     explain in failed situation and how can you free the memory in failed situations ? very very clearly ?
+Q:Explain about struct file_operation?
+Q:How can you make your character driver available for users?
+Q:Explain about ioctl, explain some scenario where you can use this in detail?
+Q:How do you know interrupt is come for your device, what should be code in your isr for recognise this?
+Q:what is the code in your driver, which will add your slave drive as the charecter driver ?
+Q:what is the use of ioctl ?
+Q:Charecter driver data structure.
+Q:Way of communticate user scape to kernel space. 
+Q:init services. 
+Q:Poll and select system call.
+Q: void func() {
+     bool var = true;
+     if(var) {
+       .........
+       .........
+       //some Lines of code here
+       return;
+     }
+   }
+   Now 3 threads have to share this func() one after the other
+
+Q: Alredy one thread acquired the spinlock and doing the some work in critical section,another thread came and it needs to acquire 
+   that spinlock it is very urgency ,how it acquire and what happen.
+
+Q:What are the bottom half technics,give real time scenario where do we use the bottom half technics and why should we use that technique 
+  only at that scenario other than that technique.
+
+Q:We inserted one module ,the hardware device is detected and probe function is invoked and we need to intilize that device from specfic
+  address(for ex 0x500000) other than the address which is mentioned in datasheet,so how to intilize that device from that specific address.
+
+Q:Volatile keyword every time reads from the memory only,but we have the so many types of memories like cache memory
+  (L1 cache,L2 cache,L3 cache),memory buffers and main memory,so how the compiler distinguish these memories while reading the volatile keyword.
+
+Q:take a music player ,play some 'n' no of songs randomly all the songs should be played randomly and only once(optimize the code).
+
+Q:Alredy one thread acquired the spinlock and doing the some work in critical section,another thread came and it needs to acquire that 
+  spinlock it is very urgency ,how it acquire and what happen.
+
+Q:What are the bottom half technics,give real time scenario where do we use the bottom half technics and why should we use that technique 
+  only at that scenario other than that technique.
+
+Q:We inserted one module ,the hardware device is detected and probe function is invoked and we need to intilize that device from specfic 
+  address(for ex 0x500000) other than the address which is mentioned in datasheet,so how to intilize that device from that specific address.
+
+Q:In one scenario ,for one hardware device physical memory is needed but physical memory is not avilable,how it get the memory and what 
+  will happen.
+
+
+Q:How to register interrupt?
+Q:How Services interact in Android ?
+Q:Boot time Optimization techniques
+Q:How PMIC, Charger, FG Component interacts?
+
+Q:How Kernel space can send events to HAL
+Q:what are the things you have done on android ?
+Q:Explain VSYNC ? which VSYNC you have used ? H/W VSYNC or Software VSYNC?
+Q:Explain the multichannel Audio Project
+Q:How do we know that machine is LE or BE ? write a program for the same
+Q:Explain rasterization ?
+Q:how memory is segmented ?
+Q:Puzzle count the moves that need to be required .
+Q:Explain audio project. ALSA Framework what changes you have done ?
+Q:What are the different methods for assigning function pointer to a address or function and how to call ?
+
+
+V4l2 driver:
+1. How low level driver will register with v4l2 framework.
+2. What is file_operations?? What are capabilites will provided in file_operaions??
+3. When low level driver registering with v4l2 framework, what are basic file_operations you will register??
+4. What are ioctls commands available??
+5. Explain Querycapabilites ioctl command??
+6. How set_format and get_format works??
+7. Why can't use char device driver instead of v4l2 framework
+8. Why v4l2 framework
+9. Explain buffer management in v4l2
+10. For buffer management what are elements involved??
+11. What is vb2_queue??
+12. In which ioctl function, it will allocate buffers??
+13. What is functionality of prepare_buf??
+14. Do you know states in buffer management??
+15. what are v4l2 events?
+16. What is plan in v4l2 ?? What are planes present in v4l2 ??"
+4.what is the difference between yuyv(yuv) and mjpg(mp4) formats?
+1.Give brief explanation about your profile
+6.Alredy one thread acquired the spinlock and doing the some work in critical section,another thread came and it needs to acquire that spinlock it is very urgency ,how it acquire and what happen.
+7.What are the bottom half technics,give real time scenario where do we use the bottom half technics and why should we use that technique only at that scenario other than that technique.
+8.We inserted one module ,the hardware device is detected and probe function is invoked and we need to intilize that device from specfic address(for ex 0x500000) other than the address which is mentioned in datasheet,so how to intilize that device from that specific address.
+10.In one scenario ,for one hardware device physical memory is needed but physical memory is not avilable,how it get the memory and what will happen
+11.What is the ROM CODE address
+13.Volatile keyword every time reads from the memory only,but we have the so many types of memories like cache memory(L1 cache,L2 cache,L3 cache),memory buffers and main memory,so how the compiler distinguish these memories while reading the volatile keyword.
+2.ISR and what are the conditions need to check before interrupt handler is executed.
+5.take a music player ,play some 'n' no of songs randomly all the songs should be played randomly and only once(optimize the code).
+ex:temp=1000,it should print 995.
+char something (char *temp)
+{
+char str[255];
+memcpy(str,temp,255);
+n=strlen(str);
+str[n-5]='/0';
+return str;
+}
+so that it should eliminate last 5 characters in string(it should work for all test senarios)
+9.schedulers round robin and premitive priority based explain with example how it schedule.
+14.s-trace and uses.
+15.what type of bug you have fixed in HAL level.
+Q.Explain stack frame of program . what is the size of function given.
+Q.How you will get to know data is latched in i2c?
+1 . What is gaussian noise ?
+2 . What are the Modulation Techniques you know ? Explain Them ?
+3 . Operation Amplifier .
+6.Alredy one thread acquired the spinlock and doing the some work in critical section,another thread came and it needs to acquire that spinlock it is very urgency ,how it acquire and what happen.
+7.What are the bottom half technics,give real time scenario where do we use the bottom half technics and why should we use that technique only at that scenario other than that technique.
+8.We inserted one module ,the hardware device is detected and probe function is invoked and we need to intilize that device from specfic address(for ex 0x500000) other than the address which is mentioned in datasheet,so how to intilize that device from that specific address.
+13.Volatile keyword every time reads from the memory only,but we have the so many types of memories like cache memory(L1 cache,L2 cache,L3 cache),memory buffers and main memory,so how the compiler distinguish these memories while reading the volatile keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q with A links:
+
+Q:Explain the flow of signals,How do you register a signal in kernel ?
+A:
+  https://www.bogotobogo.com/Linux/linux_process_and_signals.php
+  https://unix.stackexchange.com/questions/80044/how-signals-work-internally
+  there is a system call named as signal will trigger when we specific signal comes.
+  that signal can be handled by programmer(every signals have their unique numbers)
+
+Q:what is signal? Phases of signal? types of signal ?, Does signal is synchronous or Asynchronous? why ?
+A:https://www.linuxjournal.com/article/3985
+
+Q:What is the initial state of each process,What happens when a task is created,Explain task state space diagram.
+A:https://www.studytonight.com/operating-system/operating-system-processes
+
+Q:Why semaphore? Difference between semaphore and mutex?give a practical application of semaphore?why you cannot use mutex over there?
+A:https://www.softprayog.in/programming/posix-semaphores
+  https://www.softprayog.in/programming/semaphore-basics
+  https://www.softprayog.in/programming/interprocess-communication-using-posix-shared-memory-in-linux
+  https://www.softprayog.in/programming/posix-threads-synchronization-in-c
+ 
+Q:Why we use exit in vfork? Is that efficient way?
+A:https://stackoverflow.com/questions/7676619/difference-between-exit-and-return-after-vfork-call
+
+Q:Process context and interrupt context?
+A:http://www.embeddedlinux.org.cn/essentiallinuxdevicedrivers/final/ch02lev1sec3.html
+
+Q:flow of system call
+A:https://www.tutorialspoint.com/what-are-system-calls-in-operating-system
+
+Q:program to create a daemon process
+A:https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux
+
+
+Q:How you will find whether you are in kernel mode or user mode
+A:https://blog.codinghorror.com/understanding-user-and-kernel-mode/
+
+Q:How will you send signal from one process to another process
+A:http://www.csl.mtu.edu/cs4411.ck/www/NOTES/signal/kill.html
+  using kill system call we can send a signal to process.
+
+Q:what are the signals that cannot be handled and explain why
+A:https://stackoverflow.com/questions/35569659/the-signals-sigkill-and-sigstop-cannot-be-caught-blocked-or-orignored-why
+  When your application is itself unresponsive, there should be some way to exit the application. 
+
+Q:mmap system call working.
+A:https://www.tutorialspoint.com/unix_system_calls/mmap.htm
+
+Q:How interrupt works?,How to handle interrupt?what is do_irq()
+A:https://www.bogotobogo.com/Embedded/hardware_interrupt_software_interrupt_latency_irq_vs_fiq.php
+
+Q:Diff betw polling and interrupt give one Example of polling?
+A:https://techdifferences.com/difference-between-interrupt-and-polling-in-os.html
+
+Q:How spinlock works?,If one proceess acquired spinlock and again another process want to acquire same spinlock 
+ than what happens with another process?
+A:https://www.usenix.org/legacy/publications/library/proceedings/als00/2000papers/papers/full_papers/bryantlock/bryantlock_html/index.html
+  https://www.kernel.org/doc/Documentation/locking/spinlocks.txt
+
+Q:Crash occurred in one core out of 8 cores how you will find which core has crashed and how you will debug
+A:https://linux-audit.com/understand-and-configure-core-dumps-work-on-linux/
+
+
+Q:Do you know the board configuration and machine configuration file for your target board?What is board file?
+A:https://developer.ridgerun.com/wiki/index.php/Linux_machine_board_file 
+  lshw command 
+
+Q:From user level how we can access the hardware register?
+A:https://stackoverflow.com/questions/2651955/write-data-to-register
+
+Q:Difference between Preemptive and Non-Preemptive Scheduling in OS
+A:https://www.thecrazyprogrammer.com/2017/03/difference-preemptive-non-preemptive-scheduling-os.html
+
+Q:Multitasking is implemented in software level or hardware support is also needed?
+A:https://en.wikipedia.org/wiki/Computer_multitasking
+
+Q:In which case we have to use spin locks 
+A:https://stackoverflow.com/questions/5869825/when-should-one-use-a-spinlock-instead-of-mutex
+
+Q:explain scheduling algorithm?                                              
+A:https://www.studytonight.com/operating-system/cpu-scheduling
+
+Q:what is multithreading and multiprogrmming.
+A:https://www.geeksforgeeks.org/difference-between-multitasking-multithreading-and-multiprocessing/
+
+Q:what is pipeline.                                              
+A:https://www.studytonight.com/computer-architecture/pipelining
+
+Q:how to avoid deadlock?Is it possible to have dead lock situation where there is only one process  and only one resource.
+A:http://www.personal.kent.edu/~rmuhamma/OpSystems/Myos/deadlockCondition.htm
+
+Q:What does this fst line #!/bin/bash in the shel scpt indicate?
+  Which shell will intrpret if u use #!/bin/csh as the first line?                                     
+A:https://stackoverflow.com/questions/10591086/shell-script-headers-bin-sh-vs-bin-csh
+  /bin/bash means the bash shell. /bin/sh means the Bourne shell. However on linux distributions /bin/sh is a symbolic link to 
+  either /bin/bash or Dash shell. But in general /bin/sh means the Bourne shell. The shebang operator is not mandatory in a script.
+
+Q:What is privilaged mode ? Give examples?                                          
+A:https://www.geeksforgeeks.org/privileged-and-non-privileged-instructions-in-operating-system/
+
+Q:what is real uid ,effective uid & seveduid?
+A:https://www.geeksforgeeks.org/real-effective-and-saved-userid-in-linux/
+
+Q:how to handle page fault?
+A:https://www.geeksforgeeks.org/page-fault-handling-in-operating-system/
+
+https://www.studytonight.com/operating-system/cpu-scheduling
+
+Q:Why 3G for user and  1GB for kernel? Can we change it?
+A:https://community.nxp.com/thread/286458
+
+Q:Kernel page tables
+A:https://www.kernel.org/doc/gorman/html/understand/understand006.html
+
+Q:major and minor number
+A:https://www.oreilly.com/library/view/linux-device-drivers/0596000081/ch03s02.html
+
+Q:Disadvantages of physical address?
+A:https://stackoverflow.com/questions/3243610/difference-between-physical-addressing-and-virtual-addressing-concept
+
+Q:Why VFS?How vfs is able to do operation in different filesystem?
+A:well known
+  https://www.usenix.org/legacy/publications/library/proceedings/usenix01/full_papers/kroeger/kroeger_html/node8.html
+
+Q:Types of ROM?
+A:https://www.minitool.com/lib/read-only-memory.html
+
+
+
+
+
+Q with A:
 
 Q:What is IPC and expalin the IPC mechanisms with their advantages and disadvantages?
 A:well known
+
+Q:Atomic action in os?
+A:Atomic operation are those operations that finish their tasks as a whole i.e. no other interruption is allowed before its completion while critical section is that part of the program which cannot be executed concurrently by more than one processes.
+
+Q:How does Mutex work?
+A:Mutex can apply only in atomic operations.  
+
+Q:what is syncronization?
+A:The need for synchronization originates when processes need to execute concurrently. The main purpose of synchronization is the sharing of resources without interference using mutual exclusion. The other purpose is the coordination of the process interactions in an operating system.
+
+Q:What is critical section?
+A:in concurrent programming, processes shares the resources can leads to unexpected behaviour So, part of the program where the resource accessed need to be protected. that protected section is called as critical section.
+
+Q:What is deadlock? 
+A:process are waiting for each pther to release the resources its called as dead lock.
+
+Q:What are different IPC mechanisms? Which ipc do u prefer and why? Which ipc did u use in project and why? How is synchronization achieved, give example?  Did you work on shared memory?  How do u avoid deadlock?
+A:well known 
 
 Q:What is the use of pthread condition variables.
 A:Explanation: When you want to sleep a thread, condition variable can be used. 
@@ -8,120 +464,38 @@ A:Explanation: When you want to sleep a thread, condition variable can be used.
   On the other hand, there is a function pthread_cond_signal() to wake up sleeping or waiting thread. 
   Threads can wait on a condition variable.
 
-Q:WAP in which thread1 have to send message and thread2 have to receive message concurrently.
-Q:WAP in which thread1 have to print odd  numbers and thread2 have to print even numbers concurrently.
+Q:synchronous meaning?
+A:existing or occuring at the same time
 
-Q:Explain the flow of signals.
-A:https://www.bogotobogo.com/Linux/linux_process_and_signals.php
-
-Q:What is the initial state of each process,What happens when a task is created,Explain task state space diagram.
-A:https://www.studytonight.com/operating-system/operating-system-processes
-
-Q:What are all the header files included in device driver Program?
-A:well known
+Q:asynchronous meaning?
+A:not existing or occuring at the same time
 
 Q:Why Scheduling?
 A:The Scheduling is the process of managing all the processes in operating system and running the processes at specific time.
 
-Q:How do you register a signal in kernel ?
-A:https://unix.stackexchange.com/questions/80044/how-signals-work-internally
-
-Q:what is signal? Phases of signal? types of signal ?, Does signal is synchronous or Asynchronous? why ?
-A:https://www.linuxjournal.com/article/3985
-
 Q:what is priority inversion?what are the methods to avoid inversion?
-A: well known
+A:well known
 
 Q:Difference between fork,vfork,clone,thread and excec?
 A:well known
 
 Q:Can we change the size of message in message queue?
-A:
-
-Q:Why semaphore? Difference between semaphore and mutex?
-A:https://www.softprayog.in/programming/posix-semaphores
-  https://www.softprayog.in/programming/semaphore-basics
-  https://www.softprayog.in/programming/interprocess-communication-using-posix-shared-memory-in-linux
-  https://www.softprayog.in/programming/posix-threads-synchronization-in-c
- 
-Q:Why we use exit in vfork? Is that efficient way?
-A:
-
-Q:Why mutex? When parent is adding a node and child should consume the node without any waiting ? What is the mechanism?
-A:
-
-Q:Process context and interrupt context?
-A:http://www.embeddedlinux.org.cn/essentiallinuxdevicedrivers/final/ch02lev1sec3.html
-
-Q:I have two threads t1 and t2.t1 adds element in array and t2 removes elements, execute using mutex and conditional variables.
-A:
-
-Q:flow of system call
-A:
+A:Default maximum size in bytes of a message queue: 16384 bytes (on Linux, this limit can be read and modified via /proc/sys/kernel/msgmnb). The superuser can increase the size of a message queue beyond MSGMNB by a msgctl(2) system call.
 
 Q:interrupt vector table
-A:
-
-Q:Three process are available named as p1,p2,p3 . P1 wants to send some messgae to p2 . P2 and
-       p3 are waiting to receive message from p1. P3 should not receive any message from p1.  How
-       do you achieve this ?
-A:
-
-Q:give a practical application of semaphore?why you cannot use mutex over there?
-A:
-
-Q:modes of execution why 3GVAS  for user and 1GVAS  for kernel
-A:
-
-Q:program to create a daemon process
-A:https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux
-
-Q:When do my init function executes in device driver
-A:
-
-Q:How you will find whether you are in kernel mode or user mode
-A:https://blog.codinghorror.com/understanding-user-and-kernel-mode/
-
-Q:How will you send signal from one process to another process
-A:http://www.csl.mtu.edu/cs4411.ck/www/NOTES/signal/kill.html
-
-Q:one process contains function definition write program to invoke the function from another process by using particular ipc
-A:
-
-Q:How to handle signals and write a simple code for it 
-A:well known
-
-Q:what are the signals that cannot be handled and explain why
-A:https://stackoverflow.com/questions/35569659/the-signals-sigkill-and-sigstop-cannot-be-caught-blocked-or-orignored-why
-
-Q:How arguments are passed to system call routine in kernel space
-A:
-
-Q:mmap system call working.
-A:
+A:It is a data structure that associates a list of interrupt handlers with a list of interrupt requests in a table of interrupt vectors. Each entry of the interrupt vector table, called an interrupt vector, is the address of an interrupt handler. 
 
 Q:ASCII full form?
 A:ASCII: American Standard Code for Information Interchange
 
 Q:What is Round robin scheduling?
-A:
+A:To schedule processes fairly, a round-robin scheduler generally employs time-sharing, giving each job a time slot or quantum[4] (its allowance of CPU time), and interrupting the job if it is not completed by then. The job is resumed next time a time slot is assigned to that process. If the process terminates or changes its state to waiting during its attributed time quantum, the scheduler selects the first process in the ready queue to execute.
 
 Q:Which is the default scheduling algorithm in PC?
-A:
-
-Q:How interrupt works?,How to handle interrupt?what is do_irq()
-A:https://www.bogotobogo.com/Embedded/hardware_interrupt_software_interrupt_latency_irq_vs_fiq.php
-
-Q:Diff betw polling and interrupt give one Example of polling?
-A:
-
-Q:How spinlock works?,If one proceess acquired spinlock and again another process want to acquire same spinlock 
- than what happens with another process?
-A:
+A: Completely Fair Scheduler
 
 Q:What will happen if i used spinlock in single processor system.
-A:
-
+A: no. Spin locks must not be used on a single processor system. In the best case, a spin lock on a single processor system will waste resources, slowing down the owner of the lock; in the worst case, it will deadlock the processor.
 
 Q:If i want to make a new option in makemenuconfig to choose the driver entry point built in 
  or module than which file you need to modify?
@@ -133,19 +507,11 @@ A:well known
 Q:If you developed a driver and want to compile with kernel than what you do?
 A:well known
 
-
-Q:Do you know the board configuration and machine configuration file for your target board?
-A:
-
-Q:If i have a custom new board and kernel doesn't have bsp for this new board than 
- 	What are the steps you follow to port bsp and what modification you have to do in kernel?
-A:
-
 Q:What are the tools required to build the kernel images?
-A:
+A:Only three packages that are needed in order to successfully build a kernel: a compiler, a linker, and a make utility.
 
 Q:If default config is not available than how you configure your kernel?
-A:
+A:we need to add config file in arch/arm64/boot/configs/
 
 Q:What is device tree and what is the use of it?
 A:well known
@@ -154,339 +520,275 @@ Q:When probe invokes?,What is probe function and what exactly it contains?
 A:well known
 
 Q:Difference between kmalloc() and vmalloc()
-A:
+A:Search Results
+Featured snippet from the web
+Kmalloc() is use to allocate memory requested from the kernel. The memory allocated is returned by the API and it is physically as well virtually contiguous. ... Vmalloc() is used to allocate memory from the kernel. The memory allocated is virtually contiguous but not physically contiguous.
 
 Q:If you observe any kernel panic, how you will debug.
-A:
-
-Q:Crash occurred in one core out of 8 cores how you will find which core has crashed and how you will debug
-A:
-
-Q:What is board file?
-A:
-
-Q:what is top half and bottom half, difference between softirq, tasklet and work queues.
- (i2c/spi/gpio)protocol explanation
-A:
-
-Q:From user level how we can access the hardware register ?
-A:
+A:QFIl and QPST tools from Qcom , minicom etc...
 
 Q:Explain Scheduler function?
-A:
+A:Schedulers are special system software which handle process scheduling in various ways. Their main task is to select the jobs to be submitted into the system and to decide which process to run.
 
 Q:What is stack overflow?
-A:
-
-Q:signal handler in the case of child ( when the signal wll be handled ) if  parent recieve signal and then creted child and child executed first then  when signal will be handled and who wll handle ? 
-A:
-
-Q:how open sytem call work( with file table, UFDT, IT)
-A:
+A:A stack overflow is an undesirable condition in which a particular computer program tries to use more memory space than the call stack has available. In programming, the call stack is a buffer that stores requests that need to be handled. ... It is usually defined at the start of a program.
 
 Q:diff bw unix and linux ?
-A:
+A:UNIX is an operating system and proprietary. Linux is a unix-like operating system kernel and open source. 
 
 Q:What is preemption?
-A:https://www.thecrazyprogrammer.com/2017/03/difference-preemptive-non-preemptive-scheduling-os.html
-
-Q:Multitasking is implemented in software level or hardware support is also needed?
-A:https://en.wikipedia.org/wiki/Computer_multitasking
-
-Q:Any real life use where multiple resources are accessed in synchronization?
-A:
-                            
-Q:How and Where counting semaphores are used explain?                                            
-A:https://docs.oracle.com/cd/E19455-01/806-5257/sync-34/index.html
+A:In computing, preemption is the act of temporarily interrupting a task being carried out by a computer system, without requiring 
+  its cooperation, and with the intention of resuming the task at a later time. 
 
 Q:What do u know about multi-threaded applications?    
 A:automatic error correction
-
-Q:In which case we have to use spin locks 
-A:https://stackoverflow.com/questions/5869825/when-should-one-use-a-spinlock-instead-of-mutex
 
 Q:When SIGBUS signal is generated?  
 A:Bus Error (also known as SIGBUS and is usually signal 10) occur when a process is trying to access 
   memory that the CPU cannot physically address.
 
 Q:How are default signals handled?                                            
-A:https://www.tutorialspoint.com/what-is-default-signal-handler
+A:we have 30 default siganls if not we need to handle our won using signal system call
 
 Q:What happens if same signal is sent more then once?
-A:
+A:if we send signals in time periods it works fine (use sleep) if not it handler wont work.
 
-Q:If two processes uses one shared library, how the other process come to know  that particular library is already loaded in memory?
-A:
+Q:What threads will share?                                             
+A:well known
 
-
-where are the shared libraries loaded?
-
-When are the shared libraries loaded in main memory? 
-
-explain scheduling algorithm?                                              
-
-What threads will share?                                             
-
-About watch dog timer, How can we convert the the Watchdog timer interrupt(Its a software interrupt)to hardware interrup                                                                    
-signals are part of IPC yes/no. Justify.                                          
-
-what is multithreading and multiprogrmming.                                           
-
-Explain concept of multtreading using CPU.                                          
-
-what is pipeline.                                              
-
-You have data coming from bus and Program Status Register will indicate whether data is available and you are processing 500 bytes of data and when you are processing 250 th byte,if PSR will indicate data is available, how do u handle processing data(either in drivers or normal way) with PSR indication?                                            
-
-Is it possible to have dead lock situation where there is only one process  and only one resource.
-
-How rm works ?                                             
-
-What grep command will do?                                            
-                                   
-How are u going to check the default shell in your system ?                                    
-
-How can u change the default shell ?                                         
-
-What does this first line #!/bin/bash in the shell script indicate ?                                     
-
-Which shell will interpret if u use #!/bin/csh as the first line in the                                   
-                                      
-What is the difference between  dup and dup2?                                        
-                                   
-In shell , how will you find the details of devices which have been mounted ?                                 
-
-Write a program to generate 5 childs they run parallel?                                       
-
-About umask                                               
-                              
-Explain the shared memory?                                             
+Q:signals are part of IPC yes/no. Justify.                                          
+A:its partially ipc means only one way communication.
                                   
-What is the difference b/w hardware and software interrupts?                                        
+Q:How are u going to check the default shell in your system ?                                    
+A:echo $SHELL
 
-What is privilaged mode ? Give examples?                                          
-                                       
-How the system call execution takesplace?                                           
-
-Explain the context layers of the process?                                          
-
-Which command you used to check shared library?       
-
-Explain virtual address mapping? 
-                                    
-What is the difference b/w EXT2 and EXT3?                                         
-
-What is journaling?                                              
-
-What fsck will do?  --> check and repair filesystems                                       
-
-Explain the imlplementation of Linux file system?                                          
-
-What are the contents of inode?                                           
-
-Explain about probe function?
-
-How did you debug drivers.
-
-Explain about what ever you used API for implementing drivers?
-
-Explain About device tree?
-
-What is device path?
-
-What is dtsi, dts, dtb?
-
-How did you compiled device tree?
-
-what is input of dtc?
-
-Advantage of device tree?
-
-When device tree will invoked?
-
-where did you write in device tree?
-
-Tell members in device tree?
-
-Explain about EEPROM Driver Read and Write Functions?
-
-How we will come to know if one sender sending msg and received by reciever  which type of it is. (int, char, string)
-
-write aprogram to send structure variables from client to server and chage in server like
-     struct {
-     	int a= 10;
-     	char *ptr = “GESL”;
-     	int c = 20;
-     };
-
-who will decide the size of datagram and where it will be store?
-
-who is moving from .bss to data?
-
-P1, P2 processes are there. P1 sending signal from P2 , how it will send???
-
-How p2 will recognize the signal came  from P1 only??? which structure???
-
-if home directory contains libstr.a libstr.so then while including which one is included in your program(static or dynamic library)?i.e.. cc main.c -L /home/  -lstr
-ans:static library  
-
-If signal is SIGINT then how u handle the signal ?if u handled what  will happen?
-
-open a file which contails some 1000 lines ,using system call how u will count total number of      words in it?
-
-Types of file sytem? Explain the content of superblock,inode list?
-
-Expalin booting process?what is the pid of init & swapper?
-
-what is real uid ,effective uid & setuid?
-
-You have data coming from bus and Program Status Register will indicate whether data is available and you are processing 500 bytes of data and when you are processing 250 th byte,if PSR will indicate data is available, how do u handle processing data(either in drivers or
-normal way) with PSR indication?  
-
-What are different IPC mechanisms? Which ipc do u prefer and why? What is deadlock? Which ipc did u use in project and why? How is synchronization achieved, give example? How does Mutex work? Did you work on shared memory? What is critical section? How do u avoid deadlock?
-
-About watch dog timer, How can we convert the the Watchdog timer interrupt
-	   (Its a software interrupt)to hardware interrupt
-
-what is multithreading and multiprogrmming.
+Q:How can u change the default shell ?                                         
+A:chsh command
+                       
+Q:In shell , how will you find the details of devices which have been mounted ?                                 
+A:lsblk, df -h, mount etc...
 
 
+Q:About umask                                               
+A:UMASK in Linux is actually known as User Mask or it is also called User File creation MASK. This is a kind of base permission or default permission given when new file or folder is created in Linux box. Most of the distribution of Linux gives 022 as default UMASK
+                           
+Q:Which command you used to check shared library?                                               
+A:ldd (List Dynamic Dependencies) is a *nix utility that prints the shared libraries required by each program or shared library specified on the command line. It was developed by Roland McGrath and Ulrich Drepper.
 
+Q:Explain About device tree? What is dtsi, dts, dtb? How did you compiled device tree? what is input of dtc?
+  Advantage of device tree?When device tree will invoked?where did you write in device tree?
+A:well known
 
+Q:If home directory contains libstr.a libstr.so then while including which one is included in your program(static or dynamic library)?i.e.. cc main.c -L /home/  -lstr
+A:static library  
 
+Q:open a file which contails some 1000 lines ,using system call how u will count total number of words in it?
+A:wc command
 
+Q:What is VFS ?
+A:well known
 
-
-
-
-
-
-
-
-
-
-
-
-
+Q:What is memory management?
+A:Memory management is a form of resource management applied to computer memory. The essential requirement of memory management is to 
+  provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed.
   
-In case of paging system suppose reading is happened at the end of one page.  How it locates the next address to read ?
+Q:Virtual memory ?
+A:https://searchstorage.techtarget.com/definition/virtual-memory
+  Computers have a finite amount of RAM, so memory can run out, especially when multiple programs run at the same time 
+  So, system can load larger programs or multiple programs running at the same time, allowing each one to operate as if it has 
+  infinite memory and without having more RAM. Means harddisk memory we using indirectly.While copying virtual memory into physical memory, 
+  the OS divides memory into pagefiles or swap files with a fixed number of addresses. Each page is stored on a disk and when the 
+  page is needed, the OS copies it from the disk to main memory and translates the virtual addresses into real addresses.
+  
+Q:Why paging?
+A:Computer stores and retrieves data from secondary storage for use in main memory. 
 
-Q:If one code is written to the system which does not support paging, What changes has to be made to run it on the
-  system which supports paging ?
-A:
+Q:What is demand paging?
+A:paging and demand paging both are same.
 
+Q:page fault?
+A:A page fault (sometimes called #PF, PF or hard fault) is a type of exception raised by computer hardware when a running program accesses a memory page that is not currently mapped by the memory management unit (MMU) into the virtual address space of a process
 
-What is TLB?
+Q:What is the need of virtual address?
+A:well known 
 
-What happens when there is no entry in TLB?
+Q:What is TLB?
+A:A translation lookaside buffer (TLB) is a memory cache that is used to reduce the time taken to access a user memory location. 
+  It is a part of the chip's memory-management unit (MMU). The TLB stores the recent translations of virtual memory to physical memory 
+  and can be called an address-translation cache.
 
-What is the difference between page fault and segmentation fault?
+Q:What happens when there is no entry in TLB?
+A:page fault exception
 
-What is memory management?
+Q:What is the difference between page fault and segmentation fault?
+A:Segmentation faults occur when the memory is not allowed to be accessed (does not exist, or is forbidden).
+  Page faults occur when memory that is mapped but not loaded is accessed. 
+  They are not errors, and signal to the operating system that it should load the appropriate page into memory
 
-What is VFS ?
+Q:Why segmentation?
+A:Segmentation is a memory management technique in which we divide the process Read More into smaller segments. 
+  The process is segmented module by module. In main memory, we only store the segments of the process. 
+  Process segment table is used to keep the record of segments, its size, and its memory address
+      
+Q:What is TLB hit and miss ?
+A:A translation lookaside buffer (TLB) is a memory cache that is used to reduce the time taken to access a user memory location.
+  This is called a TLB hit. If the requested address is not in the TLB, it is a miss, and the translation proceeds by looking up 
+  the page table in a process called a page walk.
 
-What is demand paging?
+Q:What is the maximum size the data can be stored in files? How we can store exceeding that?
+A:its depends on file system, OS wont involve in size of a file.
 
-What is the need of virtual address.
+Q:Structures maintained by VFS?and use of each?
+A:VFS is a part of kernel.
+  
+Q:How the file last accessed and modified time can be known without ioctl()?
+A: ls command, touch command
 
-Why paging ?
+Q:When various files is opened and memory allocation is done and file is not closed and memory aloocated is not freed,
+  what will happen? Will it be closed automatically? Or what happens?
+A:As long as your program is running, if you keep opening files without closing them, the most likely result is that you will run 
+  out of file descriptors/handles available for your process, and attempting to open more files will fail eventually.
 
-Why segmentation?
-
-What happens when page fault occurs.
-
-why virtual memory.                                       
-                         
-What is TLB hit and miss ?
-
-What happen when TLB miss and hit?
-
-Why VFS?How vfs is able to do operation in different filesystem?
-
-What is the maximum size the data can be stored in files? How we can store exceeding that?
-
-Structures maintained by VFS?and use of each?
-
-How the session is created ?
-
-How the traversing through the structures happens when open() is called in various filesystems?
-
-How the file last accessed and modified time can be known without ioctl()?
-
-When various files is opened and memory allocation is done and file is not closed and memory aloocated is not freed, what will happen? Will it be closed automatically? Or what happens?
-
-Physical address space and virtual address space?
-
-Why 3G for user and  1GB for kernel? Cane we change it?
-
-When USB is plugged it should not work
-
-Kernel page tables
-
-Q:major and minor number
-A:
-
-why virtual address space?
-
-Disadvantages of physical address?
-
-superblock and inode structure members ?
- 
-how file can be identified                                             
+Q:how file can be identified                                             
+A:ls -l
                                      
-what are the contains of inode tables
+Q:what are the contains of inode tables
+A:well known
 
-define namei algorithm
+Q:define namei algorithm
+A:well known
 
-What happens if we use only virtual address without physical address
-
-Diff btw sdram and dram?
-
-Types of ROM?
+Q:What happens if we use only virtual address without physical address
+A:we need to use physical addressing also 
 
 Q:Can we have same major number for more than one device file?
-A:
+A:no, only minor numbers will be same. 
 
-What happened when PC start (Boot process )?
-
-About i2c.... Spi and i2c Diff?
-
-What is virtual address and physical address?                                          
-
-How virtual address is mapped into physical address? Which hardware does it?   
-
-
-What is the Use of gpio pins?
-
-
-Soft and hard rtos Diff?
-
-Monolithic and micro kernel Diff?
-
-What is Initramfs, initrd,rootfs and ramfs?
-
-what are the steps to bring-up the board?
-
-
-How i2c protocol works?
-
-What are the i2c API you used in your project?
-
-How you read the data from rtc?
-
-Explain I2c framework in linux kernel.
+Q:How virtual address is mapped into physical address? Which hardware does it?   
+A: MMU
 
 Q:Explain physical memory layout. Explain different segments.                                          
 A:
+                               
+Q:What fsck will do?                                       
+A:check and repair filesystems
+
+Q:How to register the driver into i2c(i2c-core.c) and how the information pass to i2c.(i2c-core.c)
+A:Using the - i2c_add_driver(&ft5x0x_ts_driver);
+          And I2c_transfer(this_client->adapter,msg,2) function send the information to i2c.
+
+Q:How the Probe function invoke. and I2c probe function invoke. 
+A:"I2c_device_probe()". In "driver/i2c/i2c-core.c".
+         Function internally call "i2c_match_id()"
+         When the device id and driver id is same then the probe function invoke.
+
+Q:How the probe function is work.
+A:When the probe function invoke ..
+         1.  First is check the functionality. using "i2c_check_functionality(client->adapter,i2c_func_i2c);" function.
+             the function is return 1 if adapter support every this we need.
+  
+         2.  After this through "Kzalloc()" function create at a space in kernel.
+             and using this function "i2c_set_clientdata(client,ft5x0x_ts)" cantain the data and register the memory. 
+            
+         3.  After this ISR function is called we register the interrupt handler through "ft5x0x_ts_interrupt"
+             ft5x0x_ts_interrupt(int irq, void *dev_id);
+             this function is a top half. when a interrupt genrate it first go top half.. after this we register the work in 
+             bottam half in (work queue). through  queue_work() function. queue_work() function set the data(work) in work queue.
+            
+         4.  After this using input_allocate_device() function we allocate a memory in input sub system (driver/input/input.c) . 
+             and register the data in input_sub_system using same function.
+
+Q:What happen when we touch .
+Answer-  In hardware point of view interrupt is occure and using PIC the processor find ISR(interrupt service routine) and 
+         Register the data  into bottom half into workqueue.
+ 
+6.How to communicate user space.
+A:In probe function last the data is register in input sub system using "input_allocate_device()" function.
+         In linux some event is define input sub system link- "ev_key()" for keyboard and "ev_abs()" for touch screen.
+         this event is notify the kernel this is a absulute touch.
+         In driver/input/input.c internally call "input_sync()" function used to transfer the event handler that the device has transmitted 
+         An internally consist set of data.The event is now ready to be accessed by the user space at /dev/input/eventx.
+
+Q:Why we reqvired i2c-omap.c.
+A:Beacause client driver can't do anything because client driver is type of device in which we are going to register the i2c and if
+         we wan't to work with device , we need a driver and that driver know as "adapter driver".
+         input/i2c/busses/i2c-omap.c 
+         So the adapter provide the all functionallity to client and all resources.  
+
+Q:What type of platform data we register.
+A:Like name of driver ,(ft5x0x_ts) 
+         what is the address (0x38)
+         Which gpio pin we use(34)
+         which I2c we use(i2c2)
+         And provide the i2c information like (what is the buredrate data transfer(we select standard mode (100 k/bits))).
+
+Q:where the data is register when we touch .
+A:In probe function we create a memory using kzalloc() all data are store in this memory .
+
+Q:Your screen is Multi touch and single touch. 
+A:Multi touch(5) . in driver code is a switch case IN this switch case 5 case 5 to 1.
+         And unsing calibaration tool we find exact touch and data register in buffer(kzalloc in probe function). 
+
+Q:How to check the touch screen.
+A:Using getevent()
+         The getevent tool run on the device and provide the information about input device and a live dump of kernel input event.
+         Path is "System/core/toolbox/getevent.c"
+
+Q:How many device connect to one i2c.
+A:128 (2^7)
+
+Q:why we use i2c_core.c file ?
+A:Because slave is a platform dependent and master is platform independent. so i2c_core.c file is help to communicate the both driver.
+         i2c_core.c file cantain algorithm to communicate the slave and driver.
+Q:What is a static function ?
+A:If we define a variable as a static the variable scope local to the block but the value persist in deffrent – deffrent function
+  And the static variable store in Data segment in memory segment.
+
+A:typedef is a C keyword that creates an alias for a type. It the part of compitaion time.
+  #define is a pre-processor instruction, that creates a text replacement event prior to compilation. When the compiler gets to the code, 
+  the original "#defined" word is no longer there. #define is mostly used for macros and global constants.
+
+Q:Who invokes probe function() ?
+A:In i2c-core.c file one function i2c-device-probe() this function internally call i2c_match_id[] ;when device id and driver id is match then 
+  probe() function is invoke.
+
+
+Q:Where is located init script ?  What is their purpose. ?
+A:ect/init.d  .  
 
 
 
-
-
-
-
-
+Q:condition: thread3 sends the messages  to thread1 and thread2 which ever is free, means message switching b/w thread1 and thread2,How to achieve this condition??
+Q:DIff between direct rendering and Blit rendering?
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
+Q:
 
 
 
@@ -502,6 +804,9 @@ link :http://interviewquestionsanswers.org/_Linux-Threads
 
 Digital Electronics:
 
+Q:What is pull up resistor?
+A:If there is nothing connected to the pins of MCU, and if program tries to read the state of that pin, the state will be unknown.This is called floating phenomena. In order to prevent this , floating pins are pulled up (or pulled down) to a specific voltage using the resistor called pull up resistor.
+
 1.what is active low signal.
 2.discussion on logic gates(AND ,OR ,NOT,XOR,XNOR);
 3.discussion on MUX.
@@ -514,6 +819,25 @@ Digital Electronics:
 10.cache ratio 
 11. how cache memory interact with processor..?
 12.ARM ARCHITECTURE...?
+13. Need of Pull-up/Pull-down resistors.
+14. The difference between NOR flash and NAND flash  ?
+15. What are the functionalities of MLO ?
+16. Why DDR are faster than SRAM. What is the technology behind the it. ?
+17.Uimage built for another board will the same image will boot in different board ?
+18.What is Half duplex and duplex?
+19.What are the Modulation Techniques you know ? Explain Them ?
+20..what is flipflop ?and types?
+21.diff b/w latch and flipflop?
+22.explain about PCM?
+23.sampler,quantizer,sampling rate?
+24.samping error?
+25.what is mosfet?
+26.diff b/w pmos and nmos?
+27.What is Op-Amp?problems on  Op-Amp?
+28.what is Nyquist rate?
+29.Sorting and searching algorithms ?Time complexity?
+30.latch?
+
 
 
 1.deadlock scenarios?
@@ -529,27 +853,14 @@ Digital Electronics:
 12.what is Nyquist rate?
 15.Explain android flow of display subsystem?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Q:a man travls north side 36km and take right and traval for 24km and he take left for 12km then he travals towords right 18km and again he traval towords southside 24km.
+Q:how many are correct
+55514111145 != 55511411145
+55544111451 < 55451114515
+54541115415 > 54541145415
+Q:NATION : ANTINO :: HUNGRY : ?
+Q:he Fourth Amendment to the Constitution protects citizens against unreasonable searches and seizures. No search of a person's home or personal effects may be conducted without a written search warrant issued on probable cause. This means that a neutral judge must approve the factual basis justifying a search before it can be conducted.
+In the above phargraph how many time “o” will be appeared immediate followed by “a”.
 
 
 

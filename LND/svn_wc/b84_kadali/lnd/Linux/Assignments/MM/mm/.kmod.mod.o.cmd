@@ -1,15 +1,15 @@
-cmd_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := gcc -Wp,-MD,/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/.kmod.mod.o.d  -nostdinc -isystem /usr/lib/gcc/i686-linux-gnu/4.8/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -m32 -msoft-float -mregparm=3 -freg-struct-return -fno-pic -mpreferred-stack-boundary=2 -march=i686 -mtune=generic -maccumulate-outgoing-args -Wa,-mtune=generic32 -ffreestanding -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kmod.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(kmod)" -DMODULE  -c -o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.c
+cmd_/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o := gcc -Wp,-MD,/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/.kmod.mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/6/include  -I./arch/x86/include -Iarch/x86/include/generated/uapi -Iarch/x86/include/generated  -Iinclude -I./arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -fno-pie -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-pie -no-pie -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_CRC32=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kmod.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(kmod)" -DMODULE  -c -o /Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o /Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.c
 
-source_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := /home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.c
+source_/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o := /Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.c
 
-deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
+deps_/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/sysfs.h) \
-    $(wildcard include/config/unused/symbols.h) \
     $(wildcard include/config/module/sig.h) \
     $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/unused/symbols.h) \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/kallsyms.h) \
     $(wildcard include/config/smp.h) \
@@ -23,6 +23,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   include/linux/list.h \
     $(wildcard include/config/debug/list.h) \
   include/linux/types.h \
+    $(wildcard include/config/have/uid16.h) \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
@@ -43,6 +44,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/sparse/rcu/pointer.h) \
     $(wildcard include/config/trace/branch/profiling.h) \
     $(wildcard include/config/profile/all/branches.h) \
+    $(wildcard include/config/kasan.h) \
     $(wildcard include/config/enable/must/check.h) \
     $(wildcard include/config/enable/warn/deprecated.h) \
     $(wildcard include/config/kprobes.h) \
@@ -53,7 +55,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
   arch/x86/include/asm/posix_types.h \
     $(wildcard include/config/x86/32.h) \
-  arch/x86/include/uapi/asm/posix_types_32.h \
+  arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
@@ -64,7 +66,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/panic/timeout.h) \
-  /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h \
   include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
@@ -84,14 +86,16 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   arch/x86/include/asm/segment.h \
     $(wildcard include/config/cc/stackprotector.h) \
     $(wildcard include/config/x86/32/lazy/gs.h) \
+  arch/x86/include/asm/cache.h \
+    $(wildcard include/config/x86/l1/cache/shift.h) \
+    $(wildcard include/config/x86/internode/cache/shift.h) \
+    $(wildcard include/config/x86/vsmp.h) \
   arch/x86/include/asm/page_types.h \
     $(wildcard include/config/physical/start.h) \
     $(wildcard include/config/physical/align.h) \
-  arch/x86/include/asm/page_32_types.h \
-    $(wildcard include/config/highmem4g.h) \
-    $(wildcard include/config/highmem64g.h) \
-    $(wildcard include/config/page/offset.h) \
-    $(wildcard include/config/x86/pae.h) \
+  arch/x86/include/asm/page_64_types.h \
+    $(wildcard include/config/randomize/base.h) \
+    $(wildcard include/config/randomize/base/max/offset.h) \
   arch/x86/include/uapi/asm/ptrace.h \
   arch/x86/include/uapi/asm/ptrace-abi.h \
   arch/x86/include/asm/processor-flags.h \
@@ -100,6 +104,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   arch/x86/include/asm/paravirt_types.h \
     $(wildcard include/config/x86/local/apic.h) \
     $(wildcard include/config/pgtable/levels.h) \
+    $(wildcard include/config/x86/pae.h) \
     $(wildcard include/config/queued/spinlocks.h) \
     $(wildcard include/config/paravirt/debug.h) \
   arch/x86/include/asm/desc_defs.h \
@@ -110,38 +115,34 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/kmemcheck.h) \
     $(wildcard include/config/mem/soft/dirty.h) \
     $(wildcard include/config/proc/fs.h) \
-  arch/x86/include/asm/pgtable_32_types.h \
-    $(wildcard include/config/highmem.h) \
-  arch/x86/include/asm/pgtable-3level_types.h \
-  include/asm-generic/pgtable-nopud.h \
+  arch/x86/include/asm/pgtable_64_types.h \
+  arch/x86/include/asm/sparsemem.h \
+    $(wildcard include/config/sparsemem.h) \
   arch/x86/include/asm/spinlock_types.h \
     $(wildcard include/config/paravirt/spinlocks.h) \
     $(wildcard include/config/nr/cpus.h) \
   include/asm-generic/qspinlock_types.h \
   include/asm-generic/qrwlock_types.h \
   include/asm-generic/ptrace.h \
-  arch/x86/include/asm/cpufeature.h \
-    $(wildcard include/config/x86/feature/names.h) \
-    $(wildcard include/config/x86/debug/static/cpu/has.h) \
-  arch/x86/include/asm/required-features.h \
-    $(wildcard include/config/x86/minimum/cpu/family.h) \
-    $(wildcard include/config/math/emulation.h) \
-    $(wildcard include/config/x86/cmpxchg64.h) \
-    $(wildcard include/config/x86/use/3dnow.h) \
-    $(wildcard include/config/x86/p6/nop.h) \
-    $(wildcard include/config/matom.h) \
-  arch/x86/include/asm/disabled-features.h \
-    $(wildcard include/config/x86/intel/mpx.h) \
   arch/x86/include/asm/rmwcc.h \
   arch/x86/include/asm/barrier.h \
     $(wildcard include/config/x86/ppro/fence.h) \
   arch/x86/include/asm/nops.h \
     $(wildcard include/config/mk7.h) \
-  include/asm-generic/bitops/fls64.h \
+    $(wildcard include/config/x86/p6/nop.h) \
   include/asm-generic/bitops/find.h \
     $(wildcard include/config/generic/find/first/bit.h) \
   include/asm-generic/bitops/sched.h \
   arch/x86/include/asm/arch_hweight.h \
+  arch/x86/include/asm/cpufeatures.h \
+  arch/x86/include/asm/required-features.h \
+    $(wildcard include/config/x86/minimum/cpu/family.h) \
+    $(wildcard include/config/math/emulation.h) \
+    $(wildcard include/config/x86/cmpxchg64.h) \
+    $(wildcard include/config/x86/use/3dnow.h) \
+    $(wildcard include/config/matom.h) \
+  arch/x86/include/asm/disabled-features.h \
+    $(wildcard include/config/x86/intel/mpx.h) \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/le.h \
   arch/x86/include/uapi/asm/byteorder.h \
@@ -169,12 +170,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
-  arch/x86/include/asm/cache.h \
-    $(wildcard include/config/x86/l1/cache/shift.h) \
-    $(wildcard include/config/x86/internode/cache/shift.h) \
-    $(wildcard include/config/x86/vsmp.h) \
   include/linux/dynamic_debug.h \
-  arch/x86/include/asm/div64.h \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -212,30 +208,32 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   arch/x86/include/asm/thread_info.h \
     $(wildcard include/config/ia32/emulation.h) \
   arch/x86/include/asm/page.h \
-  arch/x86/include/asm/page_32.h \
+  arch/x86/include/asm/page_64.h \
     $(wildcard include/config/debug/virtual.h) \
     $(wildcard include/config/flatmem.h) \
-    $(wildcard include/config/x86/3dnow.h) \
-  include/linux/string.h \
-    $(wildcard include/config/binary/printf.h) \
-  include/uapi/linux/string.h \
-  arch/x86/include/asm/string.h \
-  arch/x86/include/asm/string_32.h \
+    $(wildcard include/config/x86/vsyscall/emulation.h) \
   include/linux/range.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/discontigmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
-    $(wildcard include/config/sparsemem.h) \
   include/asm-generic/getorder.h \
+  arch/x86/include/asm/cpufeature.h \
+    $(wildcard include/config/x86/feature/names.h) \
+    $(wildcard include/config/x86/debug/static/cpu/has.h) \
   arch/x86/include/asm/processor.h \
     $(wildcard include/config/m486.h) \
     $(wildcard include/config/xen.h) \
   arch/x86/include/asm/math_emu.h \
-  arch/x86/include/asm/sigcontext.h \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/current.h \
   arch/x86/include/asm/msr.h \
   arch/x86/include/asm/msr-index.h \
+    $(wildcard include/config/tdp/nominal.h) \
+    $(wildcard include/config/tdp/level/1.h) \
+    $(wildcard include/config/tdp/level/2.h) \
+    $(wildcard include/config/tdp/control.h) \
+    $(wildcard include/config/tdp/level1.h) \
+    $(wildcard include/config/tdp/level2.h) \
   arch/x86/include/uapi/asm/errno.h \
   include/uapi/asm-generic/errno.h \
   include/uapi/asm-generic/errno-base.h \
@@ -245,6 +243,11 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/hotplug/cpu.h) \
     $(wildcard include/config/debug/per/cpu/maps.h) \
   include/linux/bitmap.h \
+  include/linux/string.h \
+    $(wildcard include/config/binary/printf.h) \
+  include/uapi/linux/string.h \
+  arch/x86/include/asm/string.h \
+  arch/x86/include/asm/string_64.h \
   arch/x86/include/uapi/asm/msr.h \
   include/uapi/linux/ioctl.h \
   arch/x86/include/uapi/asm/ioctl.h \
@@ -257,6 +260,8 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   include/uapi/linux/personality.h \
   include/linux/math64.h \
     $(wildcard include/config/arch/supports/int128.h) \
+  arch/x86/include/asm/div64.h \
+  include/asm-generic/div64.h \
   include/linux/err.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
@@ -264,12 +269,11 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/trace/irqflags/support.h) \
   arch/x86/include/asm/irqflags.h \
   include/linux/atomic.h \
-    $(wildcard include/config/arch/has/atomic/or.h) \
     $(wildcard include/config/generic/atomic64.h) \
   arch/x86/include/asm/atomic.h \
   arch/x86/include/asm/cmpxchg.h \
-  arch/x86/include/asm/cmpxchg_32.h \
-  arch/x86/include/asm/atomic64_32.h \
+  arch/x86/include/asm/cmpxchg_64.h \
+  arch/x86/include/asm/atomic64_64.h \
   include/asm-generic/atomic-long.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
@@ -324,8 +328,10 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   include/linux/highuid.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
+    $(wildcard include/config/highmem.h) \
     $(wildcard include/config/zone/dma.h) \
     $(wildcard include/config/zone/dma32.h) \
+    $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/numa.h) \
     $(wildcard include/config/deferred/struct/page/init.h) \
     $(wildcard include/config/pm/sleep.h) \
@@ -338,7 +344,6 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/memcg.h) \
     $(wildcard include/config/memory/hotplug.h) \
     $(wildcard include/config/compaction.h) \
-    $(wildcard include/config/have/memblock/node/map.h) \
     $(wildcard include/config/flat/node/mem/map.h) \
     $(wildcard include/config/page/extension.h) \
     $(wildcard include/config/no/bootmem.h) \
@@ -346,6 +351,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/have/memory/present.h) \
     $(wildcard include/config/have/memoryless/nodes.h) \
     $(wildcard include/config/need/node/memmap/size.h) \
+    $(wildcard include/config/have/memblock/node/map.h) \
     $(wildcard include/config/need/multiple/nodes.h) \
     $(wildcard include/config/have/arch/early/pfn/to/nid.h) \
     $(wildcard include/config/sparsemem/extreme.h) \
@@ -363,7 +369,6 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
-  arch/x86/include/asm/sparsemem.h \
   include/linux/memory_hotplug.h \
     $(wildcard include/config/memory/hotremove.h) \
     $(wildcard include/config/have/arch/nodedata/extension.h) \
@@ -386,7 +391,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/preempt/rcu.h) \
     $(wildcard include/config/rcu/trace.h) \
     $(wildcard include/config/rcu/stall/common.h) \
-    $(wildcard include/config/rcu/user/qs.h) \
+    $(wildcard include/config/no/hz/full.h) \
     $(wildcard include/config/rcu/nocb/cpu.h) \
     $(wildcard include/config/tasks/rcu.h) \
     $(wildcard include/config/debug/objects/rcu/head.h) \
@@ -424,13 +429,8 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/sysctl.h) \
   include/linux/rbtree.h \
   include/uapi/linux/sysctl.h \
-  include/linux/topology.h \
-    $(wildcard include/config/use/percpu/numa/node/id.h) \
-    $(wildcard include/config/sched/smt.h) \
-  include/linux/smp.h \
-    $(wildcard include/config/up/late/init.h) \
-  include/linux/llist.h \
-    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
+  arch/x86/include/asm/mmzone.h \
+  arch/x86/include/asm/mmzone_64.h \
   arch/x86/include/asm/smp.h \
     $(wildcard include/config/x86/io/apic.h) \
     $(wildcard include/config/x86/32/smp.h) \
@@ -468,12 +468,12 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/pm/clk.h) \
     $(wildcard include/config/pm/generic/domains.h) \
   arch/x86/include/asm/fixmap.h \
-    $(wildcard include/config/x86/vsyscall/emulation.h) \
     $(wildcard include/config/paravirt/clock.h) \
     $(wildcard include/config/provide/ohci1394/dma/init.h) \
     $(wildcard include/config/pci/mmconfig.h) \
     $(wildcard include/config/x86/intel/mid.h) \
   arch/x86/include/asm/acpi.h \
+    $(wildcard include/config/acpi/apei.h) \
     $(wildcard include/config/acpi.h) \
     $(wildcard include/config/acpi/numa.h) \
   include/acpi/pdc_intel.h \
@@ -481,7 +481,6 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/numa/emu.h) \
   arch/x86/include/asm/topology.h \
   include/asm-generic/topology.h \
-  arch/x86/include/asm/numa_32.h \
   arch/x86/include/asm/mmu.h \
     $(wildcard include/config/modify/ldt/syscall.h) \
   arch/x86/include/asm/realmode.h \
@@ -503,21 +502,31 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/xen/pvh.h) \
   include/xen/interface/xen.h \
   arch/x86/include/asm/xen/interface.h \
-  arch/x86/include/asm/xen/interface_32.h \
+  arch/x86/include/asm/xen/interface_64.h \
   arch/x86/include/asm/pvclock-abi.h \
   arch/x86/include/asm/xen/hypervisor.h \
+  include/xen/features.h \
+  include/xen/interface/features.h \
   arch/x86/include/asm/pvclock.h \
   include/linux/clocksource.h \
     $(wildcard include/config/arch/clocksource/data.h) \
     $(wildcard include/config/clocksource/watchdog.h) \
-    $(wildcard include/config/clksrc/of.h) \
+    $(wildcard include/config/clksrc/probe.h) \
   arch/x86/include/asm/clocksource.h \
+  arch/x86/include/uapi/asm/vsyscall.h \
   include/asm-generic/fixmap.h \
   arch/x86/include/asm/idle.h \
   arch/x86/include/asm/io_apic.h \
   arch/x86/include/asm/irq_vectors.h \
     $(wildcard include/config/have/kvm.h) \
     $(wildcard include/config/pci/msi.h) \
+  include/linux/topology.h \
+    $(wildcard include/config/use/percpu/numa/node/id.h) \
+    $(wildcard include/config/sched/smt.h) \
+  include/linux/smp.h \
+    $(wildcard include/config/up/late/init.h) \
+  include/linux/llist.h \
+    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
   include/linux/percpu.h \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
@@ -526,7 +535,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   arch/x86/include/asm/elf.h \
     $(wildcard include/config/x86/x32/abi.h) \
   arch/x86/include/asm/user.h \
-  arch/x86/include/asm/user_32.h \
+  arch/x86/include/asm/user_64.h \
   arch/x86/include/uapi/asm/auxvec.h \
   arch/x86/include/asm/vdso.h \
     $(wildcard include/config/x86/x32.h) \
@@ -536,6 +545,7 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
     $(wildcard include/config/have/cmpxchg/double.h) \
     $(wildcard include/config/have/aligned/struct/page.h) \
     $(wildcard include/config/transparent/hugepage.h) \
+    $(wildcard include/config/userfaultfd.h) \
     $(wildcard include/config/aio.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
@@ -543,8 +553,6 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   include/linux/uprobes.h \
     $(wildcard include/config/uprobes.h) \
   arch/x86/include/asm/uprobes.h \
-  arch/x86/include/asm/desc.h \
-  arch/x86/include/uapi/asm/ldt.h \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/kobject.h \
@@ -590,6 +598,6 @@ deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o := \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o: $(deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o)
+/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o: $(deps_/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o)
 
-$(deps_/home/mohana/svn_wc/b84_kadali/Linux/Assignments/MM/mm/kmod.mod.o):
+$(deps_/Android/mohan_data/mmm/personal_files/LND/svn_wc/b84_kadali/lnd/Linux/Assignments/MM/mm/kmod.mod.o):
