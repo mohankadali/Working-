@@ -240,6 +240,10 @@ Q:Explain audio project. ALSA Framework what changes you have done ?
 Q:What are the different methods for assigning function pointer to a address or function and how to call ?
 
 
+Q:condition: thread3 sends the messages  to thread1 and thread2 which ever is free, means message switching b/w thread1 and thread2,How to achieve this condition??
+Q:DIff between direct rendering and Blit rendering?
+
+
 V4l2 driver:
 1. How low level driver will register with v4l2 framework.
 2. What is file_operations?? What are capabilites will provided in file_operaions??
@@ -755,44 +759,6 @@ A:In i2c-core.c file one function i2c-device-probe() this function internally ca
 
 Q:Where is located init script ?  What is their purpose. ?
 A:ect/init.d  .  
-
-
-
-Q:condition: thread3 sends the messages  to thread1 and thread2 which ever is free, means message switching b/w thread1 and thread2,How to achieve this condition??
-Q:DIff between direct rendering and Blit rendering?
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-Q:
-
-
-
-
 
 
 

@@ -10,8 +10,8 @@ double division(int a, int b) {
 
 int main () {
     int x = 50;
-    int y = 0;
-    double z = 0;
+    int y = 9;
+    double z = 7;
 
     try {
         z = division(x, y);

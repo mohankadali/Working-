@@ -28,7 +28,8 @@ int detectAndRemoveLoop(struct Node *list)
                    is a loop */
                 if (slow_p == fast_p)
                 {
-                        removeLoop(slow_p, list);
+                        //removeLoop(slow_p, list);
+                        removeLoop(fast_p, list);
 
                         /* Return 1 to indicate that loop is found */
                         return 1;
@@ -109,7 +110,7 @@ int main()
         head->next->next->next->next = newNode(10);
 
         /* Create a loop for testing */
-//        head->next->next->next->next->next = head->next->next;
+        head->next->next->next->next->next = head->next->next;
 
         detectAndRemoveLoop(head);
 

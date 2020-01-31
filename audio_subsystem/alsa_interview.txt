@@ -1,0 +1,40 @@
+
+
+1.  whta are the changes you know from android o to P?
+2.  what is container_of ?
+3.  c logical programs ?
+4.  c bit-wise questions ?
+5.  what alsa apis used ?
+6.  what is soundcard in pcmCoDo(c/p)?
+7.  android architecture(cross questions in android flow) ?
+8.  electronics basic questions (sampling, pcm, quantization, bitrate frames and buffers reading in audio subsystem etc...)
+9.  about qcom bootloaders, QFIL and QPST.
+10. difference between worques and tasklets?
+11. workqueue functions ?
+12. top and bottom halves ?
+13. we have 2 hourglass.one have four min and other one is seven min. with the help of these two how to count nine min ?  
+14. Is both android services and hal will run in the same process ?
+
+
+write a program to convert a dacimal no to binary no and return a no of ones present in binary no.
+write a program to delete a element from singly linklist.
+write a program to reverse a linklist.
+explain android  architecture.
+explain audio playback  in android file by file from application to kernel.
+what is working of audioflinger.
+git commands.
+how you will collect kernel logs.
+how you will collect android logs.
+what is sampling rate explain.
+what is hidl and use of hidl.
+if audio file is missing in which stage you will face error and how you will recognise that error.
+how interface will happen  between hal layer and kernel.
+what is alsa, working of alsa driver. 
+how user space intract with kernel space.
+explain your project.
+how you are doing android porting.
+what is system call in linux.
+how mediaplayer.java file communicate with mediaplayer.cpp.
+
+
+

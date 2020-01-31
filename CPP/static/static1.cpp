@@ -6,7 +6,7 @@ class A{
                 int a;
                 static int b;
 };
-int A::b =100;
+int A::b = 100;
 int main(void)
 {
         cout << A::b << endl;

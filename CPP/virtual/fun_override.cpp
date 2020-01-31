@@ -22,14 +22,9 @@ int main()
            derived obj;
            obj.fun();
          */
-
         base *ptr ;
-
         derived obj;
-
         ptr = &obj;
-
         ptr-> fun();
-
         return 0;
 }

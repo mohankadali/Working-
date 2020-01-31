@@ -3,8 +3,8 @@ using namespace std;
 class A
 {
 	public:
-                virtual void fun()
-//		void fun()
+//              virtual void fun()
+		void fun()
 		{
 			cout << "base fun " << endl;
 		}

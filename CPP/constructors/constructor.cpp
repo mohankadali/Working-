@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#if 1
+#if 0
 class A{
 	int x,y;
 	public:
@@ -64,7 +64,7 @@ int main()
 }
 #endif
 
-#if 0
+#if 1
 class A{
 	int x,y;
 	public:

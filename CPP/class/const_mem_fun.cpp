@@ -9,7 +9,7 @@ class A
         {
                 num  = a ;
         }
-        void display ()// const 
+        void display () const 
         {
                 num = num + 5;
                 cout << "modified data :" << num << endl;  

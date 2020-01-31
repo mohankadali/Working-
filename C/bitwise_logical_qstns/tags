@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+bit_swap	bit_swap.c	/^int bit_swap(int num, int s, int d)$/;"	f
+bit_swap_diff_num	bit_swap_diff_num.c	/^int bit_swap_diff_num(int snum, int dnum, int s, int d)$/;"	f
+bits_copy	bits_copy.c	/^int bits_copy(int snum, int dnum, int n, int s, int d)$/;"	f
+count_bit_clear	count_bit_clear.c	/^int count_bit_clear(int num)$/;"	f
+count_bit_set	count_bit_set.c	/^int count_bit_set(int num)$/;"	f
+count_lead_clear_bits	count_lead_clear_bit.c	/^int count_lead_clear_bits(int num)$/;"	f
+count_lead_set_bits	count_lead_set_bits.c	/^int count_lead_set_bits(int num)$/;"	f
+count_tail_clear_bits	count_tail_clear_bit.c	/^int count_tail_clear_bits(int num)$/;"	f
+count_tail_set_bits	count_tail_set_bit.c	/^int count_tail_set_bits(int num)$/;"	f
+even_bit_toggle	even_bit_toggle.c	/^int even_bit_toggle(int n)$/;"	f
+invert_bits	invert_bits.c	/^int invert_bits(int num, int n, int posn)$/;"	f
+left_rotate_bit	left_rotate_bit.c	/^int left_rotate_bit(int num)$/;"	f
+left_rotate_n_bits	left_rotate_n_bits.c	/^int left_rotate_n_bits(int num, int n)$/;"	f
+main	main.c	/^int main(void)                              \/\/ main starts from here     $/;"	f
+odd_bit_toggle	odd_bit_toggle.c	/^int odd_bit_toggle(int n)$/;"	f
+right_rotate_bit	right_rotate_bit.c	/^int right_rotate_bit(int num)$/;"	f
+right_rotate_n_bits	right_rotate_n_bits.c	/^int right_rotate_n_bits(int num, int n)$/;"	f
+setbits_rightmost	setbits_rightmost.c	/^int setbits_rightmost(int snum,int dnum, int n, int s)$/;"	f

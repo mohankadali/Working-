@@ -3,7 +3,7 @@
 using namespace std;
 
 struct st {
-        //    private:
+//            private:
         int num;
         public:
         void set()
