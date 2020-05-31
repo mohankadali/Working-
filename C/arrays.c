@@ -1,5 +1,24 @@
 #include <stdio.h>
 #if 1
+int main()
+{
+typedef int (*INTARRAY)[10];
+typedef int (INTARR)[10];
+
+INTARRAY a;
+INTARR  b = {1,2,3,4,5};
+
+a = &b;
+printf("%d \n",sizeof (a));
+
+b[5] = 6;
+printf("%d \n", *(b + 5));
+printf("%d \n", **(a + 5));
+return 0;
+}
+#endif
+
+#if 0
 struct s
 {
 	int  a ; 

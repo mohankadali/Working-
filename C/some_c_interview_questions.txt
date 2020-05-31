@@ -1,6 +1,155 @@
-what is header guard ? explain?
+key points :
 
-What is Core file?
+Video1:
+
+ 1. one nibble contains 4 bits
+ 2. 2's comliment required for representing negative numbers
+ 3. hexa decimals plays a key role in representing addres
+ 4. little and big endian are separated because of our conveniance
+ 5. relocatable object files(compile time) and executable files(linking time) both are diffrent
+ 6. compiler is aware f only storage, memory will not come into at compiler stage.
+ 
+Video2:
+
+ 1.Data types contains the combination of type specifiers like signed unsinged, short, long   	
+ 2.constants like character('\n','\0') , string constants("hello", "bye" includding null) macros,enum also one kind of constant	 
+ 3.we can pass enum variables as function params but not macros. 
+ 4.declaration(extern) means no storage space allocated, definition, initialization 
+ 5.storage class\ specifiers (watch video for more details). 
+
+Video3:
+
+ 1.we can not modify const values directly but using pointers we can do. const values will store in .rodata region 	
+ 2.for global static and local static we can use const qualifiers
+ 3.volatile qualifier is for block the optimization, time of faster execution 
+
+Video4:
+
+ 1. % operator can not be used for float and double 
+ 2. in operator concept we need to take care of precedence 
+ 3. Need to put separate focus on bitwise operator 
+ 4. We have two types of type casting 
+ 5. compiler will do bydefault implicit type cast.
+ 6. if two oparands have diff type, lower type promoted to higher type and result will be higher type.
+ 7. type cast have more importance because if we open a file and it fails it should return proper error value, if not it will mislead the code flow.
+ 
+Video 5;
+
+ 1.while using control statements, we should we defensive programming otherwise if, else conflicts will occure. 
+ 2.for switch case label should be const int expression means it search for ascii character      
+ 
+Video 6,7:
+
+ 1.should learn about function stack 
+
+Video 8:
+
+ 1.preprocessor is a first stage of application building processs 
+ 2.we can identify the preprocessor keywords using # 
+ 3. /lib/libc-2.17.so is the lib for preprocessor(printf definition will be here)
+ 4. /usr/include/stdio.h contains the declarations 
+ 5. gcc -M file.c which shows all header files included 
+ 6. header guards 
+
+Video 9:
+ 
+ 1.poiter is an operator which holds the address of the another variable.
+ 2.point may not be associated with specific data type, it can be a void pointer, also called generic pointer 
+ 3.unlike pointers we can not increment array name because array is a derivred data type.
+ 4.typedef is used to creat a alais name for it.  	  
+ 5.typedef is a portable to define data types 
+ 6.only poiter substraction is valid 
+
+Video 10;
+ 
+ 1.we can not write into char *p = "rodata" 
+ 2.if we pointing to the char *p = array[0], then we can modify because array we can change but not rodata content  
+
+Video 11;
+
+ 1. dynamic memory allocation, poiter to array, array of pointers 
+
+Video 12:
+
+ 1.can we allocate dynamic memory for funtion pointers?  
+ 2.can we do function pointers arthemetics  
+ 3.example for function pointr is bootloader initialization sequence 
+ 4.command line arguments 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what you know about files ? (read files concept)
+
+strstr ,strtok ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q:Enum data type and using enum inside a structure?
+A:we can use enum inside structure but not typedef.  
+
+Q:Why Intermediate code generation?
+A:
+
+
+
+
+
+
+
+Q:what is header guard ? explain?
+
+Q:What is Core file?
 
 command used to do packing during compile time ?
 
@@ -12,13 +161,7 @@ levels of optimization ?
 
 what is flexible array ?
 
-what you know about files ? (read files concept)
-
-strstr ,strtok ?
-
 deference between array of pointers  and pointer to an array ?
-
-Enum data type and using enum inside a structure?
 
 Variable list arguments?
 
@@ -27,8 +170,6 @@ What is lvalue and rvalue?
 Where the command line arguments are stored?
 
 Do preprocessing directives follow any order?
-
-Why Intermediate code generation?
 
 Use of function pointer and how it can be accessed and where it is getting stored?
 
@@ -58,15 +199,18 @@ What is present in object file?
 
 Explain about linkers and loader?
 
-how to declare a varible with size 0 ?
+Q:how to declare a varible with size 0 ?
+A: int arr[0];
 
-how to Print a string without printf ?
+Q:how to Print a string without printf ?
+A: use write system call
 
 How memory mapping will happen?
 
 Copying specific number of bits from in one number to other number using bitwise opeartors?
 
-Can we give break inside ifelse?
+Q:Can we give break inside ifelse?
+A: break designed only for loops 
 
 Program to find endianess of the machine using structure or union?
 
@@ -82,7 +226,7 @@ undefined macro in which compiler stage it will give error?
 
 Declare 10 array of function pointers and initialize it?
 
-Define loopback fuction?
+Define loopback fuction or call back functions?
 
 Implement your own sizeof its work in all condition ex: for constant value...my_size(7)?
 
@@ -90,9 +234,9 @@ Implement memcpy() and memmove()(without using other temp buffer means not alloc
 
 readelf , objdump ?
 
-why we using #define to define a constant . rather than by using keyword..i.e like int a =10; ?
+why we using #define to define a constant . rather than by using keyword..i.e like int a = 10; ?
 
-In case of volatile, how the compiler takes the data every time from 14.memory, not from the cache ?
+In case of volatile, how the compiler takes the data every time from memory, not from the cache ?
 
 Explain about padding? how do you avoid it? and what is uses of that??
 
@@ -106,17 +250,21 @@ Explain preprocessor  directives?how to define & undefine the value at run time?
 
 What is the benefit of using an enum rather than a #defined constant ? Explain with an example?
 
-How variable argument lists works in c?
-
-How do you override a defined macro?
+Q:How variable argument lists works in c?
+A:if we wanna pass n number of arguments in a function we use this concept
+ 
+Q:How do you override a defined macro?
+A:using #undef
 
 How many levels deep can include files be nested?
 
 Can you define which header file to include at compile time?
 
-Can a file other than a .h file be included with #include?
+Q:Can a file other than a .h file be included with #include?
+A: yes
 
-How to pass entire array to a function as call by value ?
+Q:How to pass entire array to a function as call by value ?
+A:we can not pass
 
 What is the purpose of main( ) function?
 
@@ -126,13 +274,16 @@ About the arrays bound checking?
 
 When does the compiler not implicitly generate the address of the first element of an array?
 
-Can the sizeof operator be used to tell the size of an array passed to a function?
+Q:Can the sizeof operator be used to tell the size of an array passed to a function?
+A:using pointers only we can do.
 
 I have byte array, I need to set a bit at position 500 ?
 
-Can we return more than two values from a function without using Pointers?
+Q:Can we return more than two values from a function without using Pointers?
+A:using arrays and structures we can do.
 
-Are pointers integers? 
+Q:Are pointers integers? 
+A:yes
 
 What does it mean when a pointer is used in an if statement? 
 
@@ -142,7 +293,8 @@ What is typedef. How it is Different from #define ?
 
 what are weak symbols, explain its advantages or disadvantages?
 
-What is garbage collection?
+Q:What is garbage collection?
+A:its nothing but a freeing memory in dynamic memory allocation
 
 Int a;  printf(“%u” , &a)  if it prints 67. Is it possible ? (He wants to ask whether the address of integer can be starts with odd address ?)
 
@@ -154,19 +306,22 @@ Why n++ executes faster than n+1?
 
 What is the difference between NULL and NUL?
 
-Can static variables be declared in a header file?
+Q:Can static variables be declared in a header file?
+A:yes 
 
 why the static variable coming in other file ,if you pass as a function argument?
 
-why we are not using register variables globally?
+Q:why we are not using register variables globally?
+A:cpu registerdo not wanna wait for long process, if u delare in globally through out file it ca not be freed till end of program   
 
 can we use static variable in one file as a extern variable in other file?
 
-i am taking array as a pointer and passing that pointer address in function , can i change some value in that array in that function?
+I am taking array as a pointer and passing that pointer address in function , can i change some value in that array in that function?
 
 how will you pass command line argument in GDB?
 
-what is the specific use of BSS data segment?
+Q:what is the specific use of BSS data segment?
+A:by default .bss value will be zerom so, all not initaized values will be in .bss section.
 
 tell about SDLC ?
 

@@ -10,10 +10,10 @@ void* thread1()
 }
 void* thread2()
 {
-	  while(1){
-	sleep(1);
-	printf("How are you?\n");
-	 }
+	while(1){
+		sleep(1);
+		printf("How are you?\n");
+	}
 }
 int main()
 {

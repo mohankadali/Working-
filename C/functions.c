@@ -1,4 +1,16 @@
 #include<stdio.h>
+int main()
+{
+typedef int (*func)(void);
+
+func f1 = main;
+printf("%d\n",sizeof(f1));
+printf("%d\n",sizeof(*f1));
+
+
+return 0;
+}
+
 #if 0
 void foobar1(void)
 {

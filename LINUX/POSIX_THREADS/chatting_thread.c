@@ -3,10 +3,11 @@
 #include <semaphore.h>
 #include <stdlib.h> 
 char n[1024];
-sem_t len;
+//sem_t len;
+int len;
 void *read1()
 {
-		printf("The len: %d\n", len);
+	printf("The len: %d\n", len);
 	while(1){
 		printf("Enter a string\n");
 		scanf("%s",n);

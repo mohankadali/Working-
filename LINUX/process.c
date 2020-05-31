@@ -3,8 +3,9 @@
 int main()
 {
 	printf("%d\n",getpid());
-	//	getchar();
-	while(1)
-{}
-		return 0;
+//	while(1)
+//	{}
+system("ps -el");
+		getchar();
+	return 0;
 }

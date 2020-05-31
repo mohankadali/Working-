@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <sys/types.h>
-void* thread_fun (void*);
+void* thread_fun2 (void*);
 void* thread_fun1 (void*);
 pthread_mutex_t  mutex1 = PTHREAD_MUTEX_INITIALIZER;
 int c = 0;
@@ -12,13 +12,13 @@ int main ()
 	const char *msg1 = "thread1";
 	const char *msg2 = "thread2";
 	int ret1, ret2;    
-	ret1 = pthread_create ( &thread1, NULL, thread_fun, (void*)msg1 );
+	ret1 = pthread_create ( &thread1, NULL, thread_fun1, (void*)msg1 );
 	if (ret1)
 	{
 		printf("pthread_create failed.....\n");
 		exit(EXIT_FAILURE);
 	}
-	ret2 = pthread_create ( &thread2, NULL, thread_fun1, (void*)msg2 );
+	ret2 = pthread_create ( &thread2, NULL, thread_fun2, (void*)msg2 );
 	if (ret2)
 	{
 		printf("pthread_create failed...\n");
@@ -29,7 +29,7 @@ int main ()
 	getchar();
 	return 0;
 }
-void* thread_fun1 (void* ptr)
+void* thread_fun2 (void* ptr)
 {
 	int id = pthread_self();
 	char *msg;
@@ -43,7 +43,7 @@ void* thread_fun1 (void* ptr)
 	}
 	pthread_mutex_unlock(&mutex1);
 }
-void* thread_fun ( void* ptr )
+void* thread_fun1 ( void* ptr )
 {
 
 	int id = pthread_self();

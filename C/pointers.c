@@ -13,7 +13,20 @@
 #endif
 #if 0
 #endif
-#if 0
+#if 1
+ char *n;
+int main()
+{
+char *p = "hello";
+char s[] = "bye";
+
+printf("%d\n",p);
+p[1] = 'p';
+printf("%d\n",p);
+
+
+return 0;
+}
 #endif
 #if 0
 int main()

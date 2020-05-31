@@ -6,14 +6,8 @@ Q:Why mutex? When parent is adding a node and child should consume the node with
 Q:What are all the header files included in device driver Program?
 Q:I have two threads t1 and t2.t1 adds element in array and t2 removes elements, execute using mutex and conditional variables.
 Q:one process contains function definition write program to invoke the function from another process by using particular ipc
-Q:When do my init function executes in device driver
-Q:How arguments are passed to system call routine in kernel space
-Q:If two processes uses one shared library, how the other process come to know  that particular library is already loaded in memory?
-Q:About watch dog timer, How can we convert the the Watchdog timer interrupt(Its a software interrupt)to hardware interrup
 Q:What is the difference between  dup and dup2?
-Q:Write a program to generate 5 childs they run parallel?
-Q:What is the difference b/w hardware and software interrupts?
-Q:P1, P2 processes are there.P1 sending signal from P2,how it will send?How p2 will recognize the signal came from P1 only?which structure?
+Q:P1,P2 processes are there.P1 sending signal from P2,how it will send?How p2 wil recognize the signal came from P1 only?which structure?
 Q:Diff btw sdram and dram?
 Q:What is the Use of gpio pins?
 Q:About i2c.... Spi and i2c Diff?
@@ -22,20 +16,14 @@ Q:Monolithic and micro kernel Diff?
 Q:What is Initramfs, initrd,rootfs and ramfs?
 Q:How the session is created ?
 Q:How the traversing through the structures happens when open() is called in various filesystems?
-Q:what are the steps to bring-up the board?
 Q:How i2c protocol works?
 Q:What are the i2c API you used in your project?
 Q:How you read the data from rtc?
 Q:Explain I2c framework in linux kernel.
-Q:What is the difference b/w EXT2 and EXT3?                                         
 Q:What is journaling?                                              
 Q:Three process are available named as p1,p2,p3 . P1 wants to send some messgae to p2 . P2 and
        p3 are waiting to receive message from p1. P3 should not receive any message from p1.  How
        do you achieve this ?
-Q:If i have a custom new board and kernel doesn't have bsp for this new board than 
- 	What are the steps you follow to port bsp and what modification you have to do in kernel?
-Q:what is top half and bottom half, difference between softirq, tasklet and work queues.
-  (i2c/spi/gpio)protocol explanation
 Q:signal handler in the case of child ( when the signal wll be handled ) 
   if parent recieve signal and then creted child and child executed   first then  when signal will be handled and who wll handle ? 
 Q:You have data coming from bus and Program Status Register will indicate whether data is available and you are 
@@ -51,34 +39,25 @@ Q:   Three threads are there say thread1,thread2,thread3
    condition: thread3 sends the messages  to thread1 and thread2 which ever is free, means message switching b/w thread1 and thread2
    How to achieve this condition??
 
-Q:How to check cpu utilization in our system ? ---> TOP(command)
-Q:Diffrence between typedef and #define ?
-Q:How many register in fiq and irq .  
-Q:How to allocate memory without malloc and calloc.
-Q:How to find memory leak without valgrind .
-Q:Where u use kgdb and gdb .
-Q:I2C and what is arbitration .
-Q:What happen if we define hader file static.
-Q:How u-boot communicates with kernel ?
-Q:I2C Arbitration ? How master will get to know that he has lost the arbitration?
-Q:How to Optimize your code ? Tell 3-4ways ?
-Q:volatile --- if your cpu is having no cache how it will do optimization ?
-Q:How many device connect to one i2c ?
-Q:mrproper ?
+
+
+
 Q:What is the diffrence between in Andriod kernel and linux Kernel ?
+A:
+
 Q:Modular Programing ?
+A:
+
 Q:How the value assing in union . If I take in union member char a; and int b;  and we assing the value char a=1. Now what the value of int b. 
+
 Q:Race condition. 
-Q:Diffrence between. Text and binary file. 
-Q:How the value store if char a=1; in little indian and big indian. 
-Q:what is man page. 
-Q:What type of instruction use in 8051 instruction. 
+A:
+
 Q:In my file one image store how can i store this image in another file. 
-Q:What is data structure. Diffrence between linear and non-linear data structure. 
+A:
+
 Q:Tell me 2 method copy a file data in another file. 
-Q:About your self .
 Q:Expalin boot and rootfs partition .
-Q:Kernel log .
 Q:Boot.scr File .
 Q:Root file system .
 Q:Diffrence between uimage and zimage and bzimage .
@@ -88,7 +67,6 @@ Q:How will you read/write device registers?
 Q:What is memory mapped I/O?
 Q:Explain about user and kernel virtual addresses.
 Q:Explain Ring Buffer in detail.
-Q:Daisy chain configuration in SPI.
 Q:How to identify memory leaks in userspace and kernel space.
 Q:What if sysfs was not there in linux ?
 Q:Why linux does not make use of ICOTL instead of sysfs ?
@@ -99,26 +77,18 @@ Q:device tree is a part of kernel or not?
 Q:How to pass the device tree node address to the bootloader?
 Q:What are the ARM modes?
 Q:Crash occurred in one core out of 8 cores how you will find which core has crashed and how you will debug?
-Q:what is do_irq()
-Q:what is top half and bottom half, difference between softirq, tasklet and work queues.
 Q:If in my system interrupt context not be there then what will happen? And what is need of both context ? 
 Q:use of sysfs and proc?
 Q:without system calls can we communicate with kernel space or not ?
 Q:what is 1960*1080 at 60hz
 Q:/sysfs and  /dev , /proc differences
 Q:Interrupts in top half and bottom halfs(enabled or disabled .if yes ? Why?)
-Q:What is AT commands... Which AT commands u used in yr project? 
 Q:What is the API version for Android Q?
-Q:Explain VSYNC ? which VSYNC you have used ? H/W VSYNC or Software VSYNC?
 Q:How driver will handle if system in sleep mode or resume mode?
 Q:Any API will call before calling init_module() in kernel space?
 Q:memory barries.
 Q:What is Initramfs, initrd,rootfs and ramfs?
 Q:What is PIC ?
-Q:Softirq and tasklet Diff (Main diff) ?
-Q:Explain flag in reqvest_irq ? which flag use in your project ? 
-Q:What is shared flag ? 
-Q:Explain shared flag with example ?
 Q:Interrupt context ?
 Q:Where the irq no define in kernel ?
 Q:Vector table in system call ?
@@ -128,12 +98,6 @@ Q:What happen when u come user to kernel space ?
 Q:Explain CPSR ?
 Q:Explain what happen when we change one mode to another mode ?
 Q:How to register driver in kernel. How to identify diver in kernel.
-Q:Low level i2c and high level i2c.
-	i2c_core high level driver. 
-	i2c_omap Low level driver.
-	i2c_core is used to communicate between i2c and driver. work as a middeater.
-Q:How to register i2c in kernel and how to identify the i2c for your driver.
-Q:Low level i2c and high level i2c.
 Q:Character device driver code flow. Impliment a character device in linux.
 Q:ARM (arm register).(Diffrence between fiq and irq).
 Q:uni process how to use spinlock.
@@ -310,6 +274,54 @@ Q.How you will get to know data is latched in i2c?
 
 Q with A links:
 
+
+Q:How to check cpu utilization in our system ?
+A:TOP(command)
+
+Q:How to allocate memory without malloc and calloc.
+A:
+
+Q:How to find memory leak without valgrind .
+A:
+
+Q:What happen if we define hader file static.
+A:
+Q:How u-boot communicates with kernel ?
+A:
+
+Q:How to Optimize your code ? Tell 3-4ways ?
+A:
+Q:If two processes uses one shared library, how the other process come to know  that particular library is already loaded in memory?
+A:https://medium.com/@dkwok94/the-linking-process-exposed-static-vs-dynamic-libraries-977e92139b5f
+
+Q:About watch dog timer, How can we convert the the Watchdog timer interrupt(Its a software interrupt)to hardware interrup
+A:https://os.mbed.com/cookbook/WatchDog-Timer
+
+Q:Write a program to generate 5 childs they run parallel?
+A:use fork 
+
+Q:What is the difference b/w hardware and software interrupts?
+A:https://pediaa.com/what-is-the-difference-between-hardware-and-software-interrupt/
+
+Q:what are the steps to bring-up the board?
+A:
+
+Q:What is the difference b/w EXT2 and EXT3?                                         
+A:
+
+Q:If i have a custom new board and kernel doesn't have bsp for this new board than 
+ 	What are the steps you follow to port bsp and what modification you have to do in kernel?
+A:
+
+Q:How arguments are passed to system call routine in kernel space
+A:http://faculty.salina.k-state.edu/tim/ossg/Introduction/sys_calls.html
+
+Q:What are all the header files included in device driver Program?
+A:https://docs.oracle.com/cd/E19455-01/805-7378/loading-33/index.html
+
+Q:SDLC life cycle
+A:https://www.tutorialspoint.com/sdlc/sdlc_overview.htm
+
 Q:Explain the flow of signals,How do you register a signal in kernel ?
 A:
   https://www.bogotobogo.com/Linux/linux_process_and_signals.php
@@ -440,6 +452,15 @@ A:https://www.minitool.com/lib/read-only-memory.html
 
 
 Q with A:
+
+
+
+Q:volatile --- if your cpu is having no cache how it will do optimization ?
+A:for volatile no need of cache memory 
+
+Q:When do my init function executes in device driver
+A:for dynamic modules execute at module insertion time
+  for static modules at boot time (there are levels of driver initialization means early init )
 
 Q:What is IPC and expalin the IPC mechanisms with their advantages and disadvantages?
 A:well known
